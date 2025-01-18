@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visually Impaired - Tunisian Book Fair</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Example high contrast and larger text */
+        body {
+            background-color: #000;
+            color: #fff;
+            font-size: 1.5em;
+        }
+
+        button {
+            font-size: 1.2em;
+        }
+    </style>
+    <select id="language-selector" onchange="changeLanguage()">
+        <option value="en">English</option>
+        <option value="fr">French</option>
+        <option value="ar">Arabic</option>
+    </select>
+    
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="search.html">Search</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="signup.html">Signup</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="visually-impaired.html">Visually Impaired</a></li>
+        </ul>
+    </nav>
+
+    <div>
+        <h2>Visually Impaired Features</h2>
+        <p>Welcome to the accessible version of the Tunisian Book Fair website. Here, we provide enhanced contrast, larger text, and support for screen readers.</p>
+        <p>If you need further assistance, please use the audio navigation option below.</p>
+
+        <!-- Example audio navigation option -->
+        <button onclick="alert('Audio navigation is not implemented yet')">Start Audio Navigation</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

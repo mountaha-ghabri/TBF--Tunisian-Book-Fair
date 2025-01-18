@@ -1,0 +1,1802 @@
+[
+    {
+        "Title": "A Light in the Attic",
+        "Price": "£51.77",
+        "Availability": "In stock",
+        "Rating": 3,
+        "Link": "https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/2c/da/2cdad67c44b002e7ead0cc35693c0e8b.jpg",
+        "Thumbnail File Name": "images\\A_Light_in_the_Attic.jpg"
+    },
+    {
+        "Title": "Tipping the Velvet",
+        "Price": "£53.74",
+        "Availability": "In stock",
+        "Rating": 1,
+        "Link": "https://books.toscrape.com/catalogue/tipping-the-velvet_999/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/26/0c/260c6ae16bce31c8f8c95daddd9f4a1c.jpg",
+        "Thumbnail File Name": "images\\Tipping_the_Velvet.jpg"
+    },
+    {
+        "Title": "Soumission",
+        "Price": "£50.10",
+        "Availability": "In stock",
+        "Rating": 1,
+        "Link": "https://books.toscrape.com/catalogue/soumission_998/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/3e/ef/3eef99c9d9adef34639f510662022830.jpg",
+        "Thumbnail File Name": "images\\Soumission.jpg"
+    },
+    {
+        "Title": "Sharp Objects",
+        "Price": "£47.82",
+        "Availability": "In stock",
+        "Rating": 4,
+        "Link": "https://books.toscrape.com/catalogue/sharp-objects_997/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/32/51/3251cf3a3412f53f339e42cac2134093.jpg",
+        "Thumbnail File Name": "images\\Sharp_Objects.jpg"
+    },
+    {
+        "Title": "Sapiens: A Brief History of Humankind",
+        "Price": "£54.23",
+        "Availability": "In stock",
+        "Rating": 5,
+        "Link": "https://books.toscrape.com/catalogue/sapiens-a-brief-history-of-humankind_996/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/be/a5/bea5697f2534a2f86a3ef27b5a8c12a6.jpg",
+        "Thumbnail File Name": "images\\Sapiens__A_Brief_History_of_Humankind.jpg"
+    },
+    {
+        "Title": "The Requiem Red",
+        "Price": "£22.65",
+        "Availability": "In stock",
+        "Rating": 1,
+        "Link": "https://books.toscrape.com/catalogue/the-requiem-red_995/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/68/33/68339b4c9bc034267e1da611ab3b34f8.jpg",
+        "Thumbnail File Name": "images\\The_Requiem_Red.jpg"
+    },
+    {
+        "Title": "The Dirty Little Secrets of Getting Your Dream Job",
+        "Price": "£33.34",
+        "Availability": "In stock",
+        "Rating": 4,
+        "Link": "https://books.toscrape.com/catalogue/the-dirty-little-secrets-of-getting-your-dream-job_994/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/92/27/92274a95b7c251fea59a2b8a78275ab4.jpg",
+        "Thumbnail File Name": "images\\The_Dirty_Little_Secrets_of_Getting_Your_Dream_Job.jpg"
+    },
+    {
+        "Title": "The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull",
+        "Price": "£17.93",
+        "Availability": "In stock",
+        "Rating": 3,
+        "Link": "https://books.toscrape.com/catalogue/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/3d/54/3d54940e57e662c4dd1f3ff00c78cc64.jpg",
+        "Thumbnail File Name": "images\\The_Coming_Woman__A_Novel_Based_on_the_Life_of_the_Infamous_Feminist__Victoria_Woodhull.jpg"
+    },
+    {
+        "Title": "The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics",
+        "Price": "£22.60",
+        "Availability": "In stock",
+        "Rating": 4,
+        "Link": "https://books.toscrape.com/catalogue/the-boys-in-the-boat-nine-americans-and-their-epic-quest-for-gold-at-the-1936-berlin-olympics_992/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/66/88/66883b91f6804b2323c8369331cb7dd1.jpg",
+        "Thumbnail File Name": "images\\The_Boys_in_the_Boat__Nine_Americans_and_Their_Epic_Quest_for_Gold_at_the_1936_Berlin_Olympics.jpg"
+    },
+    {
+        "Title": "The Black Maria",
+        "Price": "£52.15",
+        "Availability": "In stock",
+        "Rating": 1,
+        "Link": "https://books.toscrape.com/catalogue/the-black-maria_991/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/58/46/5846057e28022268153beff6d352b06c.jpg",
+        "Thumbnail File Name": "images\\The_Black_Maria.jpg"
+    },
+    {
+        "Title": "Starving Hearts (Triangular Trade Trilogy, #1)",
+        "Price": "£13.99",
+        "Availability": "In stock",
+        "Rating": 2,
+        "Link": "https://books.toscrape.com/catalogue/starving-hearts-triangular-trade-trilogy-1_990/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/be/f4/bef44da28c98f905a3ebec0b87be8530.jpg",
+        "Thumbnail File Name": "images\\Starving_Hearts__Triangular_Trade_Trilogy___1_.jpg"
+    },
+    {
+        "Title": "Shakespeare's Sonnets",
+        "Price": "£20.66",
+        "Availability": "In stock",
+        "Rating": 4,
+        "Link": "https://books.toscrape.com/catalogue/shakespeares-sonnets_989/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/10/48/1048f63d3b5061cd2f424d20b3f9b666.jpg",
+        "Thumbnail File Name": "images\\Shakespeare_s_Sonnets.jpg"
+    },
+    {
+        "Title": "Set Me Free",
+        "Price": "£17.46",
+        "Availability": "In stock",
+        "Rating": 5,
+        "Link": "https://books.toscrape.com/catalogue/set-me-free_988/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/5b/88/5b88c52633f53cacf162c15f4f823153.jpg",
+        "Thumbnail File Name": "images\\Set_Me_Free.jpg"
+    },
+    {
+        "Title": "Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)",
+        "Price": "£52.29",
+        "Availability": "In stock",
+        "Rating": 5,
+        "Link": "https://books.toscrape.com/catalogue/scott-pilgrims-precious-little-life-scott-pilgrim-1_987/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/94/b1/94b1b8b244bce9677c2f29ccc890d4d2.jpg",
+        "Thumbnail File Name": "images\\Scott_Pilgrim_s_Precious_Little_Life__Scott_Pilgrim__1_.jpg"
+    },
+    {
+        "Title": "Rip it Up and Start Again",
+        "Price": "£35.02",
+        "Availability": "In stock",
+        "Rating": 5,
+        "Link": "https://books.toscrape.com/catalogue/rip-it-up-and-start-again_986/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/81/c4/81c4a973364e17d01f217e1188253d5e.jpg",
+        "Thumbnail File Name": "images\\Rip_it_Up_and_Start_Again.jpg"
+    },
+    {
+        "Title": "Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991",
+        "Price": "£57.25",
+        "Availability": "In stock",
+        "Rating": 3,
+        "Link": "https://books.toscrape.com/catalogue/our-band-could-be-your-life-scenes-from-the-american-indie-underground-1981-1991_985/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/54/60/54607fe8945897cdcced0044103b10b6.jpg",
+        "Thumbnail File Name": "images\\Our_Band_Could_Be_Your_Life__Scenes_from_the_American_Indie_Underground__1981_1991.jpg"
+    },
+    {
+        "Title": "Olio",
+        "Price": "£23.88",
+        "Availability": "In stock",
+        "Rating": 1,
+        "Link": "https://books.toscrape.com/catalogue/olio_984/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/55/33/553310a7162dfbc2c6d19a84da0df9e1.jpg",
+        "Thumbnail File Name": "images\\Olio.jpg"
+    },
+    {
+        "Title": "Mesaerion: The Best Science Fiction Stories 1800-1849",
+        "Price": "£37.59",
+        "Availability": "In stock",
+        "Rating": 1,
+        "Link": "https://books.toscrape.com/catalogue/mesaerion-the-best-science-fiction-stories-1800-1849_983/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/09/a3/09a3aef48557576e1a85ba7efea8ecb7.jpg",
+        "Thumbnail File Name": "images\\Mesaerion__The_Best_Science_Fiction_Stories_1800_1849.jpg"
+    },
+    {
+        "Title": "Libertarianism for Beginners",
+        "Price": "£51.33",
+        "Availability": "In stock",
+        "Rating": 2,
+        "Link": "https://books.toscrape.com/catalogue/libertarianism-for-beginners_982/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/0b/bc/0bbcd0a6f4bcd81ccb1049a52736406e.jpg",
+        "Thumbnail File Name": "images\\Libertarianism_for_Beginners.jpg"
+    },
+    {
+        "Title": "It's Only the Himalayas",
+        "Price": "£45.17",
+        "Availability": "In stock",
+        "Rating": 2,
+        "Link": "https://books.toscrape.com/catalogue/its-only-the-himalayas_981/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/27/a5/27a53d0bb95bdd88288eaf66c9230d7e.jpg",
+        "Thumbnail File Name": "images\\It_s_Only_the_Himalayas.jpg"
+    },
+    {
+        "Title": "In Her Wake",
+        "Price": "£12.84",
+        "Availability": "In stock",
+        "Rating": 1,
+        "Link": "https://books.toscrape.com/catalogue/in-her-wake_980/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/5d/72/5d72709c6a7a9584a4d1cf07648bfce1.jpg",
+        "Thumbnail File Name": "images\\In_Her_Wake.jpg"
+    },
+    {
+        "Title": "How Music Works",
+        "Price": "£37.32",
+        "Availability": "In stock",
+        "Rating": 2,
+        "Link": "https://books.toscrape.com/catalogue/how-music-works_979/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/5c/c8/5cc8e107246cb478960d4f0aba1e1c8e.jpg",
+        "Thumbnail File Name": "images\\How_Music_Works.jpg"
+    },
+    {
+        "Title": "Foolproof Preserving: A Guide to Small Batch Jams, Jellies, Pickles, Condiments, and More: A Foolproof Guide to Making Small Batch Jams, Jellies, Pickles, Condiments, and More",
+        "Price": "£30.52",
+        "Availability": "In stock",
+        "Rating": 3,
+        "Link": "https://books.toscrape.com/catalogue/foolproof-preserving-a-guide-to-small-batch-jams-jellies-pickles-condiments-and-more-a-foolproof-guide-to-making-small-batch-jams-jellies-pickles-condiments-and-more_978/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/9f/59/9f59f01fa916a7bb8f0b28a4012179a4.jpg",
+        "Thumbnail File Name": "images\\Foolproof_Preserving__A_Guide_to_Small_Batch_Jams__Jellies__Pickles__Condiments__and_More__A_Foolproof_Guide_to_Making_Small_Batch_Jams__Jellies__Pickles__Condiments__and_More.jpg"
+    },
+    {
+        "Title": "Chase Me (Paris Nights #2)",
+        "Price": "£25.27",
+        "Availability": "In stock",
+        "Rating": 5,
+        "Link": "https://books.toscrape.com/catalogue/chase-me-paris-nights-2_977/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/9c/2e/9c2e0eb8866b8e3f3b768994fd3d1c1a.jpg",
+        "Thumbnail File Name": "images\\Chase_Me__Paris_Nights__2_.jpg"
+    },
+    {
+        "Title": "Black Dust",
+        "Price": "£34.53",
+        "Availability": "In stock",
+        "Rating": 5,
+        "Link": "https://books.toscrape.com/catalogue/black-dust_976/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/44/cc/44ccc99c8f82c33d4f9d2afa4ef25787.jpg",
+        "Thumbnail File Name": "images\\Black_Dust.jpg"
+    },
+    {
+        "Title": "Birdsong: A Story in Pictures",
+        "Price": "£54.64",
+        "Availability": "In stock",
+        "Rating": 3,
+        "Link": "https://books.toscrape.com/catalogue/birdsong-a-story-in-pictures_975/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/af/6e/af6e796160fe63e0cf19d44395c7ddf2.jpg",
+        "Thumbnail File Name": "images\\Birdsong__A_Story_in_Pictures.jpg"
+    },
+    {
+        "Title": "America's Cradle of Quarterbacks: Western Pennsylvania's Football Factory from Johnny Unitas to Joe Montana",
+        "Price": "£22.50",
+        "Availability": "In stock",
+        "Rating": 3,
+        "Link": "https://books.toscrape.com/catalogue/americas-cradle-of-quarterbacks-western-pennsylvanias-football-factory-from-johnny-unitas-to-joe-montana_974/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/ef/0b/ef0bed08de4e083dba5e20fdb98d9c36.jpg",
+        "Thumbnail File Name": "images\\America_s_Cradle_of_Quarterbacks__Western_Pennsylvania_s_Football_Factory_from_Johnny_Unitas_to_Joe_Montana.jpg"
+    },
+    {
+        "Title": "Aladdin and His Wonderful Lamp",
+        "Price": "£53.13",
+        "Availability": "In stock",
+        "Rating": 3,
+        "Link": "https://books.toscrape.com/catalogue/aladdin-and-his-wonderful-lamp_973/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/d6/da/d6da0371958068bbaf39ea9c174275cd.jpg",
+        "Thumbnail File Name": "images\\Aladdin_and_His_Wonderful_Lamp.jpg"
+    },
+    {
+        "Title": "Worlds Elsewhere: Journeys Around Shakespeare’s Globe",
+        "Price": "£40.30",
+        "Availability": "In stock",
+        "Rating": 5,
+        "Link": "https://books.toscrape.com/catalogue/worlds-elsewhere-journeys-around-shakespeares-globe_972/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/2e/98/2e98c332bf8563b584784971541c4445.jpg",
+        "Thumbnail File Name": "images\\Worlds_Elsewhere__Journeys_Around_Shakespeare_s_Globe.jpg"
+    },
+    {
+        "Title": "Wall and Piece",
+        "Price": "£44.18",
+        "Availability": "In stock",
+        "Rating": 4,
+        "Link": "https://books.toscrape.com/catalogue/wall-and-piece_971/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/a5/41/a5416b9646aaa7287baa287ec2590270.jpg",
+        "Thumbnail File Name": "images\\Wall_and_Piece.jpg"
+    },
+    {
+        "Title": "The Four Agreements: A Practical Guide to Personal Freedom",
+        "Price": "£17.66",
+        "Availability": "In stock",
+        "Rating": 5,
+        "Link": "https://books.toscrape.com/catalogue/the-four-agreements-a-practical-guide-to-personal-freedom_970/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/0f/7e/0f7ee69495c0df1d35723f012624a9f8.jpg",
+        "Thumbnail File Name": "images\\The_Four_Agreements__A_Practical_Guide_to_Personal_Freedom.jpg"
+    },
+    {
+        "Title": "The Five Love Languages: How to Express Heartfelt Commitment to Your Mate",
+        "Price": "£31.05",
+        "Availability": "In stock",
+        "Rating": 3,
+        "Link": "https://books.toscrape.com/catalogue/the-five-love-languages-how-to-express-heartfelt-commitment-to-your-mate_969/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/38/c5/38c56fba316c07305643a8065269594e.jpg",
+        "Thumbnail File Name": "images\\The_Five_Love_Languages__How_to_Express_Heartfelt_Commitment_to_Your_Mate.jpg"
+    },
+    {
+        "Title": "The Elephant Tree",
+        "Price": "£23.82",
+        "Availability": "In stock",
+        "Rating": 5,
+        "Link": "https://books.toscrape.com/catalogue/the-elephant-tree_968/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/5d/7e/5d7ecde8e81513eba8a64c9fe000744b.jpg",
+        "Thumbnail File Name": "images\\The_Elephant_Tree.jpg"
+    },
+    {
+        "Title": "The Bear and the Piano",
+        "Price": "£36.89",
+        "Availability": "In stock",
+        "Rating": 1,
+        "Link": "https://books.toscrape.com/catalogue/the-bear-and-the-piano_967/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/cf/bb/cfbb5e62715c6d888fd07794c9bab5d6.jpg",
+        "Thumbnail File Name": "images\\The_Bear_and_the_Piano.jpg"
+    },
+    {
+        "Title": "Sophie's World",
+        "Price": "£15.94",
+        "Availability": "In stock",
+        "Rating": 5,
+        "Link": "https://books.toscrape.com/catalogue/sophies-world_966/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/65/71/6571919836ec51ed54f0050c31d8a0cd.jpg",
+        "Thumbnail File Name": "images\\Sophie_s_World.jpg"
+    },
+    {
+        "Title": "Penny Maybe",
+        "Price": "£33.29",
+        "Availability": "In stock",
+        "Rating": 3,
+        "Link": "https://books.toscrape.com/catalogue/penny-maybe_965/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/12/53/1253c21c5ef3c6d075c5fa3f5fecee6a.jpg",
+        "Thumbnail File Name": "images\\Penny_Maybe.jpg"
+    },
+    {
+        "Title": "Maude (1883-1993):She Grew Up with the country",
+        "Price": "£18.02",
+        "Availability": "In stock",
+        "Rating": 2,
+        "Link": "https://books.toscrape.com/catalogue/maude-1883-1993she-grew-up-with-the-country_964/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/f5/88/f5889d038f5d8e949b494d147c2dcf54.jpg",
+        "Thumbnail File Name": "images\\Maude__1883_1993__She_Grew_Up_with_the_country.jpg"
+    },
+    {
+        "Title": "In a Dark, Dark Wood",
+        "Price": "£19.63",
+        "Availability": "In stock",
+        "Rating": 1,
+        "Link": "https://books.toscrape.com/catalogue/in-a-dark-dark-wood_963/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/23/85/238570a1c284e730dbc737a7e631ae2b.jpg",
+        "Thumbnail File Name": "images\\In_a_Dark__Dark_Wood.jpg"
+    },
+    {
+        "Title": "Behind Closed Doors",
+        "Price": "£52.22",
+        "Availability": "In stock",
+        "Rating": 4,
+        "Link": "https://books.toscrape.com/catalogue/behind-closed-doors_962/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/e1/5c/e15c289ba58cea38519e1281e859f0c1.jpg",
+        "Thumbnail File Name": "images\\Behind_Closed_Doors.jpg"
+    },
+    {
+        "Title": "You can't bury them all: Poems",
+        "Price": "£33.63",
+        "Availability": "In stock",
+        "Rating": 2,
+        "Link": "https://books.toscrape.com/catalogue/you-cant-bury-them-all-poems_961/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/e9/20/e9203b733126c4a0832a1c7885dc27cf.jpg",
+        "Thumbnail File Name": "images\\You_can_t_bury_them_all__Poems.jpg"
+    },
+    {
+        "Title": "Slow States of Collapse: Poems",
+        "Price": "£57.31",
+        "Availability": "In stock",
+        "Rating": 3,
+        "Link": "https://books.toscrape.com/catalogue/slow-states-of-collapse-poems_960/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/72/41/72417db983862010ef0c1a25de98c7d7.jpg",
+        "Thumbnail File Name": "images\\Slow_States_of_Collapse__Poems.jpg"
+    },
+    {
+        "Title": "Reasons to Stay Alive",
+        "Price": "£26.41",
+        "Availability": "In stock",
+        "Rating": 2,
+        "Link": "https://books.toscrape.com/catalogue/reasons-to-stay-alive_959/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/cb/bd/cbbdb0222ee8a0f6ab61657412a15794.jpg",
+        "Thumbnail File Name": "images\\Reasons_to_Stay_Alive.jpg"
+    },
+    {
+        "Title": "Private Paris (Private #10)",
+        "Price": "£47.61",
+        "Availability": "In stock",
+        "Rating": 5,
+        "Link": "https://books.toscrape.com/catalogue/private-paris-private-10_958/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/9d/05/9d0533bae1578846d728a82913b95c26.jpg",
+        "Thumbnail File Name": "images\\Private_Paris__Private__10_.jpg"
+    },
+    {
+        "Title": "#HigherSelfie: Wake Up Your Life. Free Your Soul. Find Your Tribe.",
+        "Price": "£23.11",
+        "Availability": "In stock",
+        "Rating": 5,
+        "Link": "https://books.toscrape.com/catalogue/higherselfie-wake-up-your-life-free-your-soul-find-your-tribe_957/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/9c/46/9c463c7631c82401160fd3b554b8f0e1.jpg",
+        "Thumbnail File Name": "images\\_HigherSelfie__Wake_Up_Your_Life__Free_Your_Soul__Find_Your_Tribe_.jpg"
+    },
+    {
+        "Title": "Without Borders (Wanderlove #1)",
+        "Price": "£45.07",
+        "Availability": "In stock",
+        "Rating": 2,
+        "Link": "https://books.toscrape.com/catalogue/without-borders-wanderlove-1_956/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/24/e2/24e2f5c9d325c4004d8190c054da86dd.jpg",
+        "Thumbnail File Name": "images\\Without_Borders__Wanderlove__1_.jpg"
+    },
+    {
+        "Title": "When We Collided",
+        "Price": "£31.77",
+        "Availability": "In stock",
+        "Rating": 1,
+        "Link": "https://books.toscrape.com/catalogue/when-we-collided_955/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/08/04/08044269fc197645268a6197c57e6173.jpg",
+        "Thumbnail File Name": "images\\When_We_Collided.jpg"
+    },
+    {
+        "Title": "We Love You, Charlie Freeman",
+        "Price": "£50.27",
+        "Availability": "In stock",
+        "Rating": 5,
+        "Link": "https://books.toscrape.com/catalogue/we-love-you-charlie-freeman_954/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/5f/15/5f152afdbc42356ecba02f61058a7e5b.jpg",
+        "Thumbnail File Name": "images\\We_Love_You__Charlie_Freeman.jpg"
+    },
+    {
+        "Title": "Untitled Collection: Sabbath Poems 2014",
+        "Price": "£14.27",
+        "Availability": "In stock",
+        "Rating": 4,
+        "Link": "https://books.toscrape.com/catalogue/untitled-collection-sabbath-poems-2014_953/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/f9/3b/f93b4a650f03a5d21f2436d7813f42c2.jpg",
+        "Thumbnail File Name": "images\\Untitled_Collection__Sabbath_Poems_2014.jpg"
+    },
+    {
+        "Title": "Unseen City: The Majesty of Pigeons, the Discreet Charm of Snails & Other Wonders of the Urban Wilderness",
+        "Price": "£44.18",
+        "Availability": "In stock",
+        "Rating": 4,
+        "Link": "https://books.toscrape.com/catalogue/unseen-city-the-majesty-of-pigeons-the-discreet-charm-of-snails-other-wonders-of-the-urban-wilderness_952/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/41/a2/41a20f35adf0caea24f208dc01ad7681.jpg",
+        "Thumbnail File Name": "images\\Unseen_City__The_Majesty_of_Pigeons__the_Discreet_Charm_of_Snails___Other_Wonders_of_the_Urban_Wilderness.jpg"
+    },
+    {
+        "Title": "Unicorn Tracks",
+        "Price": "£18.78",
+        "Availability": "In stock",
+        "Rating": 3,
+        "Link": "https://books.toscrape.com/catalogue/unicorn-tracks_951/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/76/8e/768ea5924ac1ef6297c2be9959c796c2.jpg",
+        "Thumbnail File Name": "images\\Unicorn_Tracks.jpg"
+    },
+    {
+        "Title": "Unbound: How Eight Technologies Made Us Human, Transformed Society, and Brought Our World to the Brink",
+        "Price": "£25.52",
+        "Availability": "In stock",
+        "Rating": 1,
+        "Link": "https://books.toscrape.com/catalogue/unbound-how-eight-technologies-made-us-human-transformed-society-and-brought-our-world-to-the-brink_950/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/4a/3b/4a3b055f9e378a95fedbef55e7bab7ce.jpg",
+        "Thumbnail File Name": "images\\Unbound__How_Eight_Technologies_Made_Us_Human__Transformed_Society__and_Brought_Our_World_to_the_Brink.jpg"
+    },
+    {
+        "Title": "Tsubasa: WoRLD CHRoNiCLE 2 (Tsubasa WoRLD CHRoNiCLE #2)",
+        "Price": "£16.28",
+        "Availability": "In stock",
+        "Rating": 1,
+        "Link": "https://books.toscrape.com/catalogue/tsubasa-world-chronicle-2-tsubasa-world-chronicle-2_949/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/36/df/36df4caaf1420b1183a8235355d39e69.jpg",
+        "Thumbnail File Name": "images\\Tsubasa__WoRLD_CHRoNiCLE_2__Tsubasa_WoRLD_CHRoNiCLE__2_.jpg"
+    },
+    {
+        "Title": "Throwing Rocks at the Google Bus: How Growth Became the Enemy of Prosperity",
+        "Price": "£31.12",
+        "Availability": "In stock",
+        "Rating": 3,
+        "Link": "https://books.toscrape.com/catalogue/throwing-rocks-at-the-google-bus-how-growth-became-the-enemy-of-prosperity_948/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/03/86/038650c9e7517b4baf2a423cd8eed38f.jpg",
+        "Thumbnail File Name": "images\\Throwing_Rocks_at_the_Google_Bus__How_Growth_Became_the_Enemy_of_Prosperity.jpg"
+    },
+    {
+        "Title": "This One Summer",
+        "Price": "£19.49",
+        "Availability": "In stock",
+        "Rating": 4,
+        "Link": "https://books.toscrape.com/catalogue/this-one-summer_947/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/c4/dd/c4ddd9ced89966b0602ec85e00cd5b61.jpg",
+        "Thumbnail File Name": "images\\This_One_Summer.jpg"
+    },
+    {
+        "Title": "Thirst",
+        "Price": "£17.27",
+        "Availability": "In stock",
+        "Rating": 5,
+        "Link": "https://books.toscrape.com/catalogue/thirst_946/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/c4/0a/c40a64f59e7487b1a80a049f6ceb2ba5.jpg",
+        "Thumbnail File Name": "images\\Thirst.jpg"
+    },
+    {
+        "Title": "The Torch Is Passed: A Harding Family Story",
+        "Price": "£19.09",
+        "Availability": "In stock",
+        "Rating": 1,
+        "Link": "https://books.toscrape.com/catalogue/the-torch-is-passed-a-harding-family-story_945/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/33/e5/33e507172541628acfd421503196b578.jpg",
+        "Thumbnail File Name": "images\\The_Torch_Is_Passed__A_Harding_Family_Story.jpg"
+    },
+    {
+        "Title": "The Secret of Dreadwillow Carse",
+        "Price": "£56.13",
+        "Availability": "In stock",
+        "Rating": 1,
+        "Link": "https://books.toscrape.com/catalogue/the-secret-of-dreadwillow-carse_944/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/c4/a2/c4a2a1a026c67bcceb5a411c724d7d0c.jpg",
+        "Thumbnail File Name": "images\\The_Secret_of_Dreadwillow_Carse.jpg"
+    },
+    {
+        "Title": "The Pioneer Woman Cooks: Dinnertime: Comfort Classics, Freezer Food, 16-Minute Meals, and Other Delicious Ways to Solve Supper!",
+        "Price": "£56.41",
+        "Availability": "In stock",
+        "Rating": 1,
+        "Link": "https://books.toscrape.com/catalogue/the-pioneer-woman-cooks-dinnertime-comfort-classics-freezer-food-16-minute-meals-and-other-delicious-ways-to-solve-supper_943/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/b7/f4/b7f4843dbe062d44be1ffcfa16b2faa4.jpg",
+        "Thumbnail File Name": "images\\The_Pioneer_Woman_Cooks__Dinnertime__Comfort_Classics__Freezer_Food__16_Minute_Meals__and_Other_Delicious_Ways_to_Solve_Supper_.jpg"
+    },
+    {
+        "Title": "The Past Never Ends",
+        "Price": "£56.50",
+        "Availability": "In stock",
+        "Rating": 4,
+        "Link": "https://books.toscrape.com/catalogue/the-past-never-ends_942/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/89/b8/89b850edb01851a91f64ba114b96acb6.jpg",
+        "Thumbnail File Name": "images\\The_Past_Never_Ends.jpg"
+    },
+    {
+        "Title": "The Natural History of Us (The Fine Art of Pretending #2)",
+        "Price": "£45.22",
+        "Availability": "In stock",
+        "Rating": 3,
+        "Link": "https://books.toscrape.com/catalogue/the-natural-history-of-us-the-fine-art-of-pretending-2_941/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/5d/7f/5d7f496cdf5e5962a73ecdcc1505c1d5.jpg",
+        "Thumbnail File Name": "images\\The_Natural_History_of_Us__The_Fine_Art_of_Pretending__2_.jpg"
+    },
+    {
+        "Title": "The Nameless City (The Nameless City #1)",
+        "Price": "£38.16",
+        "Availability": "In stock",
+        "Rating": 4,
+        "Link": "https://books.toscrape.com/catalogue/the-nameless-city-the-nameless-city-1_940/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/f4/79/f479de5f305c2ac0512702cf7155bb74.jpg",
+        "Thumbnail File Name": "images\\The_Nameless_City__The_Nameless_City__1_.jpg"
+    },
+    {
+        "Title": "The Murder That Never Was (Forensic Instincts #5)",
+        "Price": "£54.11",
+        "Availability": "In stock",
+        "Rating": 3,
+        "Link": "https://books.toscrape.com/catalogue/the-murder-that-never-was-forensic-instincts-5_939/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/dc/44/dc44f8e2aebac48ca8553814d9b021a8.jpg",
+        "Thumbnail File Name": "images\\The_Murder_That_Never_Was__Forensic_Instincts__5_.jpg"
+    },
+    {
+        "Title": "The Most Perfect Thing: Inside (and Outside) a Bird's Egg",
+        "Price": "£42.96",
+        "Availability": "In stock",
+        "Rating": 4,
+        "Link": "https://books.toscrape.com/catalogue/the-most-perfect-thing-inside-and-outside-a-birds-egg_938/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/d4/8d/d48d5122a15347e9fe2b15ad354d69bf.jpg",
+        "Thumbnail File Name": "images\\The_Most_Perfect_Thing__Inside__and_Outside__a_Bird_s_Egg.jpg"
+    },
+    {
+        "Title": "The Mindfulness and Acceptance Workbook for Anxiety: A Guide to Breaking Free from Anxiety, Phobias, and Worry Using Acceptance and Commitment Therapy",
+        "Price": "£23.89",
+        "Availability": "In stock",
+        "Rating": 4,
+        "Link": "https://books.toscrape.com/catalogue/the-mindfulness-and-acceptance-workbook-for-anxiety-a-guide-to-breaking-free-from-anxiety-phobias-and-worry-using-acceptance-and-commitment-therapy_937/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/f8/6d/f86d08178e3788563ac17be5aefd29f0.jpg",
+        "Thumbnail File Name": "images\\The_Mindfulness_and_Acceptance_Workbook_for_Anxiety__A_Guide_to_Breaking_Free_from_Anxiety__Phobias__and_Worry_Using_Acceptance_and_Commitment_Therapy.jpg"
+    },
+    {
+        "Title": "The Life-Changing Magic of Tidying Up: The Japanese Art of Decluttering and Organizing",
+        "Price": "£16.77",
+        "Availability": "In stock",
+        "Rating": 3,
+        "Link": "https://books.toscrape.com/catalogue/the-life-changing-magic-of-tidying-up-the-japanese-art-of-decluttering-and-organizing_936/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/95/64/95647d6a526bf54120b9445e124794e1.jpg",
+        "Thumbnail File Name": "images\\The_Life_Changing_Magic_of_Tidying_Up__The_Japanese_Art_of_Decluttering_and_Organizing.jpg"
+    },
+    {
+        "Title": "The Inefficiency Assassin: Time Management Tactics for Working Smarter, Not Longer",
+        "Price": "£20.59",
+        "Availability": "In stock",
+        "Rating": 5,
+        "Link": "https://books.toscrape.com/catalogue/the-inefficiency-assassin-time-management-tactics-for-working-smarter-not-longer_935/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/75/dc/75dce2f5949b407161f37f0af249b018.jpg",
+        "Thumbnail File Name": "images\\The_Inefficiency_Assassin__Time_Management_Tactics_for_Working_Smarter__Not_Longer.jpg"
+    },
+    {
+        "Title": "The Gutsy Girl: Escapades for Your Life of Epic Adventure",
+        "Price": "£37.13",
+        "Availability": "In stock",
+        "Rating": 1,
+        "Link": "https://books.toscrape.com/catalogue/the-gutsy-girl-escapades-for-your-life-of-epic-adventure_934/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/64/15/641570cd7e7aded53c7d33d78a9629f1.jpg",
+        "Thumbnail File Name": "images\\The_Gutsy_Girl__Escapades_for_Your_Life_of_Epic_Adventure.jpg"
+    },
+    {
+        "Title": "The Electric Pencil: Drawings from Inside State Hospital No. 3",
+        "Price": "£56.06",
+        "Availability": "In stock",
+        "Rating": 1,
+        "Link": "https://books.toscrape.com/catalogue/the-electric-pencil-drawings-from-inside-state-hospital-no-3_933/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/2e/23/2e236e23ad52aa74505f224f6552eda8.jpg",
+        "Thumbnail File Name": "images\\The_Electric_Pencil__Drawings_from_Inside_State_Hospital_No__3.jpg"
+    },
+    {
+        "Title": "The Death of Humanity: and the Case for Life",
+        "Price": "£58.11",
+        "Availability": "In stock",
+        "Rating": 4,
+        "Link": "https://books.toscrape.com/catalogue/the-death-of-humanity-and-the-case-for-life_932/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/71/df/71df730cf38c232ee58a2e407135f055.jpg",
+        "Thumbnail File Name": "images\\The_Death_of_Humanity__and_the_Case_for_Life.jpg"
+    },
+    {
+        "Title": "The Bulletproof Diet: Lose up to a Pound a Day, Reclaim Energy and Focus, Upgrade Your Life",
+        "Price": "£49.05",
+        "Availability": "In stock",
+        "Rating": 3,
+        "Link": "https://books.toscrape.com/catalogue/the-bulletproof-diet-lose-up-to-a-pound-a-day-reclaim-energy-and-focus-upgrade-your-life_931/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/ee/3e/ee3e219d23e73ba71c79b700f183aaed.jpg",
+        "Thumbnail File Name": "images\\The_Bulletproof_Diet__Lose_up_to_a_Pound_a_Day__Reclaim_Energy_and_Focus__Upgrade_Your_Life.jpg"
+    },
+    {
+        "Title": "The Art Forger",
+        "Price": "£40.76",
+        "Availability": "In stock",
+        "Rating": 3,
+        "Link": "https://books.toscrape.com/catalogue/the-art-forger_930/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/70/fa/70fa6c0437d9c97dbeada6bd32bf9d2c.jpg",
+        "Thumbnail File Name": "images\\The_Art_Forger.jpg"
+    },
+    {
+        "Title": "The Age of Genius: The Seventeenth Century and the Birth of the Modern Mind",
+        "Price": "£19.73",
+        "Availability": "In stock",
+        "Rating": 1,
+        "Link": "https://books.toscrape.com/catalogue/the-age-of-genius-the-seventeenth-century-and-the-birth-of-the-modern-mind_929/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/2d/4e/2d4e358712e6c9f1d3bdd78d1a16e5a8.jpg",
+        "Thumbnail File Name": "images\\The_Age_of_Genius__The_Seventeenth_Century_and_the_Birth_of_the_Modern_Mind.jpg"
+    },
+    {
+        "Title": "The Activist's Tao Te Ching: Ancient Advice for a Modern Revolution",
+        "Price": "£32.24",
+        "Availability": "In stock",
+        "Rating": 5,
+        "Link": "https://books.toscrape.com/catalogue/the-activists-tao-te-ching-ancient-advice-for-a-modern-revolution_928/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/96/db/96db61bb53930c560fb4c1c62b583816.jpg",
+        "Thumbnail File Name": "images\\The_Activist_s_Tao_Te_Ching__Ancient_Advice_for_a_Modern_Revolution.jpg"
+    },
+    {
+        "Title": "Spark Joy: An Illustrated Master Class on the Art of Organizing and Tidying Up",
+        "Price": "£41.83",
+        "Availability": "In stock",
+        "Rating": 4,
+        "Link": "https://books.toscrape.com/catalogue/spark-joy-an-illustrated-master-class-on-the-art-of-organizing-and-tidying-up_927/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/f3/4f/f34ffb24cc21c9f9f52dad4fd8f3ac21.jpg",
+        "Thumbnail File Name": "images\\Spark_Joy__An_Illustrated_Master_Class_on_the_Art_of_Organizing_and_Tidying_Up.jpg"
+    },
+    {
+        "Title": "Soul Reader",
+        "Price": "£39.58",
+        "Availability": "In stock",
+        "Rating": 2,
+        "Link": "https://books.toscrape.com/catalogue/soul-reader_926/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/69/85/69852567cf97264a1442cbc882c84903.jpg",
+        "Thumbnail File Name": "images\\Soul_Reader.jpg"
+    },
+    {
+        "Title": "Security",
+        "Price": "£39.25",
+        "Availability": "In stock",
+        "Rating": 2,
+        "Link": "https://books.toscrape.com/catalogue/security_925/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/da/df/dadfac66a89774b46b10225362724c83.jpg",
+        "Thumbnail File Name": "images\\Security.jpg"
+    },
+    {
+        "Title": "Saga, Volume 6 (Saga (Collected Editions) #6)",
+        "Price": "£25.02",
+        "Availability": "In stock",
+        "Rating": 3,
+        "Link": "https://books.toscrape.com/catalogue/saga-volume-6-saga-collected-editions-6_924/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/43/ae/43aee83ebb31e2122a7215e413770e5c.jpg",
+        "Thumbnail File Name": "images\\Saga__Volume_6__Saga__Collected_Editions___6_.jpg"
+    },
+    {
+        "Title": "Saga, Volume 5 (Saga (Collected Editions) #5)",
+        "Price": "£51.04",
+        "Availability": "In stock",
+        "Rating": 2,
+        "Link": "https://books.toscrape.com/catalogue/saga-volume-5-saga-collected-editions-5_923/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/e1/ea/e1ea6cb36e62ae6dc7b805f68ab9a700.jpg",
+        "Thumbnail File Name": "images\\Saga__Volume_5__Saga__Collected_Editions___5_.jpg"
+    },
+    {
+        "Title": "Reskilling America: Learning to Labor in the Twenty-First Century",
+        "Price": "£19.83",
+        "Availability": "In stock",
+        "Rating": 2,
+        "Link": "https://books.toscrape.com/catalogue/reskilling-america-learning-to-labor-in-the-twenty-first-century_922/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/97/f8/97f8debeeaaece9603267653076e760f.jpg",
+        "Thumbnail File Name": "images\\Reskilling_America__Learning_to_Labor_in_the_Twenty_First_Century.jpg"
+    },
+    {
+        "Title": "Rat Queens, Vol. 3: Demons (Rat Queens (Collected Editions) #11-15)",
+        "Price": "£50.40",
+        "Availability": "In stock",
+        "Rating": 3,
+        "Link": "https://books.toscrape.com/catalogue/rat-queens-vol-3-demons-rat-queens-collected-editions-11-15_921/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/f3/ef/f3efd43ae0fa85d9b325d5e8783e7af5.jpg",
+        "Thumbnail File Name": "images\\Rat_Queens__Vol__3__Demons__Rat_Queens__Collected_Editions___11_15_.jpg"
+    },
+    {
+        "Title": "Princess Jellyfish 2-in-1 Omnibus, Vol. 01 (Princess Jellyfish 2-in-1 Omnibus #1)",
+        "Price": "£13.61",
+        "Availability": "In stock",
+        "Rating": 5,
+        "Link": "https://books.toscrape.com/catalogue/princess-jellyfish-2-in-1-omnibus-vol-01-princess-jellyfish-2-in-1-omnibus-1_920/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/78/0b/780b2c28122750c2c383846155815bf7.jpg",
+        "Thumbnail File Name": "images\\Princess_Jellyfish_2_in_1_Omnibus__Vol__01__Princess_Jellyfish_2_in_1_Omnibus__1_.jpg"
+    },
+    {
+        "Title": "Princess Between Worlds (Wide-Awake Princess #5)",
+        "Price": "£13.34",
+        "Availability": "In stock",
+        "Rating": 5,
+        "Link": "https://books.toscrape.com/catalogue/princess-between-worlds-wide-awake-princess-5_919/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/b7/e8/b7e84b78be3d9bb79b71156a5e5d4e42.jpg",
+        "Thumbnail File Name": "images\\Princess_Between_Worlds__Wide_Awake_Princess__5_.jpg"
+    },
+    {
+        "Title": "Pop Gun War, Volume 1: Gift",
+        "Price": "£18.97",
+        "Availability": "In stock",
+        "Rating": 1,
+        "Link": "https://books.toscrape.com/catalogue/pop-gun-war-volume-1-gift_918/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/c8/2f/c82f629a31b3f47bdb17ac14aa51076d.jpg",
+        "Thumbnail File Name": "images\\Pop_Gun_War__Volume_1__Gift.jpg"
+    },
+    {
+        "Title": "Political Suicide: Missteps, Peccadilloes, Bad Calls, Backroom Hijinx, Sordid Pasts, Rotten Breaks, and Just Plain Dumb Mistakes in the Annals of American Politics",
+        "Price": "£36.28",
+        "Availability": "In stock",
+        "Rating": 2,
+        "Link": "https://books.toscrape.com/catalogue/political-suicide-missteps-peccadilloes-bad-calls-backroom-hijinx-sordid-pasts-rotten-breaks-and-just-plain-dumb-mistakes-in-the-annals-of-american-politics_917/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/64/44/6444dacdcb9edaadbbd691524622aeb8.jpg",
+        "Thumbnail File Name": "images\\Political_Suicide__Missteps__Peccadilloes__Bad_Calls__Backroom_Hijinx__Sordid_Pasts__Rotten_Breaks__and_Just_Plain_Dumb_Mistakes_in_the_Annals_of_American_Politics.jpg"
+    },
+    {
+        "Title": "Patience",
+        "Price": "£10.16",
+        "Availability": "In stock",
+        "Rating": 3,
+        "Link": "https://books.toscrape.com/catalogue/patience_916/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/01/72/01726c619a05114dca75bd840095016d.jpg",
+        "Thumbnail File Name": "images\\Patience.jpg"
+    },
+    {
+        "Title": "Outcast, Vol. 1: A Darkness Surrounds Him (Outcast #1)",
+        "Price": "£15.44",
+        "Availability": "In stock",
+        "Rating": 4,
+        "Link": "https://books.toscrape.com/catalogue/outcast-vol-1-a-darkness-surrounds-him-outcast-1_915/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/cb/00/cb004189f548d75ad430d3ed19e6daa9.jpg",
+        "Thumbnail File Name": "images\\Outcast__Vol__1__A_Darkness_Surrounds_Him__Outcast__1_.jpg"
+    },
+    {
+        "Title": "orange: The Complete Collection 1 (orange: The Complete Collection #1)",
+        "Price": "£48.41",
+        "Availability": "In stock",
+        "Rating": 1,
+        "Link": "https://books.toscrape.com/catalogue/orange-the-complete-collection-1-orange-the-complete-collection-1_914/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/03/88/03886a8502ca54dbce0d91c2568ab69d.jpg",
+        "Thumbnail File Name": "images\\orange__The_Complete_Collection_1__orange__The_Complete_Collection__1_.jpg"
+    },
+    {
+        "Title": "Online Marketing for Busy Authors: A Step-By-Step Guide",
+        "Price": "£46.35",
+        "Availability": "In stock",
+        "Rating": 1,
+        "Link": "https://books.toscrape.com/catalogue/online-marketing-for-busy-authors-a-step-by-step-guide_913/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/ea/9b/ea9b2cb8abbb317402e618445bade1e1.jpg",
+        "Thumbnail File Name": "images\\Online_Marketing_for_Busy_Authors__A_Step_By_Step_Guide.jpg"
+    },
+    {
+        "Title": "On a Midnight Clear",
+        "Price": "£14.07",
+        "Availability": "In stock",
+        "Rating": 3,
+        "Link": "https://books.toscrape.com/catalogue/on-a-midnight-clear_912/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/a1/14/a114d70e7babf110ba42a389078e9a45.jpg",
+        "Thumbnail File Name": "images\\On_a_Midnight_Clear.jpg"
+    },
+    {
+        "Title": "Obsidian (Lux #1)",
+        "Price": "£14.86",
+        "Availability": "In stock",
+        "Rating": 2,
+        "Link": "https://books.toscrape.com/catalogue/obsidian-lux-1_911/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/fc/72/fc72f158554b4b4164701e1dfa1153c7.jpg",
+        "Thumbnail File Name": "images\\Obsidian__Lux__1_.jpg"
+    },
+    {
+        "Title": "My Paris Kitchen: Recipes and Stories",
+        "Price": "£33.37",
+        "Availability": "In stock",
+        "Rating": 2,
+        "Link": "https://books.toscrape.com/catalogue/my-paris-kitchen-recipes-and-stories_910/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/f5/65/f565af3d9dd20a1ad72a1e7c4157387d.jpg",
+        "Thumbnail File Name": "images\\My_Paris_Kitchen__Recipes_and_Stories.jpg"
+    },
+    {
+        "Title": "Masks and Shadows",
+        "Price": "£56.40",
+        "Availability": "In stock",
+        "Rating": 2,
+        "Link": "https://books.toscrape.com/catalogue/masks-and-shadows_909/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/ff/e8/ffe81bf98f8386ef29e193abfb6f9c1e.jpg",
+        "Thumbnail File Name": "images\\Masks_and_Shadows.jpg"
+    },
+    {
+        "Title": "Mama Tried: Traditional Italian Cooking for the Screwed, Crude, Vegan, and Tattooed",
+        "Price": "£14.02",
+        "Availability": "In stock",
+        "Rating": 4,
+        "Link": "https://books.toscrape.com/catalogue/mama-tried-traditional-italian-cooking-for-the-screwed-crude-vegan-and-tattooed_908/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/10/c6/10c61093002db1fec4089d8076678624.jpg",
+        "Thumbnail File Name": "images\\Mama_Tried__Traditional_Italian_Cooking_for_the_Screwed__Crude__Vegan__and_Tattooed.jpg"
+    },
+    {
+        "Title": "Lumberjanes, Vol. 2: Friendship to the Max (Lumberjanes #5-8)",
+        "Price": "£46.91",
+        "Availability": "In stock",
+        "Rating": 2,
+        "Link": "https://books.toscrape.com/catalogue/lumberjanes-vol-2-friendship-to-the-max-lumberjanes-5-8_907/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/d3/15/d3158e8d3546fb90cced3c1d44a92a34.jpg",
+        "Thumbnail File Name": "images\\Lumberjanes__Vol__2__Friendship_to_the_Max__Lumberjanes__5_8_.jpg"
+    },
+    {
+        "Title": "Lumberjanes, Vol. 1: Beware the Kitten Holy (Lumberjanes #1-4)",
+        "Price": "£45.61",
+        "Availability": "In stock",
+        "Rating": 3,
+        "Link": "https://books.toscrape.com/catalogue/lumberjanes-vol-1-beware-the-kitten-holy-lumberjanes-1-4_906/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/7e/a0/7ea062007ef00107e3c16d336b41fab2.jpg",
+        "Thumbnail File Name": "images\\Lumberjanes__Vol__1__Beware_the_Kitten_Holy__Lumberjanes__1_4_.jpg"
+    },
+    {
+        "Title": "Lumberjanes Vol. 3: A Terrible Plan (Lumberjanes #9-12)",
+        "Price": "£19.92",
+        "Availability": "In stock",
+        "Rating": 2,
+        "Link": "https://books.toscrape.com/catalogue/lumberjanes-vol-3-a-terrible-plan-lumberjanes-9-12_905/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/5f/b1/5fb1bf88dcfda795606745ce35be5975.jpg",
+        "Thumbnail File Name": "images\\Lumberjanes_Vol__3__A_Terrible_Plan__Lumberjanes__9_12_.jpg"
+    },
+    {
+        "Title": "Layered: Baking, Building, and Styling Spectacular Cakes",
+        "Price": "£40.11",
+        "Availability": "In stock",
+        "Rating": 1,
+        "Link": "https://books.toscrape.com/catalogue/layered-baking-building-and-styling-spectacular-cakes_904/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/98/d1/98d1c979c4bac9e147a6718946578b0f.jpg",
+        "Thumbnail File Name": "images\\Layered__Baking__Building__and_Styling_Spectacular_Cakes.jpg"
+    },
+    {
+        "Title": "Judo: Seven Steps to Black Belt (an Introductory Guide for Beginners)",
+        "Price": "£53.90",
+        "Availability": "In stock",
+        "Rating": 2,
+        "Link": "https://books.toscrape.com/catalogue/judo-seven-steps-to-black-belt-an-introductory-guide-for-beginners_903/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/5f/52/5f52b1bc6d45daab2e330c744feb0359.jpg",
+        "Thumbnail File Name": "images\\Judo__Seven_Steps_to_Black_Belt__an_Introductory_Guide_for_Beginners_.jpg"
+    },
+    {
+        "Title": "Join",
+        "Price": "£35.67",
+        "Availability": "In stock",
+        "Rating": 5,
+        "Link": "https://books.toscrape.com/catalogue/join_902/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/93/63/9363f0065fbad5689f44fcf6e203eef3.jpg",
+        "Thumbnail File Name": "images\\Join.jpg"
+    },
+    {
+        "Title": "In the Country We Love: My Family Divided",
+        "Price": "£22.00",
+        "Availability": "In stock",
+        "Rating": 4,
+        "Link": "https://books.toscrape.com/catalogue/in-the-country-we-love-my-family-divided_901/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/fe/ea/feeafd2ad7b3077f8e74cbb1da9e3c7d.jpg",
+        "Thumbnail File Name": "images\\In_the_Country_We_Love__My_Family_Divided.jpg"
+    },
+    {
+        "Title": "Immunity: How Elie Metchnikoff Changed the Course of Modern Medicine",
+        "Price": "£57.36",
+        "Availability": "In stock",
+        "Rating": 5,
+        "Link": "https://books.toscrape.com/catalogue/immunity-how-elie-metchnikoff-changed-the-course-of-modern-medicine_900/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/26/1c/261c4eaf957ae4aacf2229b482e76dbe.jpg",
+        "Thumbnail File Name": "images\\Immunity__How_Elie_Metchnikoff_Changed_the_Course_of_Modern_Medicine.jpg"
+    },
+    {
+        "Title": "I Hate Fairyland, Vol. 1: Madly Ever After (I Hate Fairyland (Compilations) #1-5)",
+        "Price": "£29.17",
+        "Availability": "In stock",
+        "Rating": 2,
+        "Link": "https://books.toscrape.com/catalogue/i-hate-fairyland-vol-1-madly-ever-after-i-hate-fairyland-compilations-1-5_899/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/aa/74/aa74004807e97a79aa084b5db329a99b.jpg",
+        "Thumbnail File Name": "images\\I_Hate_Fairyland__Vol__1__Madly_Ever_After__I_Hate_Fairyland__Compilations___1_5_.jpg"
+    },
+    {
+        "Title": "I am a Hero Omnibus Volume 1",
+        "Price": "£54.63",
+        "Availability": "In stock",
+        "Rating": 3,
+        "Link": "https://books.toscrape.com/catalogue/i-am-a-hero-omnibus-volume-1_898/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/16/d4/16d443437126bf6d536a89312c1995a5.jpg",
+        "Thumbnail File Name": "images\\I_am_a_Hero_Omnibus_Volume_1.jpg"
+    },
+    {
+        "Title": "How to Be Miserable: 40 Strategies You Already Use",
+        "Price": "£46.03",
+        "Availability": "In stock",
+        "Rating": 1,
+        "Link": "https://books.toscrape.com/catalogue/how-to-be-miserable-40-strategies-you-already-use_897/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/da/8b/da8bc9b824dd3f446ef63e438ddbfc85.jpg",
+        "Thumbnail File Name": "images\\How_to_Be_Miserable__40_Strategies_You_Already_Use.jpg"
+    },
+    {
+        "Title": "Her Backup Boyfriend (The Sorensen Family #1)",
+        "Price": "£33.97",
+        "Availability": "In stock",
+        "Rating": 1,
+        "Link": "https://books.toscrape.com/catalogue/her-backup-boyfriend-the-sorensen-family-1_896/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/1e/bb/1ebbbc3e2d3249b111033cfc40763b0b.jpg",
+        "Thumbnail File Name": "images\\Her_Backup_Boyfriend__The_Sorensen_Family__1_.jpg"
+    },
+    {
+        "Title": "Giant Days, Vol. 2 (Giant Days #5-8)",
+        "Price": "£22.11",
+        "Availability": "In stock",
+        "Rating": 2,
+        "Link": "https://books.toscrape.com/catalogue/giant-days-vol-2-giant-days-5-8_895/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/90/6f/906f0168b0e155a7077625499b1737b5.jpg",
+        "Thumbnail File Name": "images\\Giant_Days__Vol__2__Giant_Days__5_8_.jpg"
+    },
+    {
+        "Title": "Forever and Forever: The Courtship of Henry Longfellow and Fanny Appleton",
+        "Price": "£29.69",
+        "Availability": "In stock",
+        "Rating": 3,
+        "Link": "https://books.toscrape.com/catalogue/forever-and-forever-the-courtship-of-henry-longfellow-and-fanny-appleton_894/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/d6/58/d658a1485b130ff26ca5fb0d5975ed2e.jpg",
+        "Thumbnail File Name": "images\\Forever_and_Forever__The_Courtship_of_Henry_Longfellow_and_Fanny_Appleton.jpg"
+    },
+    {
+        "Title": "First and First (Five Boroughs #3)",
+        "Price": "£15.97",
+        "Availability": "In stock",
+        "Rating": 4,
+        "Link": "https://books.toscrape.com/catalogue/first-and-first-five-boroughs-3_893/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/c4/d1/c4d1517cc9370e292366b6132ca9ca36.jpg",
+        "Thumbnail File Name": "images\\First_and_First__Five_Boroughs__3_.jpg"
+    },
+    {
+        "Title": "Fifty Shades Darker (Fifty Shades #2)",
+        "Price": "£21.96",
+        "Availability": "In stock",
+        "Rating": 1,
+        "Link": "https://books.toscrape.com/catalogue/fifty-shades-darker-fifty-shades-2_892/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/cc/bd/ccbdae9e29b3594301528fa2c876ec29.jpg",
+        "Thumbnail File Name": "images\\Fifty_Shades_Darker__Fifty_Shades__2_.jpg"
+    },
+    {
+        "Title": "Everydata: The Misinformation Hidden in the Little Data You Consume Every Day",
+        "Price": "£54.35",
+        "Availability": "In stock",
+        "Rating": 2,
+        "Link": "https://books.toscrape.com/catalogue/everydata-the-misinformation-hidden-in-the-little-data-you-consume-every-day_891/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/64/94/6494bf61176ca73b61255909230030be.jpg",
+        "Thumbnail File Name": "images\\Everydata__The_Misinformation_Hidden_in_the_Little_Data_You_Consume_Every_Day.jpg"
+    },
+    {
+        "Title": "Don't Be a Jerk: And Other Practical Advice from Dogen, Japan's Greatest Zen Master",
+        "Price": "£37.97",
+        "Availability": "In stock",
+        "Rating": 2,
+        "Link": "https://books.toscrape.com/catalogue/dont-be-a-jerk-and-other-practical-advice-from-dogen-japans-greatest-zen-master_890/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/95/30/953013d044aa313cc162dec414f3969a.jpg",
+        "Thumbnail File Name": "images\\Don_t_Be_a_Jerk__And_Other_Practical_Advice_from_Dogen__Japan_s_Greatest_Zen_Master.jpg"
+    },
+    {
+        "Title": "Danganronpa Volume 1",
+        "Price": "£51.99",
+        "Availability": "In stock",
+        "Rating": 4,
+        "Link": "https://books.toscrape.com/catalogue/danganronpa-volume-1_889/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/78/97/7897eea91c4a85aca58d925861d4afec.jpg",
+        "Thumbnail File Name": "images\\Danganronpa_Volume_1.jpg"
+    },
+    {
+        "Title": "Crown of Midnight (Throne of Glass #2)",
+        "Price": "£43.29",
+        "Availability": "In stock",
+        "Rating": 3,
+        "Link": "https://books.toscrape.com/catalogue/crown-of-midnight-throne-of-glass-2_888/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/66/25/6625e3bbb050de3e42a0c302c0d69f1f.jpg",
+        "Thumbnail File Name": "images\\Crown_of_Midnight__Throne_of_Glass__2_.jpg"
+    },
+    {
+        "Title": "Codename Baboushka, Volume 1: The Conclave of Death",
+        "Price": "£36.72",
+        "Availability": "In stock",
+        "Rating": 4,
+        "Link": "https://books.toscrape.com/catalogue/codename-baboushka-volume-1-the-conclave-of-death_887/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/f6/88/f688a9d6a89fdf38e4e88439ee9eda69.jpg",
+        "Thumbnail File Name": "images\\Codename_Baboushka__Volume_1__The_Conclave_of_Death.jpg"
+    },
+    {
+        "Title": "Camp Midnight",
+        "Price": "£17.08",
+        "Availability": "In stock",
+        "Rating": 4,
+        "Link": "https://books.toscrape.com/catalogue/camp-midnight_886/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/dd/c9/ddc95df6754df8e71bf969c088056188.jpg",
+        "Thumbnail File Name": "images\\Camp_Midnight.jpg"
+    },
+    {
+        "Title": "Call the Nurse: True Stories of a Country Nurse on a Scottish Isle",
+        "Price": "£29.14",
+        "Availability": "In stock",
+        "Rating": 5,
+        "Link": "https://books.toscrape.com/catalogue/call-the-nurse-true-stories-of-a-country-nurse-on-a-scottish-isle_885/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/88/9e/889e0bac4c7c0e7178f0165b8d3b4617.jpg",
+        "Thumbnail File Name": "images\\Call_the_Nurse__True_Stories_of_a_Country_Nurse_on_a_Scottish_Isle.jpg"
+    },
+    {
+        "Title": "Burning",
+        "Price": "£28.81",
+        "Availability": "In stock",
+        "Rating": 3,
+        "Link": "https://books.toscrape.com/catalogue/burning_884/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/26/95/269507c7bb35d2cec9b61a03d1c28e67.jpg",
+        "Thumbnail File Name": "images\\Burning.jpg"
+    },
+    {
+        "Title": "Bossypants",
+        "Price": "£49.46",
+        "Availability": "In stock",
+        "Rating": 2,
+        "Link": "https://books.toscrape.com/catalogue/bossypants_883/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/27/d2/27d20361745ec2f7be668b18a4da29da.jpg",
+        "Thumbnail File Name": "images\\Bossypants.jpg"
+    },
+    {
+        "Title": "Bitch Planet, Vol. 1: Extraordinary Machine (Bitch Planet (Collected Editions))",
+        "Price": "£37.92",
+        "Availability": "In stock",
+        "Rating": 2,
+        "Link": "https://books.toscrape.com/catalogue/bitch-planet-vol-1-extraordinary-machine-bitch-planet-collected-editions_882/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/e4/1d/e41d34204a1fffbf825d8beb3dbf4cbc.jpg",
+        "Thumbnail File Name": "images\\Bitch_Planet__Vol__1__Extraordinary_Machine__Bitch_Planet__Collected_Editions__.jpg"
+    },
+    {
+        "Title": "Avatar: The Last Airbender: Smoke and Shadow, Part 3 (Smoke and Shadow #3)",
+        "Price": "£28.09",
+        "Availability": "In stock",
+        "Rating": 2,
+        "Link": "https://books.toscrape.com/catalogue/avatar-the-last-airbender-smoke-and-shadow-part-3-smoke-and-shadow-3_881/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/06/18/061811c5845d0e13bc04b2a755f0830f.jpg",
+        "Thumbnail File Name": "images\\Avatar__The_Last_Airbender__Smoke_and_Shadow__Part_3__Smoke_and_Shadow__3_.jpg"
+    },
+    {
+        "Title": "Algorithms to Live By: The Computer Science of Human Decisions",
+        "Price": "£30.81",
+        "Availability": "In stock",
+        "Rating": 1,
+        "Link": "https://books.toscrape.com/catalogue/algorithms-to-live-by-the-computer-science-of-human-decisions_880/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/23/b4/23b42e094c02d52b14b11a960d49610e.jpg",
+        "Thumbnail File Name": "images\\Algorithms_to_Live_By__The_Computer_Science_of_Human_Decisions.jpg"
+    },
+    {
+        "Title": "A World of Flavor: Your Gluten Free Passport",
+        "Price": "£42.95",
+        "Availability": "In stock",
+        "Rating": 1,
+        "Link": "https://books.toscrape.com/catalogue/a-world-of-flavor-your-gluten-free-passport_879/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/78/2e/782e315667ec50759b8603527ee33dec.jpg",
+        "Thumbnail File Name": "images\\A_World_of_Flavor__Your_Gluten_Free_Passport.jpg"
+    },
+    {
+        "Title": "A Piece of Sky, a Grain of Rice: A Memoir in Four Meditations",
+        "Price": "£56.76",
+        "Availability": "In stock",
+        "Rating": 5,
+        "Link": "https://books.toscrape.com/catalogue/a-piece-of-sky-a-grain-of-rice-a-memoir-in-four-meditations_878/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/08/89/088995e862aac86c88c608d763f6390e.jpg",
+        "Thumbnail File Name": "images\\A_Piece_of_Sky__a_Grain_of_Rice__A_Memoir_in_Four_Meditations.jpg"
+    },
+    {
+        "Title": "A Murder in Time",
+        "Price": "£16.64",
+        "Availability": "In stock",
+        "Rating": 1,
+        "Link": "https://books.toscrape.com/catalogue/a-murder-in-time_877/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/11/aa/11aaad48b5f15e262456ca65294084da.jpg",
+        "Thumbnail File Name": "images\\A_Murder_in_Time.jpg"
+    },
+    {
+        "Title": "A Flight of Arrows (The Pathfinders #2)",
+        "Price": "£55.53",
+        "Availability": "In stock",
+        "Rating": 5,
+        "Link": "https://books.toscrape.com/catalogue/a-flight-of-arrows-the-pathfinders-2_876/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/82/96/8296f92b70fb1dafefecda92c1d51941.jpg",
+        "Thumbnail File Name": "images\\A_Flight_of_Arrows__The_Pathfinders__2_.jpg"
+    },
+    {
+        "Title": "A Fierce and Subtle Poison",
+        "Price": "£28.13",
+        "Availability": "In stock",
+        "Rating": 4,
+        "Link": "https://books.toscrape.com/catalogue/a-fierce-and-subtle-poison_875/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/12/f1/12f1963957f27fa83d51f76b183ef490.jpg",
+        "Thumbnail File Name": "images\\A_Fierce_and_Subtle_Poison.jpg"
+    },
+    {
+        "Title": "A Court of Thorns and Roses (A Court of Thorns and Roses #1)",
+        "Price": "£52.37",
+        "Availability": "In stock",
+        "Rating": 1,
+        "Link": "https://books.toscrape.com/catalogue/a-court-of-thorns-and-roses-a-court-of-thorns-and-roses-1_874/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/c0/88/c08816960890396213a423941af65b8f.jpg",
+        "Thumbnail File Name": "images\\A_Court_of_Thorns_and_Roses__A_Court_of_Thorns_and_Roses__1_.jpg"
+    },
+    {
+        "Title": "(Un)Qualified: How God Uses Broken People to Do Big Things",
+        "Price": "£54.00",
+        "Availability": "In stock",
+        "Rating": 5,
+        "Link": "https://books.toscrape.com/catalogue/unqualified-how-god-uses-broken-people-to-do-big-things_873/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/cd/db/cddb3eb483ef11a088d519205b7098fb.jpg",
+        "Thumbnail File Name": "images\\_Un_Qualified__How_God_Uses_Broken_People_to_Do_Big_Things.jpg"
+    },
+    {
+        "Title": "You Are What You Love: The Spiritual Power of Habit",
+        "Price": "£21.87",
+        "Availability": "In stock",
+        "Rating": 4,
+        "Link": "https://books.toscrape.com/catalogue/you-are-what-you-love-the-spiritual-power-of-habit_872/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/6b/70/6b70f2cdb17d9ab7551240a88b9211fe.jpg",
+        "Thumbnail File Name": "images\\You_Are_What_You_Love__The_Spiritual_Power_of_Habit.jpg"
+    },
+    {
+        "Title": "William Shakespeare's Star Wars: Verily, A New Hope (William Shakespeare's Star Wars #4)",
+        "Price": "£43.30",
+        "Availability": "In stock",
+        "Rating": 4,
+        "Link": "https://books.toscrape.com/catalogue/william-shakespeares-star-wars-verily-a-new-hope-william-shakespeares-star-wars-4_871/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/02/37/0237b445efc18c5562355a5a2c40889c.jpg",
+        "Thumbnail File Name": "images\\William_Shakespeare_s_Star_Wars__Verily__A_New_Hope__William_Shakespeare_s_Star_Wars__4_.jpg"
+    },
+    {
+        "Title": "Tuesday Nights in 1980",
+        "Price": "£21.04",
+        "Availability": "In stock",
+        "Rating": 2,
+        "Link": "https://books.toscrape.com/catalogue/tuesday-nights-in-1980_870/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/6b/da/6bdae061cb92c32b0b83cda8dd10275d.jpg",
+        "Thumbnail File Name": "images\\Tuesday_Nights_in_1980.jpg"
+    },
+    {
+        "Title": "Tracing Numbers on a Train",
+        "Price": "£41.60",
+        "Availability": "In stock",
+        "Rating": 3,
+        "Link": "https://books.toscrape.com/catalogue/tracing-numbers-on-a-train_869/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/06/a6/06a6cfcf89afd1601cbba1a16cda57fb.jpg",
+        "Thumbnail File Name": "images\\Tracing_Numbers_on_a_Train.jpg"
+    },
+    {
+        "Title": "Throne of Glass (Throne of Glass #1)",
+        "Price": "£35.07",
+        "Availability": "In stock",
+        "Rating": 3,
+        "Link": "https://books.toscrape.com/catalogue/throne-of-glass-throne-of-glass-1_868/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/32/d6/32d6aa560e8ddf2a4da1526b95d4c7ab.jpg",
+        "Thumbnail File Name": "images\\Throne_of_Glass__Throne_of_Glass__1_.jpg"
+    },
+    {
+        "Title": "Thomas Jefferson and the Tripoli Pirates: The Forgotten War That Changed American History",
+        "Price": "£59.64",
+        "Availability": "In stock",
+        "Rating": 1,
+        "Link": "https://books.toscrape.com/catalogue/thomas-jefferson-and-the-tripoli-pirates-the-forgotten-war-that-changed-american-history_867/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/97/47/974709d437b08e74649b5744471bf472.jpg",
+        "Thumbnail File Name": "images\\Thomas_Jefferson_and_the_Tripoli_Pirates__The_Forgotten_War_That_Changed_American_History.jpg"
+    },
+    {
+        "Title": "Thirteen Reasons Why",
+        "Price": "£52.72",
+        "Availability": "In stock",
+        "Rating": 1,
+        "Link": "https://books.toscrape.com/catalogue/thirteen-reasons-why_866/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/8a/83/8a83b6ce350f01bab21f85e6ba539316.jpg",
+        "Thumbnail File Name": "images\\Thirteen_Reasons_Why.jpg"
+    },
+    {
+        "Title": "The White Cat and the Monk: A Retelling of the Poem “Pangur Bán”",
+        "Price": "£58.08",
+        "Availability": "In stock",
+        "Rating": 4,
+        "Link": "https://books.toscrape.com/catalogue/the-white-cat-and-the-monk-a-retelling-of-the-poem-pangur-ban_865/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/26/32/2632a1e12f2c085fabbe022ae4cd6933.jpg",
+        "Thumbnail File Name": "images\\The_White_Cat_and_the_Monk__A_Retelling_of_the_Poem__Pangur_Bán_.jpg"
+    },
+    {
+        "Title": "The Wedding Dress",
+        "Price": "£24.12",
+        "Availability": "In stock",
+        "Rating": 1,
+        "Link": "https://books.toscrape.com/catalogue/the-wedding-dress_864/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/28/99/28992d89f4abf54fba183fc8d074adf3.jpg",
+        "Thumbnail File Name": "images\\The_Wedding_Dress.jpg"
+    },
+    {
+        "Title": "The Vacationers",
+        "Price": "£42.15",
+        "Availability": "In stock",
+        "Rating": 4,
+        "Link": "https://books.toscrape.com/catalogue/the-vacationers_863/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/37/25/372578cc073efae80cf284b56040a488.jpg",
+        "Thumbnail File Name": "images\\The_Vacationers.jpg"
+    },
+    {
+        "Title": "The Third Wave: An Entrepreneur’s Vision of the Future",
+        "Price": "£12.61",
+        "Availability": "In stock",
+        "Rating": 5,
+        "Link": "https://books.toscrape.com/catalogue/the-third-wave-an-entrepreneurs-vision-of-the-future_862/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/d0/77/d077a30042df6b916bfc8d257345c69e.jpg",
+        "Thumbnail File Name": "images\\The_Third_Wave__An_Entrepreneur_s_Vision_of_the_Future.jpg"
+    },
+    {
+        "Title": "The Stranger",
+        "Price": "£17.44",
+        "Availability": "In stock",
+        "Rating": 4,
+        "Link": "https://books.toscrape.com/catalogue/the-stranger_861/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/ea/04/ea0476a6f4c318ceccf5e2f2b39f2b15.jpg",
+        "Thumbnail File Name": "images\\The_Stranger.jpg"
+    },
+    {
+        "Title": "The Shadow Hero (The Shadow Hero)",
+        "Price": "£33.14",
+        "Availability": "In stock",
+        "Rating": 1,
+        "Link": "https://books.toscrape.com/catalogue/the-shadow-hero-the-shadow-hero_860/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/1f/62/1f621dda1b302fc16d83d94b0b5ac31c.jpg",
+        "Thumbnail File Name": "images\\The_Shadow_Hero__The_Shadow_Hero_.jpg"
+    },
+    {
+        "Title": "The Secret (The Secret #1)",
+        "Price": "£27.37",
+        "Availability": "In stock",
+        "Rating": 4,
+        "Link": "https://books.toscrape.com/catalogue/the-secret-the-secret-1_859/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/4e/0f/4e0f05ae01d8fb6bd0d3901edd06de16.jpg",
+        "Thumbnail File Name": "images\\The_Secret__The_Secret__1_.jpg"
+    },
+    {
+        "Title": "The Regional Office Is Under Attack!",
+        "Price": "£51.36",
+        "Availability": "In stock",
+        "Rating": 5,
+        "Link": "https://books.toscrape.com/catalogue/the-regional-office-is-under-attack_858/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/f8/31/f8314c7fdaa79fb7191a583e9a852db8.jpg",
+        "Thumbnail File Name": "images\\The_Regional_Office_Is_Under_Attack_.jpg"
+    },
+    {
+        "Title": "The Psychopath Test: A Journey Through the Madness Industry",
+        "Price": "£36.00",
+        "Availability": "In stock",
+        "Rating": 2,
+        "Link": "https://books.toscrape.com/catalogue/the-psychopath-test-a-journey-through-the-madness-industry_857/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/34/f5/34f5f8e513c5f048241f5695e61b2483.jpg",
+        "Thumbnail File Name": "images\\The_Psychopath_Test__A_Journey_Through_the_Madness_Industry.jpg"
+    },
+    {
+        "Title": "The Project",
+        "Price": "£10.65",
+        "Availability": "In stock",
+        "Rating": 1,
+        "Link": "https://books.toscrape.com/catalogue/the-project_856/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/10/6e/106e2fc7160712edf8e2ff996dc8cd6c.jpg",
+        "Thumbnail File Name": "images\\The_Project.jpg"
+    },
+    {
+        "Title": "The Power of Now: A Guide to Spiritual Enlightenment",
+        "Price": "£43.54",
+        "Availability": "In stock",
+        "Rating": 2,
+        "Link": "https://books.toscrape.com/catalogue/the-power-of-now-a-guide-to-spiritual-enlightenment_855/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/03/38/0338682e76bad3216cd4c6c28b2b625a.jpg",
+        "Thumbnail File Name": "images\\The_Power_of_Now__A_Guide_to_Spiritual_Enlightenment.jpg"
+    },
+    {
+        "Title": "The Omnivore's Dilemma: A Natural History of Four Meals",
+        "Price": "£38.21",
+        "Availability": "In stock",
+        "Rating": 2,
+        "Link": "https://books.toscrape.com/catalogue/the-omnivores-dilemma-a-natural-history-of-four-meals_854/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/14/f3/14f3d525e2a114cd71e27201a16af188.jpg",
+        "Thumbnail File Name": "images\\The_Omnivore_s_Dilemma__A_Natural_History_of_Four_Meals.jpg"
+    },
+    {
+        "Title": "The Nerdy Nummies Cookbook: Sweet Treats for the Geek in All of Us",
+        "Price": "£37.34",
+        "Availability": "In stock",
+        "Rating": 5,
+        "Link": "https://books.toscrape.com/catalogue/the-nerdy-nummies-cookbook-sweet-treats-for-the-geek-in-all-of-us_853/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/61/bd/61bdfe3950643c47d70c37c4123530f3.jpg",
+        "Thumbnail File Name": "images\\The_Nerdy_Nummies_Cookbook__Sweet_Treats_for_the_Geek_in_All_of_Us.jpg"
+    },
+    {
+        "Title": "The Murder of Roger Ackroyd (Hercule Poirot #4)",
+        "Price": "£44.10",
+        "Availability": "In stock",
+        "Rating": 4,
+        "Link": "https://books.toscrape.com/catalogue/the-murder-of-roger-ackroyd-hercule-poirot-4_852/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/29/fe/29fe70b1b2e5a9ba61d4bd331255e19e.jpg",
+        "Thumbnail File Name": "images\\The_Murder_of_Roger_Ackroyd__Hercule_Poirot__4_.jpg"
+    },
+    {
+        "Title": "The Mistake (Off-Campus #2)",
+        "Price": "£43.29",
+        "Availability": "In stock",
+        "Rating": 3,
+        "Link": "https://books.toscrape.com/catalogue/the-mistake-off-campus-2_851/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/a5/43/a543b100a8c1861c1bf5374ca6b576fe.jpg",
+        "Thumbnail File Name": "images\\The_Mistake__Off_Campus__2_.jpg"
+    },
+    {
+        "Title": "The Matchmaker's Playbook (Wingmen Inc. #1)",
+        "Price": "£55.85",
+        "Availability": "In stock",
+        "Rating": 1,
+        "Link": "https://books.toscrape.com/catalogue/the-matchmakers-playbook-wingmen-inc-1_850/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/84/ac/84acb0606c96e55dc729a9d6572a08fb.jpg",
+        "Thumbnail File Name": "images\\The_Matchmaker_s_Playbook__Wingmen_Inc___1_.jpg"
+    },
+    {
+        "Title": "The Love and Lemons Cookbook: An Apple-to-Zucchini Celebration of Impromptu Cooking",
+        "Price": "£37.60",
+        "Availability": "In stock",
+        "Rating": 2,
+        "Link": "https://books.toscrape.com/catalogue/the-love-and-lemons-cookbook-an-apple-to-zucchini-celebration-of-impromptu-cooking_849/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/0d/1f/0d1f3f934460f5a50aaa8c366641234c.jpg",
+        "Thumbnail File Name": "images\\The_Love_and_Lemons_Cookbook__An_Apple_to_Zucchini_Celebration_of_Impromptu_Cooking.jpg"
+    },
+    {
+        "Title": "The Long Shadow of Small Ghosts: Murder and Memory in an American City",
+        "Price": "£10.97",
+        "Availability": "In stock",
+        "Rating": 1,
+        "Link": "https://books.toscrape.com/catalogue/the-long-shadow-of-small-ghosts-murder-and-memory-in-an-american-city_848/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/f2/e5/f2e51dd2b26600459f8eaeb6b9eecaa7.jpg",
+        "Thumbnail File Name": "images\\The_Long_Shadow_of_Small_Ghosts__Murder_and_Memory_in_an_American_City.jpg"
+    },
+    {
+        "Title": "The Kite Runner",
+        "Price": "£41.82",
+        "Availability": "In stock",
+        "Rating": 4,
+        "Link": "https://books.toscrape.com/catalogue/the-kite-runner_847/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/58/9d/589d73503d9a23d224de836134fae553.jpg",
+        "Thumbnail File Name": "images\\The_Kite_Runner.jpg"
+    },
+    {
+        "Title": "The House by the Lake",
+        "Price": "£36.95",
+        "Availability": "In stock",
+        "Rating": 1,
+        "Link": "https://books.toscrape.com/catalogue/the-house-by-the-lake_846/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/0d/cb/0dcb33d60b0e79adf8ab9842e697ea2e.jpg",
+        "Thumbnail File Name": "images\\The_House_by_the_Lake.jpg"
+    },
+    {
+        "Title": "The Glittering Court (The Glittering Court #1)",
+        "Price": "£44.28",
+        "Availability": "In stock",
+        "Rating": 1,
+        "Link": "https://books.toscrape.com/catalogue/the-glittering-court-the-glittering-court-1_845/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/3e/0b/3e0b16851bec08b6cbf78d5f64af9114.jpg",
+        "Thumbnail File Name": "images\\The_Glittering_Court__The_Glittering_Court__1_.jpg"
+    },
+    {
+        "Title": "The Girl on the Train",
+        "Price": "£55.02",
+        "Availability": "In stock",
+        "Rating": 2,
+        "Link": "https://books.toscrape.com/catalogue/the-girl-on-the-train_844/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/25/6c/256c946dd0962095f66c6de3b15ab300.jpg",
+        "Thumbnail File Name": "images\\The_Girl_on_the_Train.jpg"
+    },
+    {
+        "Title": "The Genius of Birds",
+        "Price": "£17.24",
+        "Availability": "In stock",
+        "Rating": 1,
+        "Link": "https://books.toscrape.com/catalogue/the-genius-of-birds_843/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/13/57/1357c6aa40c9e63d2f931927fbf81f3f.jpg",
+        "Thumbnail File Name": "images\\The_Genius_of_Birds.jpg"
+    },
+    {
+        "Title": "The Emerald Mystery",
+        "Price": "£23.15",
+        "Availability": "In stock",
+        "Rating": 2,
+        "Link": "https://books.toscrape.com/catalogue/the-emerald-mystery_842/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/81/58/81586cd0bf8743e1f5ed80b6a0e1fabe.jpg",
+        "Thumbnail File Name": "images\\The_Emerald_Mystery.jpg"
+    },
+    {
+        "Title": "The Cookies & Cups Cookbook: 125+ sweet & savory recipes reminding you to Always Eat Dessert First",
+        "Price": "£41.25",
+        "Availability": "In stock",
+        "Rating": 1,
+        "Link": "https://books.toscrape.com/catalogue/the-cookies-cups-cookbook-125-sweet-savory-recipes-reminding-you-to-always-eat-dessert-first_841/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/54/89/54899b4584e941ceced511d81092c88a.jpg",
+        "Thumbnail File Name": "images\\The_Cookies___Cups_Cookbook__125__sweet___savory_recipes_reminding_you_to_Always_Eat_Dessert_First.jpg"
+    },
+    {
+        "Title": "The Bridge to Consciousness: I'm Writing the Bridge Between Science and Our Old and New Beliefs.",
+        "Price": "£32.00",
+        "Availability": "In stock",
+        "Rating": 3,
+        "Link": "https://books.toscrape.com/catalogue/the-bridge-to-consciousness-im-writing-the-bridge-between-science-and-our-old-and-new-beliefs_840/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/fe/b7/feb764b2afa54991cfdbbffdf501b333.jpg",
+        "Thumbnail File Name": "images\\The_Bridge_to_Consciousness__I_m_Writing_the_Bridge_Between_Science_and_Our_Old_and_New_Beliefs_.jpg"
+    },
+    {
+        "Title": "The Artist's Way: A Spiritual Path to Higher Creativity",
+        "Price": "£38.49",
+        "Availability": "In stock",
+        "Rating": 5,
+        "Link": "https://books.toscrape.com/catalogue/the-artists-way-a-spiritual-path-to-higher-creativity_839/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/0e/6d/0e6dc2484322c5b9e7854ced66fdf62d.jpg",
+        "Thumbnail File Name": "images\\The_Artist_s_Way__A_Spiritual_Path_to_Higher_Creativity.jpg"
+    },
+    {
+        "Title": "The Art of War",
+        "Price": "£33.34",
+        "Availability": "In stock",
+        "Rating": 5,
+        "Link": "https://books.toscrape.com/catalogue/the-art-of-war_838/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/6d/71/6d71e36c8b1b9c885e1bb6c72cd8bcf8.jpg",
+        "Thumbnail File Name": "images\\The_Art_of_War.jpg"
+    },
+    {
+        "Title": "The Argonauts",
+        "Price": "£10.93",
+        "Availability": "In stock",
+        "Rating": 2,
+        "Link": "https://books.toscrape.com/catalogue/the-argonauts_837/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/0a/15/0a1567cd04a6582d333db71337b4e2a6.jpg",
+        "Thumbnail File Name": "images\\The_Argonauts.jpg"
+    },
+    {
+        "Title": "The 10% Entrepreneur: Live Your Startup Dream Without Quitting Your Day Job",
+        "Price": "£27.55",
+        "Availability": "In stock",
+        "Rating": 3,
+        "Link": "https://books.toscrape.com/catalogue/the-10-entrepreneur-live-your-startup-dream-without-quitting-your-day-job_836/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/82/93/82939ca78da0b724f16ec814849514fd.jpg",
+        "Thumbnail File Name": "images\\The_10__Entrepreneur__Live_Your_Startup_Dream_Without_Quitting_Your_Day_Job.jpg"
+    },
+    {
+        "Title": "Suddenly in Love (Lake Haven #1)",
+        "Price": "£55.99",
+        "Availability": "In stock",
+        "Rating": 2,
+        "Link": "https://books.toscrape.com/catalogue/suddenly-in-love-lake-haven-1_835/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/e9/f4/e9f4bc8cf5ffaea1504623c936e90a48.jpg",
+        "Thumbnail File Name": "images\\Suddenly_in_Love__Lake_Haven__1_.jpg"
+    },
+    {
+        "Title": "Something More Than This",
+        "Price": "£16.24",
+        "Availability": "In stock",
+        "Rating": 4,
+        "Link": "https://books.toscrape.com/catalogue/something-more-than-this_834/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/59/10/5910fbd8a95e8e9de9c660b71e0694e2.jpg",
+        "Thumbnail File Name": "images\\Something_More_Than_This.jpg"
+    },
+    {
+        "Title": "Soft Apocalypse",
+        "Price": "£26.12",
+        "Availability": "In stock",
+        "Rating": 2,
+        "Link": "https://books.toscrape.com/catalogue/soft-apocalypse_833/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/f0/06/f0060c756556b855184fa32f66280961.jpg",
+        "Thumbnail File Name": "images\\Soft_Apocalypse.jpg"
+    },
+    {
+        "Title": "So You've Been Publicly Shamed",
+        "Price": "£12.23",
+        "Availability": "In stock",
+        "Rating": 2,
+        "Link": "https://books.toscrape.com/catalogue/so-youve-been-publicly-shamed_832/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/6e/d4/6ed4991d97f60db29ec7b421e61a2cf3.jpg",
+        "Thumbnail File Name": "images\\So_You_ve_Been_Publicly_Shamed.jpg"
+    },
+    {
+        "Title": "Shoe Dog: A Memoir by the Creator of NIKE",
+        "Price": "£23.99",
+        "Availability": "In stock",
+        "Rating": 2,
+        "Link": "https://books.toscrape.com/catalogue/shoe-dog-a-memoir-by-the-creator-of-nike_831/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/19/aa/19aa1184a3565b1dae6092146018e109.jpg",
+        "Thumbnail File Name": "images\\Shoe_Dog__A_Memoir_by_the_Creator_of_NIKE.jpg"
+    },
+    {
+        "Title": "Shobu Samurai, Project Aryoku (#3)",
+        "Price": "£29.06",
+        "Availability": "In stock",
+        "Rating": 3,
+        "Link": "https://books.toscrape.com/catalogue/shobu-samurai-project-aryoku-3_830/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/ae/0c/ae0ccc307568b6d7699786411f3cbcc4.jpg",
+        "Thumbnail File Name": "images\\Shobu_Samurai__Project_Aryoku___3_.jpg"
+    },
+    {
+        "Title": "Secrets and Lace (Fatal Hearts #1)",
+        "Price": "£20.27",
+        "Availability": "In stock",
+        "Rating": 1,
+        "Link": "https://books.toscrape.com/catalogue/secrets-and-lace-fatal-hearts-1_829/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/84/7c/847c06b541e2a3b2228b96d97a5fe7a6.jpg",
+        "Thumbnail File Name": "images\\Secrets_and_Lace__Fatal_Hearts__1_.jpg"
+    },
+    {
+        "Title": "Scarlett Epstein Hates It Here",
+        "Price": "£43.55",
+        "Availability": "In stock",
+        "Rating": 5,
+        "Link": "https://books.toscrape.com/catalogue/scarlett-epstein-hates-it-here_828/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/0f/d3/0fd306891f8fd3196653022fd67d6c87.jpg",
+        "Thumbnail File Name": "images\\Scarlett_Epstein_Hates_It_Here.jpg"
+    },
+    {
+        "Title": "Romero and Juliet: A Tragic Tale of Love and Zombies",
+        "Price": "£36.94",
+        "Availability": "In stock",
+        "Rating": 1,
+        "Link": "https://books.toscrape.com/catalogue/romero-and-juliet-a-tragic-tale-of-love-and-zombies_827/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/12/f8/12f8002e5aab6d783e29b31aad36b5ba.jpg",
+        "Thumbnail File Name": "images\\Romero_and_Juliet__A_Tragic_Tale_of_Love_and_Zombies.jpg"
+    },
+    {
+        "Title": "Redeeming Love",
+        "Price": "£20.47",
+        "Availability": "In stock",
+        "Rating": 5,
+        "Link": "https://books.toscrape.com/catalogue/redeeming-love_826/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/21/21/2121ba78e26194d92c334fde3850f840.jpg",
+        "Thumbnail File Name": "images\\Redeeming_Love.jpg"
+    },
+    {
+        "Title": "Poses for Artists Volume 1 - Dynamic and Sitting Poses: An Essential Reference for Figure Drawing and the Human Form",
+        "Price": "£41.06",
+        "Availability": "In stock",
+        "Rating": 1,
+        "Link": "https://books.toscrape.com/catalogue/poses-for-artists-volume-1-dynamic-and-sitting-poses-an-essential-reference-for-figure-drawing-and-the-human-form_825/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/5a/89/5a89e2dd7866dda6660fe508bc4b5249.jpg",
+        "Thumbnail File Name": "images\\Poses_for_Artists_Volume_1___Dynamic_and_Sitting_Poses__An_Essential_Reference_for_Figure_Drawing_and_the_Human_Form.jpg"
+    },
+    {
+        "Title": "Poems That Make Grown Women Cry",
+        "Price": "£14.19",
+        "Availability": "In stock",
+        "Rating": 4,
+        "Link": "https://books.toscrape.com/catalogue/poems-that-make-grown-women-cry_824/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/38/64/386468a8c3e6b880664bf7885bf6f726.jpg",
+        "Thumbnail File Name": "images\\Poems_That_Make_Grown_Women_Cry.jpg"
+    },
+    {
+        "Title": "Nightingale, Sing",
+        "Price": "£38.28",
+        "Availability": "In stock",
+        "Rating": 1,
+        "Link": "https://books.toscrape.com/catalogue/nightingale-sing_823/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/18/08/18086e581ad354aa65f945c2b5c51350.jpg",
+        "Thumbnail File Name": "images\\Nightingale__Sing.jpg"
+    },
+    {
+        "Title": "Night Sky with Exit Wounds",
+        "Price": "£41.05",
+        "Availability": "In stock",
+        "Rating": 1,
+        "Link": "https://books.toscrape.com/catalogue/night-sky-with-exit-wounds_822/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/25/54/2554431c797ec725eea50b3f8a83758c.jpg",
+        "Thumbnail File Name": "images\\Night_Sky_with_Exit_Wounds.jpg"
+    },
+    {
+        "Title": "Mrs. Houdini",
+        "Price": "£30.25",
+        "Availability": "In stock",
+        "Rating": 5,
+        "Link": "https://books.toscrape.com/catalogue/mrs-houdini_821/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/0e/fe/0efe86960cdff718aed01a5c3f65b1c3.jpg",
+        "Thumbnail File Name": "images\\Mrs__Houdini.jpg"
+    },
+    {
+        "Title": "Modern Romance",
+        "Price": "£28.26",
+        "Availability": "In stock",
+        "Rating": 5,
+        "Link": "https://books.toscrape.com/catalogue/modern-romance_820/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/28/78/2878538a1039d9c4649110499a1393fb.jpg",
+        "Thumbnail File Name": "images\\Modern_Romance.jpg"
+    },
+    {
+        "Title": "Miss Peregrine’s Home for Peculiar Children (Miss Peregrine’s Peculiar Children #1)",
+        "Price": "£10.76",
+        "Availability": "In stock",
+        "Rating": 1,
+        "Link": "https://books.toscrape.com/catalogue/miss-peregrines-home-for-peculiar-children-miss-peregrines-peculiar-children-1_819/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/01/26/01264865c12ed6d987d6f0858cd1d0ba.jpg",
+        "Thumbnail File Name": "images\\Miss_Peregrine_s_Home_for_Peculiar_Children__Miss_Peregrine_s_Peculiar_Children__1_.jpg"
+    },
+    {
+        "Title": "Louisa: The Extraordinary Life of Mrs. Adams",
+        "Price": "£16.85",
+        "Availability": "In stock",
+        "Rating": 2,
+        "Link": "https://books.toscrape.com/catalogue/louisa-the-extraordinary-life-of-mrs-adams_818/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/6f/d9/6fd92e5143cbd5bb8bcf034e5f007dde.jpg",
+        "Thumbnail File Name": "images\\Louisa__The_Extraordinary_Life_of_Mrs__Adams.jpg"
+    },
+    {
+        "Title": "Little Red",
+        "Price": "£13.47",
+        "Availability": "In stock",
+        "Rating": 3,
+        "Link": "https://books.toscrape.com/catalogue/little-red_817/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/80/25/8025b80a40178f2a6dd4f99ad88e0fba.jpg",
+        "Thumbnail File Name": "images\\Little_Red.jpg"
+    },
+    {
+        "Title": "Library of Souls (Miss Peregrine’s Peculiar Children #3)",
+        "Price": "£48.56",
+        "Availability": "In stock",
+        "Rating": 5,
+        "Link": "https://books.toscrape.com/catalogue/library-of-souls-miss-peregrines-peculiar-children-3_816/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/f8/54/f85417465a73e33604624205ba8306cc.jpg",
+        "Thumbnail File Name": "images\\Library_of_Souls__Miss_Peregrine_s_Peculiar_Children__3_.jpg"
+    },
+    {
+        "Title": "Large Print Heart of the Pride",
+        "Price": "£19.15",
+        "Availability": "In stock",
+        "Rating": 2,
+        "Link": "https://books.toscrape.com/catalogue/large-print-heart-of-the-pride_815/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/bd/e9/bde95ab9f776c911a7aa759cad60bb41.jpg",
+        "Thumbnail File Name": "images\\Large_Print_Heart_of_the_Pride.jpg"
+    },
+    {
+        "Title": "I Had a Nice Time And Other Lies...: How to find love & sh*t like that",
+        "Price": "£57.36",
+        "Availability": "In stock",
+        "Rating": 4,
+        "Link": "https://books.toscrape.com/catalogue/i-had-a-nice-time-and-other-lies-how-to-find-love-sht-like-that_814/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/5f/72/5f72c8a0d5a7292e2929a354ec8a022f.jpg",
+        "Thumbnail File Name": "images\\I_Had_a_Nice_Time_And_Other_Lies_____How_to_find_love___sh_t_like_that.jpg"
+    },
+    {
+        "Title": "Hollow City (Miss Peregrine’s Peculiar Children #2)",
+        "Price": "£42.98",
+        "Availability": "In stock",
+        "Rating": 1,
+        "Link": "https://books.toscrape.com/catalogue/hollow-city-miss-peregrines-peculiar-children-2_813/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/e2/60/e260b008b7ea7970562295b7bc64b0cb.jpg",
+        "Thumbnail File Name": "images\\Hollow_City__Miss_Peregrine_s_Peculiar_Children__2_.jpg"
+    },
+    {
+        "Title": "Grumbles",
+        "Price": "£22.16",
+        "Availability": "In stock",
+        "Rating": 2,
+        "Link": "https://books.toscrape.com/catalogue/grumbles_812/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/d6/1b/d61b12ef0e69d49e2645537dd6a8472a.jpg",
+        "Thumbnail File Name": "images\\Grumbles.jpg"
+    },
+    {
+        "Title": "Full Moon over Noah’s Ark: An Odyssey to Mount Ararat and Beyond",
+        "Price": "£49.43",
+        "Availability": "In stock",
+        "Rating": 4,
+        "Link": "https://books.toscrape.com/catalogue/full-moon-over-noahs-ark-an-odyssey-to-mount-ararat-and-beyond_811/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/57/77/57770cac1628f4407636635f4b85e88c.jpg",
+        "Thumbnail File Name": "images\\Full_Moon_over_Noah_s_Ark__An_Odyssey_to_Mount_Ararat_and_Beyond.jpg"
+    },
+    {
+        "Title": "Frostbite (Vampire Academy #2)",
+        "Price": "£29.99",
+        "Availability": "In stock",
+        "Rating": 5,
+        "Link": "https://books.toscrape.com/catalogue/frostbite-vampire-academy-2_810/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/71/76/7176317f1915fa0658bb2fe400441207.jpg",
+        "Thumbnail File Name": "images\\Frostbite__Vampire_Academy__2_.jpg"
+    },
+    {
+        "Title": "Follow You Home",
+        "Price": "£21.36",
+        "Availability": "In stock",
+        "Rating": 1,
+        "Link": "https://books.toscrape.com/catalogue/follow-you-home_809/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/a7/4b/a74b35375ce874153fd352e33bc7bac9.jpg",
+        "Thumbnail File Name": "images\\Follow_You_Home.jpg"
+    },
+    {
+        "Title": "First Steps for New Christians (Print Edition)",
+        "Price": "£29.00",
+        "Availability": "In stock",
+        "Rating": 1,
+        "Link": "https://books.toscrape.com/catalogue/first-steps-for-new-christians-print-edition_808/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/f1/73/f1731459b1e2f4becf2c52b8f30b8cd7.jpg",
+        "Thumbnail File Name": "images\\First_Steps_for_New_Christians__Print_Edition_.jpg"
+    },
+    {
+        "Title": "Finders Keepers (Bill Hodges Trilogy #2)",
+        "Price": "£53.53",
+        "Availability": "In stock",
+        "Rating": 5,
+        "Link": "https://books.toscrape.com/catalogue/finders-keepers-bill-hodges-trilogy-2_807/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/6a/81/6a81103b1c01a3f6c56e5718a838a4c8.jpg",
+        "Thumbnail File Name": "images\\Finders_Keepers__Bill_Hodges_Trilogy__2_.jpg"
+    },
+    {
+        "Title": "Fables, Vol. 1: Legends in Exile (Fables #1)",
+        "Price": "£41.62",
+        "Availability": "In stock",
+        "Rating": 4,
+        "Link": "https://books.toscrape.com/catalogue/fables-vol-1-legends-in-exile-fables-1_806/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/51/8c/518c184a793b751b43045637c8002eb7.jpg",
+        "Thumbnail File Name": "images\\Fables__Vol__1__Legends_in_Exile__Fables__1_.jpg"
+    },
+    {
+        "Title": "Eureka Trivia 6.0",
+        "Price": "£54.59",
+        "Availability": "In stock",
+        "Rating": 4,
+        "Link": "https://books.toscrape.com/catalogue/eureka-trivia-60_805/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/96/17/96173470df6fc6fef4d0008e957653ce.jpg",
+        "Thumbnail File Name": "images\\Eureka_Trivia_6_0.jpg"
+    },
+    {
+        "Title": "Drive: The Surprising Truth About What Motivates Us",
+        "Price": "£34.95",
+        "Availability": "In stock",
+        "Rating": 4,
+        "Link": "https://books.toscrape.com/catalogue/drive-the-surprising-truth-about-what-motivates-us_804/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/8a/49/8a490347afdc10abe7c2099e466de32f.jpg",
+        "Thumbnail File Name": "images\\Drive__The_Surprising_Truth_About_What_Motivates_Us.jpg"
+    },
+    {
+        "Title": "Done Rubbed Out (Reightman & Bailey #1)",
+        "Price": "£37.72",
+        "Availability": "In stock",
+        "Rating": 5,
+        "Link": "https://books.toscrape.com/catalogue/done-rubbed-out-reightman-bailey-1_803/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/08/4d/084da0199a717cb6c1eda30f98d0ea4c.jpg",
+        "Thumbnail File Name": "images\\Done_Rubbed_Out__Reightman___Bailey__1_.jpg"
+    },
+    {
+        "Title": "Doing It Over (Most Likely To #1)",
+        "Price": "£35.61",
+        "Availability": "In stock",
+        "Rating": 3,
+        "Link": "https://books.toscrape.com/catalogue/doing-it-over-most-likely-to-1_802/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/e9/25/e9250495a525eb203652ad9da85ccb8e.jpg",
+        "Thumbnail File Name": "images\\Doing_It_Over__Most_Likely_To__1_.jpg"
+    },
+    {
+        "Title": "Deliciously Ella Every Day: Quick and Easy Recipes for Gluten-Free Snacks, Packed Lunches, and Simple Meals",
+        "Price": "£42.16",
+        "Availability": "In stock",
+        "Rating": 3,
+        "Link": "https://books.toscrape.com/catalogue/deliciously-ella-every-day-quick-and-easy-recipes-for-gluten-free-snacks-packed-lunches-and-simple-meals_801/index.html",
+        "Thumbnail URL": "https://books.toscrape.com/../media/cache/20/f2/20f28657b49f8cb24ed2ec6448bb6df3.jpg",
+        "Thumbnail File Name": "images\\Deliciously_Ella_Every_Day__Quick_and_Easy_Recipes_for_Gluten_Free_Snacks__Packed_Lunches__and_Simple_Meals.jpg"
+    }
+]
