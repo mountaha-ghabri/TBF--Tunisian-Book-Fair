@@ -4,7 +4,6 @@ const path = require("path"); // Import the path module
 const router = express.Router();  
 
 // Paths to JSON files (using relative paths)  
-const booksFilePath = path.join(__dirname, "..", "data_sheet", "books_data.json");  
 const ordersFilePath = path.join(__dirname, "..", "data_sheet", "orders.json");  
 
 // POST: Submit an order for unavailable books  
@@ -17,23 +16,7 @@ router.post("/", async (req, res) => {
     }  
 
     try {  
-        // Step 1: Read the books data  
-        console.log("Reading books data from:", booksFilePath); // Debugging the file path  
-        const data = await fs.readFile(booksFilePath, "utf8");  
-        const books = JSON.parse(data); // Parse the JSON data  
-
-        // Step 2: Check if the book exists  
-        const book = books.find(b => b.Title.toLowerCase() === title.toLowerCase() && b.Availability.toLowerCase() === "in stock");  
-
-        if (book) {  
-            // If the book is in stock, respond with availability message  
-            return res.status(200).json({  
-                message: "The book is available in our collection.",  
-                book: book  
-            });  
-        }  
-
-        // Step 3: If the book is not in stock, check for previous orders  
+        // Read existing orders  
         console.log("Reading orders data from:", ordersFilePath); // Debugging the file path  
         const ordersData = await fs.readFile(ordersFilePath, "utf8");  
         let orders = [];  
@@ -44,7 +27,10 @@ router.post("/", async (req, res) => {
         }  
 
         // Check if the book has already been ordered by the user  
-        const existingOrder = orders.find(order => order.title.toLowerCase() === title.toLowerCase() && order.readerName.toLowerCase() === readerName.toLowerCase());  
+        const existingOrder = orders.find(order =>   
+            order.title.toLowerCase() === title.toLowerCase() &&   
+            order.readerName.toLowerCase() === readerName.toLowerCase()  
+        );  
 
         if (existingOrder) {  
             // Increment the request count for existing order  
@@ -72,7 +58,7 @@ router.post("/", async (req, res) => {
 
             orders.push(newOrder);  
 
-            // Step 4: Write the new order to the orders file  
+            // Write the new order to the orders file  
             await fs.writeFile(ordersFilePath, JSON.stringify(orders, null, 2));  
 
             console.log("New order saved:", newOrder);  
@@ -92,7 +78,7 @@ router.delete("/:title/:readerName", async (req, res) => {
     const { title, readerName } = req.params;  
 
     try {  
-        // Step 1: Read the orders data  
+        // Read existing orders  
         const ordersData = await fs.readFile(ordersFilePath, "utf8");  
         let orders = [];  
         try {  
@@ -102,17 +88,20 @@ router.delete("/:title/:readerName", async (req, res) => {
             return res.status(404).json({ message: "No orders found." });  
         }  
 
-        // Step 2: Find the order to delete  
-        const orderIndex = orders.findIndex(order => order.title.toLowerCase() === title.toLowerCase() && order.readerName.toLowerCase() === readerName.toLowerCase());  
+        // Find the order to delete  
+        const orderIndex = orders.findIndex(order =>   
+            order.title.toLowerCase() === title.toLowerCase() &&   
+            order.readerName.toLowerCase() === readerName.toLowerCase()  
+        );  
 
         if (orderIndex === -1) {  
             return res.status(404).json({ message: "The order does not exist." });  
         }  
 
-        // Step 3: Remove the order from the array  
+        // Remove the order from the array  
         const deletedOrder = orders.splice(orderIndex, 1);  
 
-        // Step 4: Write the updated orders back to the file  
+        // Write the updated orders back to the file  
         await fs.writeFile(ordersFilePath, JSON.stringify(orders, null, 2));  
 
         console.log("Order deleted successfully:", deletedOrder);  
@@ -184,7 +173,10 @@ router.put("/:title/:readerName", async (req, res) => {
             console.warn("Orders file was empty or invalid.");  
         }  
 
-        const orderIndex = orders.findIndex(o => o.title.toLowerCase() === title.toLowerCase() && o.readerName.toLowerCase() === readerName.toLowerCase());  
+        const orderIndex = orders.findIndex(o =>   
+            o.title.toLowerCase() === title.toLowerCase() &&   
+            o.readerName.toLowerCase() === readerName.toLowerCase()  
+        );  
 
         if (orderIndex === -1) {  
             return res.status(404).json({ message: "Order not found" });  
