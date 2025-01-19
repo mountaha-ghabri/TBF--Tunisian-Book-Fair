@@ -1,0 +1,3002 @@
+<!DOCTYPE html><html lang="fr-FR" dir="ltr" xmlns="http://www.w3.org/1999/xhtml"><head><link rel="shortcut icon" type="image/x-icon" href="favicon-std.ico"><link rel="icon" type="image/x-icon" href="favicon-std.ico"><link rel="apple-touch-icon" href="images/apple-touch-icon.png"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="DC.Language" content="fr-FR"><title>Khaldouniya Numérique - Recherche</title><meta name="description" content=""><meta name="keywords" content=";"><meta name="robots" content="noindex, follow"><meta name="og:locale" property="og:locale" content="fr_FR"><meta name="og:type" property="og:type" content="article"><meta name="og:title" property="og:title" content=""><meta name="og:url" property="og:url" content="?_lg=fr-FR"><meta name="description" content=""><meta name="og:description" property="og:description" content=""><meta name="twitter:title" content=""><meta name="twitter:url" content=""><meta name="twitter:description" content=""><script>
+      master = window.master || { };
+      window.addEventListener("DOMContentLoaded", function () {
+        master.DOMContentLoaded = true; // readyState n'est pas fiable, notamment readyState "interactive"
+      });
+      master.onDOMContentLoaded = function (callback) {
+        if (master.DOMContentLoaded) {
+          callback();
+        } else {
+          window.addEventListener("DOMContentLoaded", function () {
+            callback();
+          });
+        }
+      };
+    </script><script>
+      master.onDOMContentLoaded(function () {
+        master.lazyLoadInstance = new LazyLoad({
+          elements_selector: '.lazy',
+          callback_loaded: function (el) {
+            var event;
+            var eventString = 'LazyLoad::Loaded';
+
+            try {
+              // !IE
+              event = new CustomEvent(eventString, {});
+            } catch (err) {
+              // IE
+              event = document.createEvent('CustomEvent');
+              event.initCustomEvent(eventString, false, false, {});
+            }
+
+            el.dispatchEvent(event);
+          },
+          callback_finish: function () {
+            master.lazyLoadFinished = true;
+            var event;
+            var eventString = 'LazyLoad::Finished';
+
+            try {
+              // !IE
+              event = new CustomEvent(eventString, {});
+            } catch (err) {
+              // IE
+              event = document.createEvent('CustomEvent');
+              event.initCustomEvent(eventString, false, false, {});
+            }
+
+            window.dispatchEvent(event);
+          }
+        });
+      });
+    </script><base target="_top"><meta name="HandheldFriendly" content="True"><meta name="MobileOptimized" content="320"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"><!--Syracuse Front Javascript Libraries--><script type="text/javascript">
+      
+      //<![CDATA[
+      
+        var CFInstance = 'BNT'; //Backward compatibility
+        var ErmesManager = window.ErmesManager || {};
+        ErmesManager.BasePath = '/KHNU/';
+        ErmesManager.BaseUrl = 'https://www.bibliotheque.nat.tn/KHNU/';
+        ErmesManager.ErmesJgrowlParams = '';
+        ErmesManager.WsQueryString = '';
+        ErmesManager.ResetPasswordAllowed = 'false';
+        ErmesManager.BaseUri = 'https://www.bibliotheque.nat.tn';
+        
+      
+        ErmesManager.config = {};
+        ErmesManager.config.LegacyHoldingMode=false;
+        ErmesManager.config.CloudServicesBaseUrl='https://syracuse.archimed.fr/EXPLOITATION/';
+        ErmesManager.config.HoldingActions={NoteEnabled:false};
+        ErmesManager.config.RegistrationRenewalAllowed = false;
+        ErmesManager.config.IlsChooseReservationPlaceEnabled = true;
+        ErmesManager.config.HeaderFixedMode = false;
+        ErmesManager.config.CasAuthenticationEnabled = false;
+        ErmesManager.config.CasAuthenticationProvider = '';
+        ErmesManager.config.ResetPasswordAllowed = false;
+        ErmesManager.config.RegistrationAllowed = true;
+        ErmesManager.config.ResetPasswordPage = 'https://www.bibliotheque.nat.tn/KHNU/resetpassword.aspx';
+        ErmesManager.config.RegistrationPage = 'https://www.bibliotheque.nat.tn/KHNU/register.aspx';
+        ErmesManager.config.UsePopupForAuthentication = true;
+        ErmesManager.config.AuthenticationAlertsCount = '0';
+		    ErmesManager.config.AuthenticationManyAlertsMessage = '(0 alertes)';
+		    ErmesManager.config.AuthenticationSingleAlertsMessage = '(1 alerte)';
+        ErmesManager.config.RememberMe = true;
+        ErmesManager.config.IsFormAuthenticationProvider = true;
+        ErmesManager.config.EnableHoldingsAnonymousBookingMessage = 'true' === 'true';
+        ErmesManager.config.EnableHoldingPlacesTopLevelFilter = 'false' === 'true';
+        ErmesManager.config.EnableHoldingsSubscriptionCollapsed = false;
+        ErmesManager.config.EnableHoldingsSubscriptionAlwaysShow = false;
+				ErmesManager.config.AuthenticationFormBackgroundImageUrl = '';
+        ErmesManager.config.AuthenticationFormIsFirstPosition = 'true' === 'true';
+        ErmesManager.config.AuthenticationFormDialogWidth = 650;
+        ErmesManager.config.AuthenticationIdentityBindingEnabled = false;
+        ErmesManager.config.AuthenticationIdentityBindingAllowedModes = [
+          
+      
+        ];
+        ErmesManager.config.AuthenticationFormModeButtonWidth = 216;
+        
+        ErmesManager.config.SearchAssistantPreselectMode = 'false' === 'true';
+        ErmesManager.COOKIES_FORM = 'ErmesForms_KHNU';
+        ErmesManager.COOKIES_SEARCH = 'ErmesSearch_KHNU';
+        ErmesManager.isAuthenticate = false;
+        ErmesManager.deactivateDetailedView=true;
+
+        ErmesManager.userInfos = {};
+        ErmesManager.userInfos.UniqueIdentifier = 'BUILTIN-ANONYMOUS';
+        ErmesManager.userInfos.SubscriptionExpirationMessage = '';
+        ErmesManager.userInfos.UserAlertsMessages = '';
+        ErmesManager.userInfos.PartnerSiteOfIntervention = '';
+        ErmesManager.userInfos.HasPseudo = 'false';
+        ErmesManager.userInfos.UserNameOrPseudo = 'Utilisateur anonyme';
+        
+        ErmesManager.rights = {};
+        ErmesManager.rights.MemorizeSearch = false;
+        ErmesManager.rights.Portal_1005 = false;
+        ErmesManager.rights.Portal_1201 = false;
+        ErmesManager.rights.Portal_2503 = false;
+        ErmesManager.rights.Portal_2504 = false;
+        ErmesManager.rights.Portal_3053 = false;
+
+        ErmesManager.labels = {
+          Portal_DetailHoldingLabel: 'Exemplaires',
+Portal_ResultsReserveDocument: 'Réserver',
+Portal_HoldingActionLoanLabel: 'Réserver',
+Portal_HoldingActionExpoLabel: 'Ouvrir le calendrier',
+Portal_HoldingSite: 'Site',
+Portal_HoldingLocalisation: 'Emplacement',
+Portal_HoldingSection: 'Section',
+Portal_HoldingCote: 'Cote',
+Portal_HoldingType: 'Type',
+Portal_HoldingStatut: 'Statut',
+Portal_HoldingDateBack: 'Date retour',
+Portal_HoldingActionsLabel: 'Actions',
+Portal_HoldingProvisionLabelDisplay: 'Choisissez votre lieu de mise à disposition',
+Portal_ReservationDialogChooseLibraryDefaultSelectionText: '---',
+Portal_HoldingsMobileIsAvailableLabel: 'Disponible à {0}',
+Portal_HoldingsMobileNotAvailableLabel: 'Retour prévu le {0}',
+Portal_HoldingsMobileNotAvailableSiteLabel: 'à {0}',
+Portal_ReservationDialogCancelTitle: 'Fermer la modale de réservation',
+Portal_ReservationDialogTitle: 'Choisissez la bibliothèque',
+Portal_ReservationDialogText: 'Vous souhaitez réserver un exemplaire.',
+Portal_ReservationDialogChooseLibrary: 'Choisissez la bibliothèque :',
+Portal_ReservationDialogChooseLibraryDefaultSelectionText: '---',
+Portal_FormFieldRequiredText: 'Ce champ est obligatoire',
+Portal_ReservationDialogValidText: 'Réserver',
+Portal_ReservationDialogCancelText: 'Annuler',
+Portal_HoldingAddNoteModalTitle: 'Ajout d\'une note de réservation',
+Portal_HoldingAddNoteModalPlaceholder: 'Saisissez ici votre note de réservation optionnelle',
+Portal_HoldingsStatementView: 'Consulter',
+Portal_DetailHoldingsStatementLabel: 'Etats de collection',
+Portal_HoldingsStatementSite: 'Site',
+Portal_HoldingsStatementLocalisation: 'Emplacement',
+Portal_HoldingsStatementSection: 'Section',
+Portal_HoldingsStatementCote: 'Cote',
+Portal_HoldingsStatementWhenStart: 'Début',
+Portal_HoldingsStatementWhenEnd: 'Fin',
+Portal_HoldingsStatementGap: 'Lacunes',
+Portal_HoldingsStatementRange: 'Etendue',
+Portal_HoldingsStatementStartNumber: 'Numéro de début',
+Portal_HoldingsStatementEndNumber: 'Numéro de fin',
+Portal_HoldingsStatementWhenStartAsText: 'Début',
+Portal_HoldingsStatementWhenEndAsText: 'Fin',
+Portal_ReservationDialogSelectText: 'Sélectionner',
+Portal_ReservationSecondDialogChooseLibrary: 'Choisissez la bibliothèque de retrait',
+Portal_ReservationSecondDialogTitle: 'Choisissez la bibliothèque de retrait',
+Portal_ReservationSecondDialogValidText: 'Confirmer la réservation',
+Portal_ReservationSecondDialogValidTitle: 'Confirmer cette réservation',
+Portal_ReservationDialogExcludedLocationText: 'Non réservable',
+Portal_ReservationSecondDialogYourLibraryIs: 'Votre localisation de retrait est : {0}',
+Portal_MyAccountPreferencesHeaderTitle: 'Mes préférences de recherche',
+Portal_MyAccountPreferencesHeaderIntro: 'Vous pouvez configurer les critères s\'appliquant à chacun des contextes de recherche suivants',
+Portal_MyAccountPreferencesItemIntroPreselection: 'Vous avez sélectionné :',
+Portal_MyAccountPreferencesItemIntroNoPreselection: 'Aucun critère sélectionné.',
+Portal_MyAccountPreferencesItemEdit: 'Modifier',
+Portal_CasAuthenticationText: 'Accès interne',
+Portal_ExternalAuthenticationText: 'Accès externe',
+Portal_LogonTitle: 'Connexion',
+Portal_DisabledAccountLogonTitle: 'Échec d\'authentification',
+Portal_LoginText: 'Identifiant',
+Portal_LoginPlaceholderText: 'Identifiant',
+Portal_PasswordText: 'Mot de passe',
+Portal_PasswordPlaceholderText: 'Mot de passe',
+Portal_LogonForgottenPasswordText: 'Mot de passe oublié ?',
+Portal_LogonRegisterMessage: 'Vous n\'avez pas encore de compte ?',
+Portal_LogonRegisterNowText: 'S\'inscrire',
+Portal_ErrorHappened: 'Une erreur est survenue',
+Portal_CaptureCurrentSearch: 'Capturer la recherche',
+Portal_CaptureSearchName: 'Nom',
+Portal_ShareSearchShowMoreOptions: 'Plus de critères',
+Portal_ShareSearchHideMoreOptions: 'Cacher les critères',
+Portal_AdvancedCaptureSearchTitle: 'Partager la recherche',
+Portal_CaptureSearchModifyTitle: 'Modification des arguments',
+Portal_CaptureSearcResultTitle: 'Aperçu',
+Portal_CancelText: 'Annuler',
+Portal_ShareSearchPermalinkCopy: 'Copier l\'URL dans le presse-papier',
+Portal_ShareSearchPermalinkPreview: 'Aperçu de la recherche - Nouvelle fenêtre',
+Portal_CaptureSearchCopyJson: 'Copier la capture dans le presse-papier',
+Portal_ShareSearchPermalinkModalLabel: 'Donner un nom à la recherche puis cliquer sur "Copier l\'URL dans le presse-papier" pour récupérer l\'URL de votre recherche',
+Portal_CaptureClipboardCopyDone: 'La capture a été copiée dans votre presse-papier',
+Portal_UrlClipboardCopyDone: 'Le lien a été copié dans votre presse-papier',
+Portal_CaptureSearchCancelTitle: 'Annuler cette capture de recherche',
+Portal_CaptureNotice: 'Capturer la notice',
+Portal_ShareSearchCancelTitle: 'Annuler ce partage de recherche',
+Portal_SearchPreferencesModalTitle: 'Mémoriser des critères de recherche',
+Portal_SearchPreferencesIntroText: 'Les critères choisis seront appliqués lors de chaque recherche "{0}".',
+Portal_PreselectFacetsCancelTitle: 'Annuler cette modification',
+Portal_PreselectFacetsInfoNoPreferenceNoPreselection: 'Vous n’avez pas encore mémorisé de critères dans votre compte.',
+Portal_MyAccountPreferencesItemSearch: 'Rechercher',
+Portal_CloseModalTitle: 'Fermer cette fenêtre',
+Portal_AnonymousHoldingInfo: 'Pour réserver un exemplaire, il est nécessaire d\'être authentifié. Les réservations dépendent de votre abonnement en cours.',
+Portal_HoldingInSubscription: 'Dans mon abonnement ({0})',
+Portal_HoldingNotInSubscription: 'Hors abonnement ({0})',
+Portal_HoldingBookingTooltipCantRenew: 'Réservation impossible',
+Portal_PersoAuthentificationMyAccountLink: 'Se connecter',
+Portal_RememberMeText: 'Rester connecté',
+Portal_HoldingActionProvisonRequestLabel: 'Demander la consultation',
+Portal_HoldingProvisionTooltipDescription: 'Effectuez une demande de mise à disposition sur cet exemplaire',
+Portal_ProvisionDialogCancelTitle: 'Annuler la demande de consultation',
+Portal_ProvisionDialogTitle: 'Demande de consultation sur place',
+Portal_ProvisionDialogValidText: 'Confirmer la demande',
+Portal_ProvisionDialogCancelText: 'Annuler',
+Portal_ProvisionDialogContentHeaderText: '<div class="alert alert-info" role="alert">\n <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>\n <span class="sr-only"></span>\n <span class="provision-body-header-description">Ce document sera mis à votre disposition pour consultation sur place, aux <span class="provision-body-header-library"> horaires d\'ouverture de la {0}</span></span><p>\n</p></div>',
+Portal_ProvisionDialogContentFooterText: 'Confirmez-vous la demande de consultation de <b>« {0} »</b> ?',
+Portal_DownloadText: 'Télécharger',
+Portal_SearchFormFieldOrIndicator: '- ou -',
+Portal_SearchFormSelectFieldNoResult: 'Aucun résultat pour "{0}"',
+Portal_SearchFormSelectFieldStartTyping: 'Commencez à taper pour rechercher',
+Portal_SearchFormThesaurusFieldLoadingText: 'Chargement...',
+Portal_SearchFormThesaurusFieldNoResultsText: 'Aucun résultat',
+Portal_SearchFormSelectFieldAddNewEntry: 'Si la valeur n\'est pas dans la liste, cliquez ici pour l\'ajouter',
+Portal_SearchFormFieldValidationErrorMessage: 'Ce champ est obligatoire',
+Portal_SearchFormFieldRequiredSelectionErrorMessage: 'Veuillez sélectionner une valeur ou la créer',
+Portal_FormAdvanceSearchTitle: 'Valider votre recherche',
+Portal_FormSearchLabel: 'Rechercher',
+Portal_FormAdvanceClearTitle: 'Effacer vos saisies du formulaire de recherche',
+Portal_FormClearLabel: 'Effacer',
+Portal_SearchFormResetField: 'Supprimer la valeur',
+Portal_ErmesSearchBoxHint: 'Tapez votre recherche',
+Portal_SearchFormHeadingTitle: 'Recherche avancée',
+Portal_SearchFormAddHiddenFieldTitle: 'Ajouter un critère au formulaire de recherche avancée',
+Portal_SearchFormAddHiddenFieldLabel: 'Ajouter un critère',
+Portal_SearchFormAddHiddenFieldModalDescription: 'Le critère sera ajouté au formulaire de recherche',
+Portal_SearchFormFieldDateRangeToLabel: 'au',
+Portal_SearchFormAddHiddenFieldModalTitle: 'Choisissez un critère de recherche',
+Portal_ErmesSearchTitle: 'Recherche',
+Portal_BtnSearchFieldClear: 'Effacer le champ de recherche',
+Portal_BtnSearchFieldSubmit: 'Lancer la recherche sur le scénario {0}',
+Portal_LogonConnectWithAnotherIdentity: 'ou',
+Portal_LogonButtonText: 'Je me connecte',
+Portal_LogonButtonShowForm: 'Formulaire',
+BackText: 'Retour',
+Portal_LogonFilterMode: 'Filtrer',
+Portal_LogonInformationText: 'Pour vous connecter',
+Portal_NewItemFlagDefaultLabel: 'Nouveauté',
+Portal_SerialDialogCancelTitle: 'Fermer la modale des fascicules',
+Portal_SerialDialogClose: 'Fermer',
+Portal_HoldingSerialNumber: 'Numéro/Date de parution',
+Portal_SerialDialogTitle: 'Detail des numéros de fascicule',
+Portal_HoldingSerialLocalisation: 'Localisation',
+Portal_HoldingSerialSection: 'Section',
+Portal_HoldingSerialEx: 'Exemplaire',
+Portal_SerialColumnDisplayTitle: 'Voir les fascicules',
+Portal_SerialColumnButton: 'Voir',
+Portal_SerialColumnButtonLoading: 'Récupération en cours...',
+Portal_HoldingNothingInSubscription: 'Il n\'y a aucun exemplaire disponible pour le moment.',
+Portal_HoldingConsultOnline: 'Consulter en ligne',
+Portal_HoldingBookingTooltipCantConsult: 'Consultation impossible',
+Portal_HoldingBookingTooltipCantConsultDescription: 'Cet ouvrage est déjà en cours de consultation, veuillez réessayer ultérieurement',
+Portal_DetailHoldingsMapControlHomeTooltip: 'Afficher tous les exemplaires',
+Portal_DetailHoldingsMapControlLocationTooltip: 'Afficher ma position actuelle',
+Portal_DetailHoldingsMapControlLocationDeniedTooltip: 'Vote position actuelle n\'est pas disponible',
+Portal_DetailHoldingsMapCurrentLocationMarkerTooltip: 'Votre position actuelle',
+Portal_DetailHoldingsMapOffMapHoldingsLabel: 'Exemplaires hors carte',
+Portal_DetailHoldingsMapLibraryMoreDetails: 'Plus d\'informations...',
+Portal_BiblioMapsLinkLabel: 'BiblioMaps',
+Portal_BiblioMapsHeaderColumnLabel: 'BiblioMaps',
+TermSynonymLabel: '{0} (employé pour {1})',
+TermNeighborLabel: '{0} (associé à {1})',
+TermRedirectionLabel: '{0} (nouveau terme pour {1})',
+TermRedirectionSourceLabel: '{0} (ancien terme pour {1})',
+Portal_ReservationDialogSingleHoldingPlaceText: 'L\'exemplaire sera mis à disposition à la bibliothèque :',
+Portal_ReservationDialogSingleHoldingPlacetitle: 'Confirmez la réservation'
+        };
+
+        ErmesManager.labels.Portal_AuthenticationFormModeButtonSeparatorText = '';
+        ErmesManager.labels.Portal_Authentication_FormHtmlContent = '';
+        ErmesManager.labels.HoldingAddNoteModalPlaceholder = 'Saisissez ici votre note de réservation optionnelle';
+        ErmesManager.labels.HoldingAddNoteModalTitle = 'Ajout d\'une note de réservation';
+        ErmesManager.labels.CloseText = 'Fermer';
+        ErmesManager.labels.ReportThumbnailWrongUrl = 'La ressource Portal|ReportThumbnailWrongUrl n\'est pas définie.';
+        ErmesManager.labels.ReportThumbnailModalTitle = 'Confirmation';
+        ErmesManager.labels.ReportThumbnailModalBody = 'Confirmez-vous le signalement de cette vignette ?<br/><div style="text-align:center;margin:5px"><img src="{0}"/></div>';
+        ErmesManager.labels.ErmesHeaderAccountWip = 'Récupération de votre compte en cours...';
+        ErmesManager.labels.ErrorHappened = 'Une erreur est survenue';
+        ErmesManager.labels.UnexpectedServerResponse = 'Format de réponse inattendu';
+        ErmesManager.labels.GrowlErrorTitle = 'Erreur';
+        ErmesManager.labels.TooltipLoading = 'Chargement en cours...';
+        ErmesManager.labels.CaptureSearchChooseRendering = 'Affichage';
+        ErmesManager.labels.CaptureSearchChooseNumber = 'Nombre de notices à afficher';
+        ErmesManager.labels.CaptureSearchTitle = 'Capturer la recherche';
+        ErmesManager.labels.CommentModalValid = 'Valider';
+        ErmesManager.labels.CommentModalCancel = 'Annuler';
+        ErmesManager.labels.CommentWasSuccessfullyDeleted = 'Le commentaire a bien été supprimé';
+        ErmesManager.labels.NoteWasSuccessfullyDeleted = 'La note a bien été supprimée';
+        ErmesManager.labels.SelectionModalClose = 'Fermer';
+        ErmesManager.labels.ConfirmBoxConfirm = 'Confirmer';
+        ErmesManager.labels.ConfirmBoxCancel = 'Annuler';
+        ErmesManager.labels.PublicSearchFormValid = 'Valider';
+        ErmesManager.labels.PublicSearchFormCancel = 'Annuler';
+        ErmesManager.labels.PrivateSearchFormValid = 'Valider';
+        ErmesManager.labels.PrivateSearchFormCancel = 'Annuler';
+        ErmesManager.labels.ExpositionResaFormValid = 'Réserver';
+        ErmesManager.labels.ExpositionResaFormClose = 'Fermer';
+        ErmesManager.labels.EnrichissementsLoading = 'Chargement en cours, veuillez patienter';
+        ErmesManager.labels.BasketPageTitle = 'Syracuse - Mon panier';
+        ErmesManager.labels.SelectionPageTitle = 'Syracuse - Sélection courante';
+        ErmesManager.labels.ErmesSearchPageTitle = '{0} - Recherche';
+        ErmesManager.labels.ErmesSearchLoadingPageTitle = 'Chargement';
+        ErmesManager.labels.ErmesSearchDetailPageTitle = '{0} - Détail';
+        ErmesManager.labels.TagPageTitle = 'Syracuse - Tag';
+        ErmesManager.labels.HoldingHelpHoldingMultiple = 'Cochez les exemplaires qui vous intéressent. Le premier exemplaire disponible parmi votre sélection sera réservé';
+        ErmesManager.labels.HoldingHelpHoldingPlace = 'Choisissez votre lieu de mise à disposition';
+        ErmesManager.labels.CaptureSearchStandardRendering = 'Miniatures';
+        ErmesManager.labels.CaptureSearchShortRendering = 'Court';
+        ErmesManager.labels.CaptureSearchScrollingRendering = 'Chemin de fer';
+        ErmesManager.labels.ErmesFormTitle = 'Recherche avancée';
+        ErmesManager.labels.CalendarEventTitleSingular = 'événement';
+        ErmesManager.labels.CalendarEventTitlePlural = 'événements';
+        ErmesManager.labels.ValidateEventSubscription = 'Confirmer l\'inscription';
+        ErmesManager.labels.CancelText = 'Annuler';
+        ErmesManager.labels.BackText = 'Retour';
+        ErmesManager.labels.AgendaCalendarHelpTooltip = 'Sélectionnez une plage de dates pour affiner votre recherche';
+        ErmesManager.labels.ExportLinkFold = 'Exporter, masqué';
+        ErmesManager.labels.ExportLinkUnFold = 'Exporter, affiché';
+        ErmesManager.labels.AddNewTagNotice = 'Ajouter ce nouveau tag';
+        ErmesManager.labels.AddNewTagName = 'Nom du nouveau tag à ajouter sur';
+        ErmesManager.labels.ErrorAuthenticateInput = 'à vérifier';
+        ErmesManager.labels.PasswordLostAuthenticate = 'Mot de passe oublié';
+        ErmesManager.labels.ErrorAuthenticatePage = 'Erreur lors de l\'identification';
+        ErmesManager.labels.SurveyMessageConfirmVote = 'Merci d\'avoir voté';
+        ErmesManager.labels.SurveyVotedAlready = 'Vous avez déjà voté';
+        ErmesManager.labels.RoyalSliderStatePause = 'Mettre le carrousel en lecture.';
+        ErmesManager.labels.RoyalSliderStatePlay = 'Mettre le carrousel en pause.';
+        ErmesManager.labels.SearchQueryAllDocument = 'Tous les documents';
+        ErmesManager.labels.DefaultDropdownItemSelectedFormat = '{0}, sélectionné';
+        ErmesManager.labels.JGrowlCloserMessage = 'Fermer tous les messages';
+        ErmesManager.labels.RoyalSliderLabels_ArrowRight = 'Contenu suivant';
+        ErmesManager.labels.RoyalSliderLabels_ArrowLeft = 'Contenu précédent';
+        ErmesManager.labels.RoyalSliderLabels_FullScreen = 'Passer le slider en plein écran';
+        ErmesManager.labels.RoyalSliderLabels_PlayVideo = 'Lancer la vidéo';
+        ErmesManager.labels.RoyalSliderLabels_NavSelected = ', sélectionné';
+        ErmesManager.labels.FacetCollectionDisplayed = ', affiché';
+        ErmesManager.labels.FacetCollectionCollapsed = ', masqué';
+        ErmesManager.labels.ErrorModalFieldRequiredAccessibility = 'Vous avez omis ce champ obligatoire.';
+        ErmesManager.labels.RoyalSliderBulletContentNotSelected = 'Afficher le contenu {0}';
+        ErmesManager.labels.RoyalSliderBulletContentSelected = 'Contenu {0} - affiché';
+        ErmesManager.labels.RssFeedLinkTitle = 'Obtenir le flux RSS, nouvelle fenêtre';
+        ErmesManager.labels.CnilBannerContent = 'En poursuivant votre navigation sur ce site, vous acceptez l’utilisation de cookies par nos services ainsi que des services tiers de mesure d\'audience.<br/><a href="/KHNU/charte-cookies.aspx">Pour en savoir plus et paramétrer les cookies...</a>';
+        ErmesManager.labels.SuggestionSearch = 'Recherche par suggestion';
+        ErmesManager.labels.SdiMemorySearchSubscribeNewsLettersSuccess = 'Vous êtes maintenant abonné à cette lettre d’information';
+        ErmesManager.labels.SdiMemorySearchSubscribeSuccess = 'Vous êtes maintenant abonné à cette recherche';
+        ErmesManager.labels.DetailHoldingsVerify = 'Vérification des exemplaires disponibles ...';
+        ErmesManager.labels.RenewLoanSuccess = 'Prolongation réussie.';
+        ErmesManager.labels.RenewLoanErrorNotSpecified = 'Erreur non spécifiée.';
+        ErmesManager.labels.CancelReservationSuccess = 'Annulation réussie.';
+        ErmesManager.labels.CancelReservationErrorNotSpecified = 'Erreur non spécifiée.';
+        ErmesManager.labels.ContributionFormSending = 'Envoi en cours...';
+        ErmesManager.labels.ContributionFormSuccess = 'Votre contribution a bien été prise en compte.';
+        ErmesManager.labels.GetErrorHolding = 'Erreur lors de la récuperation de l\'exemplaire';
+        ErmesManager.labels.GetNotAvaibleHolding = 'Indisponible';
+        ErmesManager.labels.ConfirmDialogBasketTitle = 'Vider tout le panier';
+        ErmesManager.labels.ConfirmDialogBasketText = 'Confirmez-vous la suppression de tous les documents de votre panier ? Cette action sera irréversible.';
+        ErmesManager.labels.ConfirmDialogBasketTextByFilter = 'Confirmez-vous la suppression de tous les documents du dossier sélectionné ? Cette action sera irréversible.';
+        ErmesManager.labels.PnbConfirmBoxTitle = 'La ressource Portal|PnbConfirmBoxTitle n\'est pas définie.';
+        ErmesManager.labels.PnbConfirmBoxMessage = 'La ressource Portal|PnbConfirmBoxMessage n\'est pas définie.';
+        ErmesManager.labels.searchLabelDefault = 'Recherche du document';
+        ErmesManager.labels.RecongnitionLabelInput = 'Reconnaissance vocal...';
+        ErmesManager.labels.StartSearch = 'Lancer la recherche sur le scénario {0}';
+        ErmesManager.labels.MyAccountAddToBasketNothingSelected = 'Veuillez sélectionner au moins un document.';
+        ErmesManager.labels.Portal_CancelReservationNoReservationSelected = 'Veuillez sélectionner au moins un document.';
+        ErmesManager.labels.Portal_CancelReservationConfirmTitle = 'Confirmer cette annulation';
+        ErmesManager.labels.Portal_CancelReservationCancelTitle = 'Annuler cette annulation';
+        ErmesManager.labels.Portal_PreselectFacetsInfoNoPreference = 'Mémoriser les critères dans votre compte.';
+        ErmesManager.labels.Portal_PreselectFacetsInfoPreferenceEqualsPreselection = 'Les critères sont mémorisés dans votre compte.';
+        ErmesManager.labels.Portal_PreselectFacetsInfoPreferenceIsNotPreselection = 'Les critères sont différents de ceux mémorisés dans votre compte.';
+        ErmesManager.labels.Portal_PreselectFacetsInfoPreferenceRestoreSuccess = 'Les critères ont été restaurés.';
+        ErmesManager.labels.Portal_PreselectFacetsInfoPreferenceSaveSuccess = 'Les critères ont été mémorisés.';
+        ErmesManager.labels.Portal_PreselectFacetsInfoPreferenceSaveTooltip = 'Mémoriser les critères de recherche dans votre compte.';
+        ErmesManager.labels.Portal_PreselectFacetsInfoPreferenceValidateTooltip = 'Confirmer les critères sélectionnés.';
+        ErmesManager.labels.Portal_PreselectFacetsInfoPreferenceRestoreTooltip = 'Restaurer les critères de recherche mémorisés dans votre compte.';
+        ErmesManager.labels.Portal_PreselectFacetsResetButton = 'Tout effacer';
+        ErmesManager.labels.Portal_PreselectFacetsValidateButton = 'Confirmer';
+        ErmesManager.labels.Portal_PreselectFacetsSaveButton = 'Mémoriser';
+        ErmesManager.labels.Portal_PreselectFacetsCancelButton = 'Annuler';
+        ErmesManager.labels.Portal_PreselectFacetsModalTitle = 'Pré-sélectionner des critères de recherche';
+        ErmesManager.labels.Portal_PreselectFacetsIntroText = 'Les critères choisis seront appliqués le temps de la session à chaque recherche "{0}".';
+        ErmesManager.labels.Portal_PreselectFacetsSelectedInfo = 'Vous avez sélectionné :';
+        ErmesManager.labels.Portal_PreselectFacetsSelectedInfoEmpty = 'Aucun critère sélectionné.';
+        ErmesManager.labels.Portal_PreselectFacetsRestoreButton = 'Restaurer';
+        ErmesManager.labels.Portal_FacetCollectionCollapsed = ', masqué';
+        ErmesManager.labels.Portal_FacetCollectionDisplayed = ', affiché';
+        ErmesManager.labels.Portal_SearchHistoryTableDateHeader = 'Quand';
+        ErmesManager.labels.Portal_SearchHistoryTableScenarioHeader = 'Où';
+        ErmesManager.labels.Portal_SearchHistoryTableSearchHeader = 'Recherche';
+        ErmesManager.labels.Portal_SearchHistoryTableFiltersHeader = 'Filtres';
+        ErmesManager.labels.Portal_SearchHistoryTableCountHeader = 'Résultats';
+        ErmesManager.labels.Portal_SearchHistoryTableActionHeader = 'Actions';
+        ErmesManager.labels.Portal_SearchHistoryModalTitle = 'Historique de vos recherches';
+        ErmesManager.labels.Portal_SearchHistoryCancelButton = 'Fermer';
+        ErmesManager.labels.Portal_SearchHistoryItemSearchAction = 'Lancer la recherche';
+        ErmesManager.labels.Portal_SearchHistoryItemMemorizeAction = 'Mémoriser dans son compte';
+        ErmesManager.labels.Portal_SearchHistoryItemRemoveAction = 'Supprimer';
+        ErmesManager.labels.Portal_RawRecordClipboardCopyButton = 'Copier ce document dans le presse-papier';
+        ErmesManager.labels.Portal_RawRecordClipboardCopyDone = 'Le document a été copié dans votre presse-papier';
+        ErmesManager.labels.Portal_RawRecordPopupTitle = 'Document xml natif';
+        ErmesManager.labels.Portal_ExpositionResaWindowLabel = 'Réserver une exposition';
+        ErmesManager.labels.Portal_ExpositionResaBookingTypeHolding = 'Réservation';
+        ErmesManager.labels.Portal_ExpositionResaBookingTypeHoldingRequest = 'Demande de réservation';
+        ErmesManager.labels.Portal_ExpositionResaBookingTypeLoan = 'Prêt';
+        ErmesManager.labels.Portal_CancelText = 'Annuler';
+        ErmesManager.labels.Portal_BackText = 'Retour';
+        ErmesManager.labels.Portal_ExpositionResaFormValid = 'Réserver';
+        ErmesManager.labels.Portal_ExpositionResaFetchBookings = 'Vérification des réservations concernant cette exposition...';
+        ErmesManager.labels.Portal_ExpositionResaNewRange = 'Votre choix de dates';
+        ErmesManager.labels.Portal_AgendaDatepickerFromDate = 'Du';
+        ErmesManager.labels.Portal_AgendaDatepickerToDatee = 'Au';
+        ErmesManager.labels.Portal_SubscriptionExpirationWarningDescription = 'Pensez à venir à la bibliothèque pour renouveler votre abonnement.';
+        ErmesManager.labels.Portal_SubscriptionExpirationWarningTitle = 'Informations à propos de votre abonnement';
+        ErmesManager.labels.Portal_AccountWarningTitle = 'Informations à propos de votre compte';
+        ErmesManager.labels.Portal_AuthenticationAlertRenewRegistrationBtnText = 'Renouveler mon inscription';
+        ErmesManager.labels.Portal_AuthenticationAlertVirtualPurseBtnText = 'Régulariser ma situation';      
+        ErmesManager.labels.Portal_ShowExpirationWarningCancelTitle = 'Fermer cette alerte';
+        ErmesManager.labels.Portal_ProvisionDialogCancelTitle = 'Annuler la demande de consultation';
+        ErmesManager.labels.Portal_ProvisionDialogTitle = 'Demande de consultation sur place';
+        ErmesManager.labels.Portal_ProvisionDialogValidText = 'Confirmer la demande';
+        ErmesManager.labels.Portal_ProvisionDialogCancelText = 'Annuler';
+        ErmesManager.labels.Portal_ProvisionDialogContentHeaderText = '<div class="alert alert-info" role="alert">\n <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>\n <span class="sr-only"></span>\n <span class="provision-body-header-description">Ce document sera mis à votre disposition pour consultation sur place, aux <span class="provision-body-header-library"> horaires d\'ouverture de la {0}</span></span><p>\n</p></div>';
+        ErmesManager.labels.Portal_ProvisionDialogContentFooterText = 'Confirmez-vous la demande de consultation de <b>« {0} »</b> ?';
+        ErmesManager.labels.Portal_ExpositionBookingCalendarLabel = 'Calendrier de réservation';
+        ErmesManager.labels.Portal_ExpositionBookingTransportModeLabel = 'Mode de transport';
+        ErmesManager.labels.Portal_ExpositionBookingGoTransportModeLabel = 'Aller';
+        ErmesManager.labels.Portal_ExpositionBookingReturnTransportModeLabel = 'Retour';
+        ErmesManager.labels.Portal_ExpositionBookingSummupLabel = 'Demande de réservation pour la période du';
+        ErmesManager.labels.Portal_ExpositionBookingSummupSeparatorLabel = 'au';
+        ErmesManager.labels.Portal_HoldingsInformationMessage = '';
+        ErmesManager.labels.Portal_ILSClientReservation = 'Réservation';
+		    ErmesManager.labels.Portal_ReservationMapSiteChoice = 'Choisissez la bibliothèque auprès de laquelle vous souhaitez réserver le document';
+		    ErmesManager.labels.Portal_DetailHoldingsMapLabel = 'Localisation des exemplaires';
+		    ErmesManager.labels.Portal_DetailHoldingsMapCountLabel = '{0} exemplaires';
+		    ErmesManager.labels.Portal_DetailHoldingsMapCountLabelSingular = '1 exemplaire';
+		    ErmesManager.labels.Portal_DetailHoldingsMapNoHondlingOnMap = 'Aucun exemplaire dans cette zone géographique...';
+        
+      
+      //]]></script><script>
+      
+      window.ErmesManager = window.ErmesManager || {};
+      
+    </script><script type="text/javascript" src="js/portal-front-all.js" defer="defer"> </script><script type="text/javascript" src="js/ComponentFactory.js" defer="defer"> </script><link rel="stylesheet" type="text/css" href="css/portal-front-all.css"><script type="text/javascript" src="dropzone-locale-fr-FR.ashx" defer="defer"> </script><script type="text/javascript">
+      
+        window.addEventListener("DOMContentLoaded", function () {
+          moment.lang('fr'); 
+        });
+      
+    </script><!--XmlForms JavaScript libraries--><script type="text/javascript">
+        window.addEventListener("DOMContentLoaded", function () {
+      
+      
+        formManager.debug = false;
+        formManager.inputKey = '';
+        formManager.savingText = 'Enregistrement en cours...';
+        formManager.loadingText = 'Chargement en cours...';
+        formManager.invalidText = 'Ce champ est invalide';
+        formManager.requiredText = 'Ce champ est obligatoire';
+        formManager.lengthText = 'La longueur de ce champ doit être de {0} caractère(s)';
+        formManager.minLengthText = 'La longueur minimum de ce champ est de {0} caractère(s)';
+        formManager.maxLengthText = 'La longueur maximum de ce champ est de {0} caractère(s)';
+        formManager.minValueText = 'La valeur minimum de ce champ doit être de {0}';
+        formManager.maxValueText = 'La valeur maximum de ce champ doit être de {0}';
+        formManager.passwordText = 'Les mots de passe sont différents';
+        formManager.invalidDateText = 'La date n\'est pas valide';
+        formManager.requiredCheckboxText = 'Veuillez cocher cette case si vous souhaitez continuer';
+        formManager.requiredCheckboxGroupText = 'Veuillez cocher au moins l\'une de ces cases';
+        formManager.requiredRadioGroupText = 'Veuillez sélectionner l\'une de ces options';
+        formManager.downloadText = 'Télécharger';
+      
+      
+        });
+      </script><script defer="defer" type="text/javascript" src="js/password-eye.min.js"> </script><link rel="preload" href="/ui/skins/default/fonts/glyphicons.woff?v=22.2.8237.0" as="font" type="font/woff" crossorigin="anonymous"><link rel="stylesheet" type="text/css" href="css/base_1.css"><link rel="stylesheet" type="text/css" href="css/master.css"><link rel="stylesheet" type="text/css" href="css/base.css"><link rel="stylesheet" type="text/css" href="css/base-min.css"><link rel="stylesheet" type="text/css" href="css/numerique.css"><link rel="preload" href="/ui/plug-in/bootstrap/resources/fonts/glyphicons-halflings-regular.woff?v=22.2.8237.0" as="font" type="font/woff" crossorigin="anonymous"><link rel="preload" href="/ui/skins/standard/portal/front/ressources/font/ermes-font-update.woff2?v=22.2.8237.0" as="font" type="font/woff2" crossorigin="anonymous"></head><body dir="ltr" class=" cf-rtm ">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script type="text/javascript" src="js/accessibility.min.js" defer="defer"> </script>
+  
+  
+  
+  
+  
+  <script type="text/javascript">
+              /*<![CDATA[*/
+              
+        master = window.master || { };
+        master.debug = false;
+        master.rtl = false;
+        master.skin = 'BNTKH';
+        master.skinsRootPath = '/ui/skins/';
+        master.pluginsRootPath = '/ui/plug-in/';
+        master.theme = '';
+        master.navigationExperience = 'Modern';
+        master.useForFront = true;
+        master.designMode = '';
+        master.canEditResourceKey = false;
+        master.applicationName = '';
+        master.applicationAlias = '';
+        master.scopeId = 13;
+        master.scopeName = 'KHNU';
+        master.scopeType = 2;
+        master.scopeTypeName = 'Library';
+        master.scopeTypeLabel = 'Bibliothèque';
+        master.scopeDescription = 'Khaldouniya Numérique';
+        master.scopeAlias = 'KHNU';
+        master.scopeChildCount = 0;
+        master.pageTitle = 'Recherche';
+        master.pageFullName = 'Archimed.SearchServices.Web.UI.Ermes.Front.Search';
+        master.currentCulture = 'fr-FR';
+        master.currentCultureId = 1036;
+        master.currentParentCultureId = 12;
+        master.changeCultureAllowed = true;
+        master.isPopup = false;
+        master.instanceName = 'BNT';
+        master.userDisplayName = 'Utilisateur anonyme';
+        master.isSuperAdministrator = false;        
+        master.instanceUrl = 'https://www.bibliotheque.nat.tn/';
+        master.instanceBackOfficeBaseUrl = 'https://www.bibliotheque.nat.tn/pro/';
+        master.instanceFrontOfficeBaseUrl = 'https://www.bibliotheque.nat.tn/';
+        master.instanceBasePath = '/';
+        master.instanceBackOfficeBasePath = '/pro/';
+        master.instanceFrontOfficeBasePath = '/';
+        master.instanceWebDirectory = '/';
+        master.isBackOffice = false;
+        master.backOfficeWebDirectory = 'pro';
+        master.baseUrl = 'https://www.bibliotheque.nat.tn/pro/khnu/';
+        master.backOfficeBasePath = '/pro/khnu/';
+        master.frontOfficeBasePath = '/khnu/';
+        master.backOfficeBaseUrl = 'https://www.bibliotheque.nat.tn/pro/khnu/';
+        master.frontOfficeBaseUrl = 'https://www.bibliotheque.nat.tn/khnu/';
+        master.basePath = '/khnu/';
+        master.homeUrl = 'https://www.bibliotheque.nat.tn/pro/khnu/';
+        master.homePath = '/pro/khnu/';
+        master.disconnectLabel = 'Se déconnecter';
+        master.authenticateLabel = 'Se connecter';
+        master.loadMask = false;
+        master.isAdministrator = false;
+        master.isAnonymous = true;
+        master.isEmptyScopeMember = false;
+        master.globalSiteText = 'Tout le réseau';
+        master.currentSiteName = 'KHNU';
+        master.currentSiteDescription = 'Khaldouniya Numérique';
+        master.changeSiteAllowed = true;
+        master.changeSiteLabel = 'Mon entité d\'intervention';
+        master.getScopesErrorMessage = 'Une erreur est survenue lors de la récupération des entités';
+        master.enterFullscreenText = 'Passer en mode plein écran';
+        master.exitFullscreenText = 'Quitter le mode plein écran';
+        master.saveStateText = 'Sauvegarder la mise en forme des listes';
+        master.saveStateSuccessMessage = 'La mise en forme des listes a été correctement enregistrée.';
+        master.saveStateErrorMessage = 'Une erreur est survenue lors de l\'enregistrement de la mise en forme des listes.';
+        master.restoreStateText = 'Réinitialiser la mise en forme des listes';
+        master.restoreStateConfirmMessage = 'Voulez-vous vraiment réinitialiser la mise en forme des listes ?';
+        master.restoreStateSuccessMessage = 'La mise en forme des listes a été correctement réinitialisée.';
+        master.restoreStateErrorMessage = 'Une erreur est survenue lors de la réinitialisation de la mise en forme des listes.';
+        master.version = '22.2.8237.0';
+        master.cookieDomain = '';
+        master.cookieSecure = true;
+        master.remindMeLaterText = 'Me le rappeler plus tard';
+        master.loadingText = 'Chargement en cours...';
+                
+        master.isSearchPage = false;
+        master.scopeTypes = {
+        
+          'None': 0,
+          0:{
+          name :  'None',
+          label :  'Entité'}
+         , 
+          'Group': 1,
+          1:{
+          name :  'Group',
+          label :  'Groupe'}
+         , 
+          'Library': 2,
+          2:{
+          name :  'Library',
+          label :  'Bibliothèque'}
+         , 
+          'Partner': 3,
+          3:{
+          name :  'Partner',
+          label :  'Partenaire'}
+        
+        }
+        master.scopes = {
+        
+          'Default':{
+          description :  'Default',
+          id :  1,
+          alias :  'Default',
+          disabled :  false
+          }
+         , 
+          'BNT':{
+          description :  'Bibliothèque Nationale de Tunisie',
+          id :  5,
+          alias :  'BNT',
+          disabled :  false
+          }
+         , 
+          'CATG':{
+          description :  'Catalogue Général',
+          id :  9,
+          alias :  'CATG',
+          disabled :  false
+          }
+         , 
+          'KHNU':{
+          description :  'Khaldouniya Numérique',
+          id :  13,
+          alias :  'KHNU',
+          disabled :  false
+          }
+         , 
+          'BNTK':{
+          description :  'BnT Kids',
+          id :  17,
+          alias :  'BNTK',
+          disabled :  false
+          }
+        
+        };
+        master.scopesEnabled = false;
+        master.flattenScopes = false;
+        master.applications = {};
+        master.applications[''] = { name: '', alias: '', description: 'Accueil', modules: [] };
+        
+    master.applications[''].modules.push({id: 4,name: 'Paramètres',description: 'Paramètres',last: false,searchAreas: [],defaultSearchArea: ''});
+  
+    master.applications[''].modules.push({id: 2,name: 'Accueil',description: 'Accueil',last: false,searchAreas: [],defaultSearchArea: ''});
+  
+    master.applications[''].modules.push({id: 19,name: 'Réseau',description: 'Administration du réseau',last: true,searchAreas: [],defaultSearchArea: ''});
+  
+        master.cloudServices = {
+        syracuse: {
+        authority: 'https://syracuse.archimed.fr'
+        }
+        }
+        
+        
+        
+        master.cookiesConsent = JSON.parse('{"AnalyticsTracking":{"GoogleAnalyticsEnabled":null},"ThirdPartyProviders":{"Enrichments":true}}');
+      
+              /*]]>*/</script>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script type="text/javascript">
+              /*<![CDATA[*/
+              
+                
+                  master.onDOMContentLoaded(function () {
+                  
+              
+      ErmesGUI.callback.GlobalActionDetailHidden = 'Détail de la sélection courante, masqués';
+      ErmesGUI.callback.GlobalActionDetailVisible = 'Détail de la sélection courante, affichés ci-dessous';
+      ErmesGUI.callback.GlobalCurrentSelectionLabel = 'Ma sélection en cours';
+    
+                });
+              
+              /*]]>*/</script>
+  <script type="text/x-jquery-tmpl" id="selectionTmpl">
+
+      
+      {{if item.length > 0}}  
+        <div id="panel-selection-detail" class="global_content sel_reduced">
+          <div class="panel panel-selection">
+            <div class="panel-heading">
+              <button type="button" class="bouton_detail btn-link-like pull-right" href="#" title="Détail de la sélection courante, masqués"><i class="fas fa-expand"></i>${item.length}</button>
+              <h2>
+                <span class="selection_label ermes-label">Sélection courante</span>
+              </h2>
+              <div class="clearfix"></div>
+            </div>
+            <div class="panel-body" style="display:none;">
+              <ul>
+                {{each item}}
+                  <li>
+                    <button type="button" data-selectionid="5" class="supp removeItem btn-link-like icon-remove pull-left" title="Supprimer la ressource" data-index="${$index}"><span class="sr-only">Supprimer la ressource</span></button>
+                    ${$value.Ttl}
+                  </li>
+                {{/each}}
+              </ul>
+            </div>
+            <div class="panel-footer" style="display:none;">
+              {{if item.length > 0}}
+			  <div>
+      Actions :
+      </div>
+              <ul class="actions">
+                
+      
+                <li>
+                  <a title="Voir la sélection" class="voir icon-eye-open search-icon-container--icon" href="/KHNU/selection.aspx"></a>
+                </li>
+                <li>
+                  <button type="button" title="Vider" class="removeAll supp btn-link-like icon-remove modal-focus search-icon-container--icon"><span class="sr-only">Vider</span></button>
+                </li>
+                  
+      
+      
+                <li>
+                  <button type="button" title="Partager l'URL de la recherche" class="bindToSelectionCaptureSearch glyphicon glyphicon-share-alt modal-focus btn-link-like search-icon-container--icon"><span class="sr-only">Partager l'URL de la recherche</span></button>
+                </li>                  
+                  
+      
+                <li>
+                
+      <div class="btn-group dropdown-direction-switcher" style="position:relative" xmlns="http://www.w3.org/1999/xhtml">
+  <button id="exportsList" data-toggle="dropdown" class="dropdown-toggle btn-link-like modal-focus search-icon-container--icon" title="Exports">
+    <i class="icon-download" />
+    <span class="sr-only">Exports</span>
+  </button>
+  <ul class="dropdown-menu pull-right">
+    <li>
+      <button class="export_link btn-link-like" data-id="13" data-search-type="1">
+        <span class="label-dropdown">Export PDF</span>
+      </button>
+    </li>
+    <li>
+      <button class="export_link btn-link-like" data-id="12" data-search-type="1">
+        <span class="label-dropdown">Export CSV</span>
+      </button>
+    </li>
+    <li>
+      <button class="export_link btn-link-like" data-id="14" data-search-type="1">
+        <span class="label-dropdown">Export HTML</span>
+      </button>
+    </li>
+    <li>
+      <button class="export_link btn-link-like" data-id="15" data-search-type="1">
+        <span class="label-dropdown">Export RIS (Zotero)</span>
+      </button>
+    </li>
+  </ul>
+</div>
+      
+                </li>
+				
+				
+				        <li>
+					        <button title="
+                    Envoyer par mail" class="search-send-results btn-link-like search-icon-container--icon" data-search-type="1">
+						          <i class="far fa-envelope"></i>
+					        </button>
+				        </li>
+				
+				
+				
+              </ul>
+                {{/if}}
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
+      {{/if}}
+      
+    </script>
+  <script type="text/x-jquery-tmpl" id="manageSelectionsTmpl">
+      
+      {{if d.PageCount!=0}}
+        <div class="display-inline">
+          <button type="button" {{if d.Page==0}}disabled="disabled"{{/if}} class="icon-chevron-left bouton selectionPaging {{if d.Page!=0}}previous{{/if}}"/> Page <span class="currentPage">${d.Page+1}</span> sur ${d.PageCount+1} <button type="button" {{if d.Page==d.PageCount}}disabled="disabled"{{/if}} class="icon-chevron-right selectionPaging {{if d.Page!=d.PageCount}}next{{/if}}"/>
+        </div>
+      {{/if}}
+      <div class="overflow:auto" id="selectionsFormList">
+        <table class="table table-striped" role="presentation">
+          {{each d.SelectionItems}}
+            <tr class="selection-state-${$value.Selection.SelStatus}">
+              <td>
+                ${$value.Selection.SelName}
+              </td>
+              <td>
+                <input type="checkbox" data-id="${$value.Selection.SelUid}" {{if $value.State==1}} class="unknown" {{/if}} {{if $value.State!=2}} checked="checked" {{/if}}/>
+              </td>
+            </tr>
+          {{/each}}        
+        </table>
+      </div>
+      
+    </script>
+  <script type="text/javascript">
+              /*<![CDATA[*/
+              
+                
+                  master.onDOMContentLoaded(function () {
+                  
+              
+        $('body').addClass('portal-random-4')
+      
+                });
+              
+              /*]]>*/</script>
+  <script type="text/javascript">
+              /*<![CDATA[*/
+              
+                
+                  master.onDOMContentLoaded(function () {
+                  
+              
+      $('body')
+      .off('click.dropdown-menu touchstart.dropdown.data-api', '.dropdown-menu')
+      .on('click.dropdown-menu touchstart.dropdown.data-api', '.dropdown-menu form', function (e) { e.stopPropagation() })
+    
+                });
+              
+              /*]]>*/</script>
+  <div id="mobile-actions" class="visible-xs">
+    <div class="btn-group hamburger-mobile">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".bs-navbar-collapse" title="Afficher le menu">
+        <span aria-hidden="true" class="icon-bar"></span>
+        <span aria-hidden="true" class="icon-bar"></span>
+        <span aria-hidden="true" class="icon-bar"></span>
+        <span class="ermes-label">
+          <span>Afficher le menu</span>
+        </span>
+      </button>
+    </div>
+    <div class="pull-right btn-group lang-dropdown-mobile">
+      <a href="#" id="dropChangeCulture" class="btn dropdown-toggle" title="Choix de la langue, masqué" data-title-off="Choix de la langue, masqué" data-title-on="Choix de la langue, affiché" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <span class="label-dropdown">FR</span>
+        <span class="caret"></span>
+      </a>
+      <ul class="dropdown-menu js-language-selector" role="menu" aria-labelledby="dropChangeCulture">
+        <li role="presentation" class="active">
+          <a lang="fr" href="/KHNU/search.aspx?SC=KhNCatalogue&QUERY_LABEL=&_lg=fr-FR" role="menuitem" tabindex="-1" data-original-title="fr-FR" data-language="fr-FR">
+            <span class="label-dropdown">FR</span>
+          </a>
+        </li>
+        <li role="presentation">
+          <a lang="ar" href="/KHNU/search.aspx?SC=KhNCatalogue&QUERY_LABEL=&_lg=ar-TN" role="menuitem" tabindex="-1" data-original-title="ar-TN" data-language="ar-TN">
+            <span class="label-dropdown">AR</span>
+          </a>
+        </li>
+        <li role="presentation">
+          <a lang="en" href="/KHNU/search.aspx?SC=KhNCatalogue&QUERY_LABEL=&_lg=en-US" role="menuitem" tabindex="-1" data-original-title="en-US" data-language="en-US">
+            <span class="label-dropdown">EN</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div id="share_social_mobile" class="pull-right btn-group social-network social-network-mobile">
+      <a class="btn btn-lg dropdown-toggle btn-account" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <span class="icon-share" aria-hidden="true"> </span>
+      </a>
+      <ul class="dropdown-menu" aria-labelledby="share_social_mobile">
+        <li>
+          <a href="#" data-network="twitter" class="pop twitter" title="Partager sur twitter (Nouvelle fenêtre)">
+            <span class="sr-only">Partager sur twitter (Nouvelle fenêtre)</span>
+            <span class="icon-twitter"> </span>
+          </a>
+        </li>
+        <li>
+          <a href="#" data-network="facebook" class="pop facebook" title="Partager sur facebook (Nouvelle fenêtre)">
+            <span class="sr-only">Partager sur facebook (Nouvelle fenêtre)</span>
+            <span class="icon-facebook"> </span>
+          </a>
+        </li>
+        <li>
+          <a href="#" data-network="tumblr" class="pop tumblr" title="Partager sur tumblr (Nouvelle fenêtre)">
+            <span class="sr-only">Partager sur tumblr (Nouvelle fenêtre)</span>
+            <span class="icon-tumblr"> </span>
+          </a>
+        </li>
+        <li>
+          <a href="#" data-network="pinterest" class="pop pinterest" title="Partager sur pinterest (Nouvelle fenêtre)">
+            <span class="sr-only">Partager sur pinterest (Nouvelle fenêtre)</span>
+            <span class="icon-pinterest"> </span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="btn-group change-site-mobile">
+      <div class="sitebtn-group"></div>
+    </div>
+    <div class="btn-group my-account-mobile">
+      <div class="button-my-account btn-group">
+        <nav class="navbar" aria-labelledby="dropMenu2">
+          <ul class="nav nav-pills">
+            <li role="presentation" class="dropdown">
+              <button title="Afficher la zone d'authentification" id="dropMenu2" data-toggle="dropdown" type="button" aria-haspopup="true" aria-expanded="false" data-title-off="Afficher la zone d'authentification" data-title-on="Masquer la zone d'authentification" class="btn btn-lg btn-account account-form">
+                <span class="hidden-xs">
+                  <i class="icon-lock"></i>
+                  <span class="btn-account-label">Se connecter</span>
+                </span>
+                <span class="visible-xs">
+                  <i aria-hidden="true" class="icon-lock"></i>
+                  <span class="ermes-label">
+                    <span>Se connecter</span>
+                  </span>
+                </span>
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <div id="page" class="search">
+    <header role="banner" id="header_banner" class="hidden-print">
+      <div id="nav_connexe" class="container hidden-xs">
+        <ul class="accessibility-links">
+          <li>
+            <a class="sr-only tablink" href="#ancreMainMenu">
+              <span>Aller au menu</span>
+            </a>
+          </li>
+          <li>
+            <a id="linkToContent" class="sr-only tablink" href="#ancreContenu">
+              <span>Aller au contenu</span>
+            </a>
+          </li>
+          <li>
+            <a id="linkToRecherche" class="sr-only tablink" href="#textfield">
+              <span>Aller à la recherche</span>
+            </a>
+          </li>
+        </ul>
+        <div class="header-banner-menu pull-right">
+          <div class="all-link-connexe">
+            <div class="btn-group connexe-534 link-connexe">
+              <a class="btn btn-default btn-xs" href="https://www.bibliotheque.nat.tn/BNT/">
+                <span>Site Général</span>
+              </a>
+            </div>
+            <div class="btn-group connexe-414 link-connexe">
+              <a class="btn btn-default btn-xs" href="https://www.bibliotheque.nat.tn/CATG/">
+                <span>Catalogue Général</span>
+              </a>
+            </div>
+            <div class="btn-group connexe-415 link-connexe">
+              <a class="btn btn-default btn-xs" href="https://www.bibliotheque.nat.tn/KHNU/">
+                <span>Khaldouniya Numérique</span>
+              </a>
+            </div>
+            <div class="btn-group connexe-416 link-connexe">
+              <a class="btn btn-default btn-xs" href="https://www.bibliotheque.nat.tn/BNTK/">
+                <span>Espace jeunesse</span>
+              </a>
+            </div>
+            <div class="btn-group connexe-727 link-connexe">
+              <a class="btn btn-default btn-xs" href="https://kitab.bnt.nat.tn/" target="_blank">
+                <span>Le Musée du Patrimoine Ecrit</span>
+              </a>
+            </div>
+          </div>
+          <div class="site-btn btn-group"></div> <div class="button-my-account btn-group"><nav class="navbar" aria-labelledby="dropMenu1"><ul class="nav nav-pills"><li role="presentation" class="dropdown"><button title="Afficher la zone d'authentification" id="dropMenu1" data-toggle="dropdown" type="button" aria-haspopup="true" aria-expanded="false" data-title-off="Afficher la zone d'authentification" data-title-on="Masquer la zone d'authentification" class="btn btn-lg btn-account account-form"><span class="hidden-xs"><i class="icon-lock"></i><span class="btn-account-label">Se connecter</span></span><span class="visible-xs"><i aria-hidden="true" class="icon-lock"></i><span class="ermes-label"><span>Se connecter</span></span></span></button></li></ul></nav></div></div>
+        <div class="clearfix"></div>
+      </div>
+      <div class="navbar navbar-inverse">
+        <div class="navbar-container container container-header">
+          <div class="navbar-header-before"></div>
+          <div class="navbar-header">
+            <div class="navbar-brand-before"></div>
+            <a class="navbar-brand" href="/KHNU/accueil-portal.aspx" title=" BNT">
+              <h1>
+                <span>Médiathèque Syracuse</span>
+              </h1>
+            </a>
+            <div class="navbar-brand-after"></div>
+          </div>
+          <div class="navbar-header-after"></div>
+        </div>
+      </div>
+      <div class="connectBox">
+        <form action="logon.aspx" method="post" name="authentification" id="authentification" class="form-inline container">
+          <input type="hidden" id="PAGERETOUR" name="PAGERETOUR" value="/KHNU/accueil-portal.aspx">
+          <div class="form-group col-sm-3 col-md-4 col-lg-4">
+            <label for="carte" class="ermes-label">Votre identifiant</label>
+            <input type="text" name="name" title="Votre identifiant" id="carte" class="champ_texte form-control" placeholder="Votre identifiant" required="required" aria-describedby="logon-error-message">
+            <div class="ie-forever">Votre identifiant</div>
+          </div>
+          <div class="form-group col-sm-3 col-md-4 col-lg-4">
+            <label for="code" class="ermes-label">Votre mot de passe</label>
+            <input type="password" name="pwd" title="Votre mot de passe" id="code" class="champ_texte form-control" placeholder="Votre mot de passe" required="required">
+            <div class="ie-forever">Votre mot de passe</div>
+          </div>
+          <div class="form-group">
+            <button type="submit" name="OK" value="OK" title="Se connecter" class="ok btn btn-validation hidden-xs">
+              <i class="icon-spin animate-spin logon-spinner"></i>
+              <span>OK</span>
+            </button>
+          </div>
+          <div class="form-group">
+            <a href="https://www.bibliotheque.nat.tn/KHNU/~~/register.aspx" class="register_user_link hidden-xs">
+              <span>S'inscrire</span>
+            </a>
+          </div>
+          <div class="visible-xs">
+            <div class="form-group col-xs-6">
+              <button type="submit" name="OK" value="OK" class="ok btn btn-validation btn-block" title="Se connecter">
+                <i class="icon-spin animate-spin logon-spinner"></i>
+                <span>OK</span>
+              </button>
+            </div>
+            <div class="form-group col-xs-6">
+              <a class="register_user_link btn btn-validation btn-block" href="https://www.bibliotheque.nat.tn/KHNU/register.aspx">
+                <span>S'inscrire</span>
+              </a>
+            </div>
+          </div>
+          <div class="chargement_async hidden"> </div>
+          <p class="errorAuth" id="logon-error-message" tabindex="-1"></p>
+        </form>
+      </div>
+      <div id="msgJgrowlAuth"></div>
+      <div id="search-panel" class="panel panel-default" role="search">
+        <div class="container">
+          <div class="panel-body col-md-8">
+            <form role="form" action="/KHNU/search.aspx" id="main_search_form">
+              <div class="row">
+                <div class="input-group si-wrapper">
+                  <div class="input-group-btn" id="group-btn-research">
+                    <a id="scenario-selection" role="button" href="#" class="btn btn-default dropdown-toggle" data-title-on="Choix du scénario, affichés" title="Choix du scénario, masqués" data-title-off="Choix du scénario, masqués" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <span class="hidden-xs">
+                        <span id="scenario-selected-label"></span>
+                        <span class="icon-arrow-bottom" aria-hidden="true"> </span>
+                      </span>
+                      <span class="visible-xs">
+                        <span class="icon-list" aria-hidden="true"></span>
+                        <span class="caret" aria-hidden="true"> </span>
+                      </span>
+                    </a>
+                    <ul id="globalScenarioMobile" class="dropdown-menu" aria-labelledby="scenario-selection" role="menu">
+                      <li role="presentation">
+                        <a data-scenario="KhNCatalogue" href="#" data-original-title="Partout" tabindex="-1" role="menuitem">Partout</a>
+                      </li>
+                      <li role="presentation">
+                        <a data-scenario="Catalogue des monographies" href="#" data-original-title="Catalogue des monographies" tabindex="-1" role="menuitem">Catalogue des monographies</a>
+                      </li>
+                      <li role="presentation">
+                        <a data-scenario="Catalogue des manuscrits" href="#" data-original-title="Catalogue des manuscrits" tabindex="-1" role="menuitem">Catalogue des manuscrits</a>
+                      </li>
+                      <li role="presentation">
+                        <a data-scenario="Catalogue des périodiques" href="#" data-original-title="Catalogue des périodiques" tabindex="-1" role="menuitem">Catalogue des périodiques</a>
+                      </li>
+                      <li role="presentation">
+                        <a data-scenario="Catalogue des images" href="#" data-original-title="Catalogue des images" tabindex="-1" role="menuitem">Catalogue des images</a>
+                      </li>
+                    </ul>
+                    <select id="globalScenario" name="SC" class="hidden" title="Partout">
+                      <option value="KhNCatalogue" data-enableadvancedsearch="true" data-isassisted="false" data-placeholder="">Partout</option>
+                      <option value="Catalogue des monographies" data-enableadvancedsearch="true" data-isassisted="false" data-placeholder="">Catalogue des monographies</option>
+                      <option value="Catalogue des manuscrits" data-enableadvancedsearch="true" data-isassisted="false" data-placeholder="">Catalogue des manuscrits</option>
+                      <option value="Catalogue des périodiques" data-enableadvancedsearch="true" data-isassisted="false" data-placeholder="">Catalogue des périodiques</option>
+                      <option value="Catalogue des images" data-enableadvancedsearch="true" data-isassisted="false" data-placeholder="">Catalogue des images</option> </select>
+                  </div>
+                  <label for="textfield" class="ermes-label">Champ de saisie de la recherche : saisissez les premières lettres de votre recherche et parcourez les propositions avec les flèches de direction</label>
+                  <input type="text" class="ui-autocomplete-input form-control si-input" id="textfield" name="QUERY" value="" placeholder="Tapez votre recherche" autocomplete="off">
+                  <input type="hidden" id="query-label-field" name="QUERY_LABEL" value="">
+                  <div class="input-group-btn ">
+                    <button class="btn clean-text-field" type="button" title="Effacer le champ de recherche">
+                      <span aria-hidden="true" class="icon-remove"> </span>
+                      <span class="ermes-label">Effacer le champ de recherche</span>
+                    </button>
+                    <button id="submit-search" class="btn btn-default" type="submit" title="Lancer la recherche sur le scénario Partout">
+                      <span aria-hidden="true" class="icon-search"> </span>
+                      <span class="ermes-label">Lancer la recherche sur le scénario Partout</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <a href="#" class="pull-right" id="globalAdvancedSearchLink">
+                <span>
+                  <span class="icon-plus" aria-hidden="true"> </span> <span>Recherche avancée</span></span>
+              </a>
+            </form>
+            <nav id="ariane">
+              <span class="texte">
+                <span>Vous êtes ici :</span>
+              </span>
+              <span>
+                <a href="/KHNU/accueil-portal.aspx">
+                  <span>Accueil</span>
+                </a>
+              </span>
+              <span> / </span>
+              <span class="actif">
+                <span>Résultats de la recherche</span>
+              </span>
+              <span class="breadcrumbDetail actif" style="display:none;"> / <span>Détail du document</span></span>
+            </nav>
+          </div>
+          <div id="langue-btn" class="btn-group hidden-xs">
+            <a href="#" id="dropChangeCulture" class="btn dropdown-toggle" title="Choix de la langue, masqué" data-title-off="Choix de la langue, masqué" data-title-on="Choix de la langue, affiché" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <div class="x-flag x-flag-fr-FR pull-left"> </div>
+              <span class="label-dropdown">FR</span>
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu js-language-selector" role="menu" aria-labelledby="dropChangeCulture">
+              <li role="presentation" class="active">
+                <a lang="fr" href="/KHNU/search.aspx?SC=KhNCatalogue&QUERY_LABEL=&_lg=fr-FR" role="menuitem" tabindex="-1" data-original-title="fr-FR" data-language="fr-FR">
+                  <div class="x-flag x-flag-fr-FR pull-left"> </div>
+                  <span class="label-dropdown">Français (France)</span>
+                </a>
+              </li>
+              <li role="presentation">
+                <a lang="ar" href="/KHNU/search.aspx?SC=KhNCatalogue&QUERY_LABEL=&_lg=ar-TN" role="menuitem" tabindex="-1" data-original-title="ar-TN" data-language="ar-TN">
+                  <div class="x-flag x-flag-ar-TN pull-left"> </div>
+                  <span class="label-dropdown">العربية (تونس)</span>
+                </a>
+              </li>
+              <li role="presentation">
+                <a lang="en" href="/KHNU/search.aspx?SC=KhNCatalogue&QUERY_LABEL=&_lg=en-US" role="menuitem" tabindex="-1" data-original-title="en-US" data-language="en-US">
+                  <div class="x-flag x-flag-en-US pull-left"> </div>
+                  <span class="label-dropdown">English (United States)</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <script type="text/javascript">
+              /*<![CDATA[*/
+              
+                
+                  master.onDOMContentLoaded(function () {
+                  
+              
+      ErmesGUI.callback.IsCompactModeActivated = 'default';
+    
+                });
+              
+              /*]]>*/</script>
+      <div id="menu-panel" class="panel panel-layout">
+        <div class="panel-body container">
+          <div class="collapse navbar-collapse bs-navbar-collapse">
+            <a id="ancreMainMenu" href="#"></a>
+            <nav role="navigation">
+              <ul id="ermes_main_menu" class="portal-main-menu nav navbar-nav display-mode-0"> </ul>
+            </nav>
+          </div>
+          <div class="clear"> </div>
+        </div>
+      </div>
+      <script type="application/ld+json">
+      
+      {
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "url": "https://www.bibliotheque.nat.tn/",
+      "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://www.bibliotheque.nat.tn/search.aspx?SC=DEFAULT&QUERY={search_term_string}",
+      "query-input": "required name=search_term_string"
+      }
+      }
+    
+    </script>
+    </header>
+    <script type="text/javascript">
+              /*<![CDATA[*/
+              
+			this.window.mailText = 'Voici un lien qui pourrait vous intéresser :';
+		
+              /*]]>*/</script>
+    <div class="container" id="main-ermes-container">
+      <main role="main">
+        
+        <a id="ancreContenu" href="#"></a>
+        <div id="share_social" class="social-network hidden-xs">
+          <ul>
+            <li>
+              <a href="#" data-network="twitter" class="pop twitter" title="Partager sur twitter (Nouvelle fenêtre)">
+                <span class="sr-only">Partager sur twitter (Nouvelle fenêtre)</span>
+                <span class="icon-twitter"> </span>
+              </a>
+            </li>
+            <li>
+              <a href="#" data-network="facebook" class="pop facebook" title="Partager sur facebook (Nouvelle fenêtre)">
+                <span class="sr-only">Partager sur facebook (Nouvelle fenêtre)</span>
+                <span class="icon-facebook"> </span>
+              </a>
+            </li>
+            <li>
+              <a href="#" data-network="tumblr" class="pop tumblr" title="Partager sur tumblr (Nouvelle fenêtre)">
+                <span class="sr-only">Partager sur tumblr (Nouvelle fenêtre)</span>
+                <span class="icon-tumblr"> </span>
+              </a>
+            </li>
+            <li>
+              <a href="#" data-network="pinterest" class="pop pinterest" title="Partager sur pinterest (Nouvelle fenêtre)">
+                <span class="sr-only">Partager sur pinterest (Nouvelle fenêtre)</span>
+                <span class="icon-pinterest"> </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div id="SearchPortal">
+          <div class="panel panel-primary panel-loading" style="display: none;">
+            <div class="panel-body">
+              <div class="ajax-loader-big icon-spin animate-spin" style="margin: 10px auto"> </div>
+              <h2 data-asw-orgfontsize="18" style="font-size: 18px;">Chargement en cours...</h2>
+            </div>
+          </div>
+          <div class="searchForm" style="display:none;"> </div>
+          <div class="searchContainer" style="opacity: 1;"><div dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<script type="text/javascript">
+            /*<![CDATA[*/
+            
+      window.searchFacetCalendar=[];
+      window.SearchFiltersText = 'Filtres';
+    
+            /*]]>*/</script>
+<div id="resultsContainer" class="row sc-code-DEFAULT">
+  <div id="resultats_recherche" class="col-sm-8 col-md-8 col-sm-push-4 col-md-push-4">
+    <div class="global_content">
+      <a id="ancreSearch" href="#"> </a>
+      <div class="panel panel-front panel-search-container">
+        <div class="btn-group btn-group-justified mobile-navigation visible-xs visible-sm">
+          <a href="#" class="btn precedent" title="La ressource Ermes|ResultsPagingPreviousLabel n'est pas définie." disabled="disabled">
+            <span class="icon-chevron-left" aria-hidden="hidden"> </span>
+          </a>
+          <a class="btn filterAside" title="La ressource Ermes|SearchFacetRefineLabel n'est pas définie." href="#aside">
+            <span class="icon-filter" aria-hidden="true"> </span>
+          </a>
+          <a href="#" class="btn suivant" title="La ressource Ermes|ResultsPagingNextLabel n'est pas définie." disabled="disabled">
+            <span class="icon-chevron-right" aria-hidden="true"> </span>
+          </a>
+        </div>
+        <div class="panel-heading hidden-xs 
+            ">
+          <h2>
+            <span class="resultsListLabel hidden-xs">
+              <span>Résultats de la recherche</span>
+            </span>
+          </h2>
+          <div class="search-icon-container visible-md  visible-lg">
+            <button type="button" id="capture_search" class="modal-focus btn-link-like search-icon-container--icon" title="Partager l'URL de la recherche">
+              <i class="glyphicon glyphicon-share-alt"></i>
+            </button>
+            <button class="open-history-search modal-focus btn-link-like search-icon-container--icon" title="Historique de vos recherches">
+              <i class="icon-history"></i>
+            </button>
+            <div class="btn-group dropdown-direction-switcher" style="position:relative">
+              <button id="exportsList" data-toggle="dropdown" class="dropdown-toggle btn-link-like modal-focus search-icon-container--icon" title="Exports">
+                <i class="icon-download"></i>
+                <span class="sr-only">Exports</span>
+              </button>
+              <ul class="dropdown-menu pull-right">
+                <li>
+                  <button class="export_link btn-link-like" data-id="13">
+                    <span class="label-dropdown">Export PDF</span>
+                  </button>
+                </li>
+                <li>
+                  <button class="export_link btn-link-like" data-id="12">
+                    <span class="label-dropdown">Export CSV</span>
+                  </button>
+                </li>
+                <li>
+                  <button class="export_link btn-link-like" data-id="14">
+                    <span class="label-dropdown">Export HTML</span>
+                  </button>
+                </li>
+                <li>
+                  <button class="export_link btn-link-like" data-id="15">
+                    <span class="label-dropdown">Export RIS (Zotero)</span>
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="panel-body">
+          <div id="criteres_recherche">
+            <p>
+              <span>Ma recherche :</span>
+            </p>
+            <ul>
+              <li class="label-facet">
+                <a href="#" class="btn btn-action btn-xs disabled">
+                  <span>Recherche par rebond</span>
+                </a>
+              </li>
+              <li id="facet_98" class="label-facet">
+                <button type="button" class="btn btn-action btn-xs removeFacetFilter">
+                  <span class="ermes-label">Supprimer le terme الأغاني التونسية de la recherche</span>
+                  <span aria-hidden="true">الأغاني التونسية</span>
+                  <span class="icon-remove" aria-hidden="true"> </span>
+                </button>
+              </li>
+            </ul>
+            <p class="visible-xs visible-sm">
+              <span>Résultats <span>1</span> - <span>2</span> <span class="additional-infos">/ 2</span></span>
+            </p>
+            <div class="clearfix"></div>
+          </div>
+          <div class="navigation">
+            <div class="row hidden-xs hidden-sm navigation-page">
+              <div class="pull-left">
+                <p id="description_resultats">
+                  <span>Résultats <span>1</span> - <span>2</span> <span class="additional-infos">/ 2</span></span>
+                </p>
+              </div>
+              <div class="
+            pagination-container col-md-7 ">
+                <ul class="pagination pagination-sm">
+                  <li class="
+                    disabled
+                  ">
+                    <button title="Page précédente, aucune" class="btn-link-like">
+                      <span class="icon-chevron-left" aria-hidden="true"> </span>
+                      <span class="ermes-label">
+                        <span>Page précédente, aucune</span>
+                      </span>
+                    </button>
+                  </li>
+                  <li class="active">
+                    <span>1</span>
+                  </li>
+                  <li class="
+                    disabled
+                  ">
+                    <button title="Page suivante, aucune" class="btn-link-like">
+                      <span class="icon-chevron-right" aria-hidden="true"> </span>
+                      <span class="ermes-label">
+                        <span>Page suivante, aucune</span>
+                      </span>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+              <div class="taille_page">
+                <label class="ermes-label" for="pageSize-FAA0DF3F3E37AD1F5D7CF24CA11D9281">
+                  <span>Nombre de résultats par page</span>
+                  <span class="sr-only">(Mise à jour immédiate)</span>
+                </label>
+                <div class="searchList-btn btn-group pageSize-container">
+                  <button type="button" id="pageSize-FAA0DF3F3E37AD1F5D7CF24CA11D9281" class="btn btn-xs dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Nombre de résultats par page, masqué" data-title-off="Nombre de résultats par page, masqué" data-title-on="Nombre de résultats par page, affiché">10<span class="icon-arrow-bottom" aria-hidden="true"> </span></button>
+                  <ul class="dropdown-menu" aria-labelledby="pageSize-FAA0DF3F3E37AD1F5D7CF24CA11D9281">
+                    <li>
+                      <a href="#" data-original-title="5">5</a>
+                    </li>
+                    <li>
+                      <a href="#" data-original-title="10" class="active">10</a>
+                    </li>
+                    <li>
+                      <a href="#" data-original-title="25">25</a>
+                    </li>
+                    <li>
+                      <a href="#" data-original-title="50">50</a>
+                    </li>
+                  </ul>
+                </div>
+                <span class="additional-infos">par page</span>
+              </div>
+            </div>
+            <div class="criteres_tri">
+              <label class="ermes-label" for="check-all-F54132FF30135A14A0D439AA8455AF78">
+                <span>Ajoutez toutes les notices à la sélection courante</span>
+                <span class="sr-only">(Mise à jour immédiate)</span>
+              </label>
+              <div class="select-all pull-right hidden-xs">
+                <input type="checkbox" id="check-all-F54132FF30135A14A0D439AA8455AF78" class="check_all">
+              </div>
+              <span class="sort-order site-restriction pull-left">
+                <label class="label-tri pull-left" for="0E74B2C7E5515BC1615486F1C06AA6B4">
+                  <span>Tri :</span>
+                  <span class="sr-only">(Mise à jour immédiate)</span>
+                </label>
+                <div class="searchList-btn btn-group dropdown-direction-switcher">
+                  <button type="button" id="0E74B2C7E5515BC1615486F1C06AA6B4" class="btn btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Choix du tri, masqué" data-title-off="Choix du tri, masqué" data-title-on="Choix du tri, affiché">
+                    <span class="labelSelect sort">
+                      <span>Pertinence</span>
+                    </span>
+                    <span class="icon-arrow-bottom" aria-hidden="true"> </span>
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="0E74B2C7E5515BC1615486F1C06AA6B4">
+                    <li>
+                      <a href="#" data-original-title="Pertinence" data-value="" class="active">
+                        <span>Pertinence</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" role="menuitem" tabindex="-1" data-sort="Asc" data-original-title="Titre : A à Z" data-value="Title_sort">
+                        <span>Titre : A à Z</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" role="menuitem" tabindex="-1" data-sort="Desc" data-original-title="Titre : Z à A" data-value="Title_sort">
+                        <span>Titre : Z à A</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" role="menuitem" tabindex="-1" data-sort="Asc" data-original-title="Auteur : A à Z" data-value="Author_sort">
+                        <span>Auteur : A à Z</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" role="menuitem" tabindex="-1" data-sort="Desc" data-original-title="Auteur : Z à A" data-value="Author_sort">
+                        <span>Auteur : Z à A</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" role="menuitem" tabindex="-1" data-sort="Asc" data-original-title="Année de publication : croissant" data-value="YearOfPublication_int_sort">
+                        <span>Année de publication : croissant</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" role="menuitem" tabindex="-1" data-sort="Desc" data-original-title="Année de publication : décroissant" data-value="YearOfPublication_int_sort">
+                        <span>Année de publication : décroissant</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" role="menuitem" tabindex="-1" data-sort="Asc" data-original-title="Popularité : croissant" data-value="Popularity_sort">
+                        <span>Popularité : croissant</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" role="menuitem" tabindex="-1" data-sort="Desc" data-original-title="Popularité : décroissant" data-value="Popularity_sort">
+                        <span>Popularité : décroissant</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" role="menuitem" tabindex="-1" data-sort="" data-original-title="Aléatoire" data-value="%RANDOM%_random_sort">Aléatoire</a>
+                    </li>
+                    <li>
+                      <a href="#" role="menuitem" tabindex="-1" data-sort="Asc" data-original-title="Tri par numéro : croissant" data-value="VolumeNumber_sort">
+                        <span>Tri par numéro : croissant</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" role="menuitem" tabindex="-1" data-sort="Desc" data-original-title="Tri par numéro : décroissant" data-value="VolumeNumber_sort">
+                        <span>Tri par numéro : décroissant</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </span>
+              <div class="hidden-xs hidden-sm"></div>
+            </div>
+          </div>
+          <div id="resultats">
+            <ul class="notice">
+              <li id="1381" class="search-item on">
+                <span class="numerotation hidden">1</span>
+                <i class="icon-chevron-right chevron-search pull-right visible-xs"></i>
+                <div class="notice_container Livre">
+                  <div class="notice notice_courte row rscId_1404492_SYRACUSE" data-base="SYRACUSE" data-id="1404492" data-url="https://www.bibliotheque.nat.tn/CATG/doc/SYRACUSE/1404492/%D8%A7%D8%BA%D8%A7%D9%86%D9%8A-%D8%A7%D8%AD%D9%85%D8%AF-%D8%AE%D9%8A%D8%B1-%D8%A7%D9%84%D8%AF%D9%8A%D9%86-%D9%85%D9%86-%D8%A7%D9%84%D8%A7%D8%B0%D8%A7%D8%B9%D8%A9-%D9%88%D8%A7%D9%84%D8%AA%D9%84%D9%81%D8%B2%D8%A9-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D9%85%D8%B9%D9%87%D8%AF-%D8%A7%D9%84%D8%B1%D8%B4%D9%8A%D8%AF%D9%8A-%D9%84%D9%84%D9%85%D9%88%D8%B3%D9%8A%D9%82%D9%89-%D8%A7%D9%84%D8%AA%D9%88%D9%86%D8%B3%D9%8A%D8%A9">
+                    <div class="notice_corps media col-sm-9 col-md-10">
+                      <div class="vignette_container">
+                        <div class="vignette_document">
+                          <a href="https://www.bibliotheque.nat.tn/CATG/doc/SYRACUSE/1404492/%D8%A7%D8%BA%D8%A7%D9%86%D9%8A-%D8%A7%D8%AD%D9%85%D8%AF-%D8%AE%D9%8A%D8%B1-%D8%A7%D9%84%D8%AF%D9%8A%D9%86-%D9%85%D9%86-%D8%A7%D9%84%D8%A7%D8%B0%D8%A7%D8%B9%D8%A9-%D9%88%D8%A7%D9%84%D8%AA%D9%84%D9%81%D8%B2%D8%A9-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D9%85%D8%B9%D9%87%D8%AF-%D8%A7%D9%84%D8%B1%D8%B4%D9%8A%D8%AF%D9%8A-%D9%84%D9%84%D9%85%D9%88%D8%B3%D9%8A%D9%82%D9%89-%D8%A7%D9%84%D8%AA%D9%88%D9%86%D8%B3%D9%8A%D8%A9">
+                            <div class="thumbnail-wrapper">
+                              <img style="background-image: none;" data-bgsrc="https://www.bibliotheque.nat.tn/ui/skins/BNTCAT/portal/front/images/General/DocType/MONO_MEDIUM.png" title="Plus d'infos sur 'أغاني أحمد خير الدين من الإذاعة والتلفزة الوطنية والمعهد الرشيدي للموسيقى التونسية'" alt="أغاني أحمد خير الدين من الإذاعة والتلفزة الوطنية والمعهد الرشيدي للموسيقى التونسية | خير الدين, أحمد. 070" data-alt="أغاني أحمد خير الدين من الإذاعة والتلفزة الوطنية والمعهد الرشيدي للموسيقى التونسية | خير الدين, أحمد. 070" onerror="this.onerror=null;this.src=$(this).attr('data-bgsrc');" class="lazy img-thumbnail ermes-thumb ermes-thumb-size-MEDIUM loaded" data-src="https://www.bibliotheque.nat.tn/Ils/digitalCollection/DigitalCollectionThumbnailHandler.ashx?documentId=1921652&amp;size=MEDIUM&amp;fallback=https%3a%2f%2fwww.bibliotheque.nat.tn%2fui%2fskins%2fBNTCAT%2fportal%2ffront%2fimages%2fGeneral%2fDocType%2fMONO_MEDIUM.png" src="https://www.bibliotheque.nat.tn/Ils/digitalCollection/DigitalCollectionThumbnailHandler.ashx?documentId=1921652&amp;size=MEDIUM&amp;fallback=https%3a%2f%2fwww.bibliotheque.nat.tn%2fui%2fskins%2fBNTCAT%2fportal%2ffront%2fimages%2fGeneral%2fDocType%2fMONO_MEDIUM.png" data-was-processed="true">
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="media-body">
+                        <h3 class="title template-title" title="أغاني أحمد خير الدين من الإذاعة والتلفزة الوطنية والمعهد الرشيدي للموسيقى التونسية">أغاني أحمد خير الدين من الإذاعة والتلفزة الوط...</h3>
+<p class="template-info">
+
+   | خير الدين, أحمد. 070     , 1968</p>
+
+<br><b> <div class="desc-list-title"><ul class="desc-list"><li class="desc-list-item">A-8-62736</li><li class="desc-list-item">A-8-62852</li><li class="desc-list-item">A-KA-4192</li><li class="desc-list-item">A-8-93379</li><li class="desc-list-item">A-8-30144</li><li class="desc-list-item">A-8-62708</li><li class="desc-list-item">A-8-97016</li><li class="desc-list-item">A-8-153280</li><li class="desc-list-item">A-8-230917</li></ul></div></b>
+                        <div class="twinKeyTypeDoc">
+                          <span class="selected tw-icon-Physical" title="Disponible au format physique"> </span>
+                        </div>
+                      </div>
+                      <div class="actions">
+                        <a href="https://www.bibliotheque.nat.tn/CATG/doc/SYRACUSE/1404492/%D8%A7%D8%BA%D8%A7%D9%86%D9%8A-%D8%A7%D8%AD%D9%85%D8%AF-%D8%AE%D9%8A%D8%B1-%D8%A7%D9%84%D8%AF%D9%8A%D9%86-%D9%85%D9%86-%D8%A7%D9%84%D8%A7%D8%B0%D8%A7%D8%B9%D8%A9-%D9%88%D8%A7%D9%84%D8%AA%D9%84%D9%81%D8%B2%D8%A9-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D9%85%D8%B9%D9%87%D8%AF-%D8%A7%D9%84%D8%B1%D8%B4%D9%8A%D8%AF%D9%8A-%D9%84%D9%84%D9%85%D9%88%D8%B3%D9%8A%D9%82%D9%89-%D8%A7%D9%84%D8%AA%D9%88%D9%86%D8%B3%D9%8A%D8%A9">
+                          <button type="button" title="Plus d'infos sur 'أغاني أحمد خير الدين من الإذاعة والتلفزة الوطنية والمعهد الرشيدي للموسيقى التونسية'" class="more-info btn btn-sm btn-dark">
+                            <span class="icon-info" aria-hidden="true"> </span>
+                            <span>Plus d'infos</span>
+                          </button>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="notice_metadata col-sm-3 col-md-2 hidden-xs">
+                      <div class="notice-actions">
+                        <ul class="metadata-actions"></ul>
+                      </div>
+                    </div>
+                    <div class="clear"> </div>
+                  </div>
+                  <div class="select hidden-xs">
+                    <label class="ermes-label" for="item-checkbox-1">
+                      <span>Ajoutez 'أغاني أحمد خير الدين من الإذاعة والتلفزة الوطنية والمعهد الرشيدي للموسيقى التونسية' à ma sélection courante</span>
+                      <span class="sr-only">(Mise à jour immédiate)</span>
+                    </label>
+                    <input type="checkbox" id="item-checkbox-1" value="" name="" title="Ajoutez 'أغاني أحمد خير الدين من الإذاعة والتلفزة الوطنية والمعهد الرشيدي للموسيقى التونسية' à ma sélection courante">
+                  </div>
+                  <div class="statut"><div dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<div class="available indicator">
+  <span class="label-holding">9 exemplaires disponibles</span>
+  <a href="#" class="obtain-document-link btn btn-xs hidden-xs modal-focus">
+    <span class="icon-chevron-right"> </span>
+    <span>Plus d'infos sur la disponibilité</span>
+  </a>
+</div>
+</div></div>
+                  <div class="statut-primaryDoc primary-doc-short-link">
+                    <div class="available indicator">
+                      <span class="label-holding">
+                        <span>Consultable en ligne</span>
+                      </span>
+                      <a target="_blank" class="view-document btn btn-xs hidden-xs pull-right primarydoc" href="\\192.168.3.10\numerisation\khaldounia\khmono\A-8-153280.pdf">
+                        <span class="primarydoc-icon icon-chevron-right" aria-hidden="true"> </span>
+                        <span>Consulter le document</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info:sid/ocoins.info:generator&amp;rft.title=%d8%a3%d8%ba%d8%a7%d9%86%d9%8a+%d8%a3%d8%ad%d9%85%d8%af+%d8%ae%d9%8a%d8%b1+%d8%a7%d9%84%d8%af%d9%8a%d9%86+%d9%85%d9%86+%d8%a7%d9%84%d8%a5%d8%b0%d8%a7%d8%b9%d8%a9+%d9%88%d8%a7%d9%84%d8%aa%d9%84%d9%81%d8%b2%d8%a9+%d8%a7%d9%84%d9%88%d8%b7%d9%86%d9%8a%d8%a9+%d9%88%d8%a7%d9%84%d9%85%d8%b9%d9%87%d8%af+%d8%a7%d9%84%d8%b1%d8%b4%d9%8a%d8%af%d9%8a+%d9%84%d9%84%d9%85%d9%88%d8%b3%d9%8a%d9%82%d9%89+%d8%a7%d9%84%d8%aa%d9%88%d9%86%d8%b3%d9%8a%d8%a9&amp;rft.au=خير الدين, أحمد&amp;rft.subject=%d8%a7%d9%84%d8%a3%d8%ba%d8%a7%d9%86%d9%8a+%d8%a7%d9%84%d8%aa%d9%88%d9%86%d8%b3%d9%8a%d8%a9&amp;rft.date=1968&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:dc&amp;rft.type=book&amp;rft.identifier=https://www.bibliotheque.nat.tn/CATG/doc/SYRACUSE/1404492/%D8%A7%D8%BA%D8%A7%D9%86%D9%8A-%D8%A7%D8%AD%D9%85%D8%AF-%D8%AE%D9%8A%D8%B1-%D8%A7%D9%84%D8%AF%D9%8A%D9%86-%D9%85%D9%86-%D8%A7%D9%84%D8%A7%D8%B0%D8%A7%D8%B9%D8%A9-%D9%88%D8%A7%D9%84%D8%AA%D9%84%D9%81%D8%B2%D8%A9-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D9%85%D8%B9%D9%87%D8%AF-%D8%A7%D9%84%D8%B1%D8%B4%D9%8A%D8%AF%D9%8A-%D9%84%D9%84%D9%85%D9%88%D8%B3%D9%8A%D9%82%D9%89-%D8%A7%D9%84%D8%AA%D9%88%D9%86%D8%B3%D9%8A%D8%A9&amp;rft.isbn=&amp;rft.issn=&amp;rft.publisher=الدار التونسية للنشر. تونس&amp;rft.description=&amp;rft.tpages=160+%3b+24+%d8%b3%d9%85&amp;rft.language=.&amp;rft.format=text"></span>
+              </li>
+              <li id="6352" class="search-item">
+                <span class="numerotation hidden">2</span>
+                <i class="icon-chevron-right chevron-search pull-right visible-xs"></i>
+                <div class="notice_container Livre">
+                  <div class="notice notice_courte row rscId_301096_SYRACUSE" data-base="SYRACUSE" data-id="301096" data-url="https://www.bibliotheque.nat.tn/CATG/doc/SYRACUSE/301096/%D8%A7%D9%84%D8%A7%D8%BA%D8%A7%D9%86%D9%8A-%D8%A7%D9%84%D8%AA%D9%88%D9%86%D8%B3%D9%8A%D8%A9">
+                    <div class="notice_corps media col-sm-9 col-md-10">
+                      <div class="vignette_container">
+                        <div class="vignette_document">
+                          <a href="https://www.bibliotheque.nat.tn/CATG/doc/SYRACUSE/301096/%D8%A7%D9%84%D8%A7%D8%BA%D8%A7%D9%86%D9%8A-%D8%A7%D9%84%D8%AA%D9%88%D9%86%D8%B3%D9%8A%D8%A9">
+                            <div class="thumbnail-wrapper">
+                              <img style="background-image: none;" data-bgsrc="https://www.bibliotheque.nat.tn/ui/skins/BNTCAT/portal/front/images/General/DocType/MONO_MEDIUM.png" title="Plus d'infos sur 'الأغاني التونسية'" alt="الأغاني التونسية | الرزقي, الصادق‏ (‏1874-1939 م). 070" data-alt="الأغاني التونسية | الرزقي, الصادق‏ (‏1874-1939 م). 070" onerror="this.onerror=null;this.src=$(this).attr('data-bgsrc');" class="lazy img-thumbnail ermes-thumb ermes-thumb-size-MEDIUM loaded" data-src="https://www.bibliotheque.nat.tn/Ils/digitalCollection/DigitalCollectionThumbnailHandler.ashx?documentId=1921929&amp;size=MEDIUM&amp;fallback=https%3a%2f%2fwww.bibliotheque.nat.tn%2fui%2fskins%2fBNTCAT%2fportal%2ffront%2fimages%2fGeneral%2fDocType%2fMONO_MEDIUM.png" src="https://www.bibliotheque.nat.tn/Ils/digitalCollection/DigitalCollectionThumbnailHandler.ashx?documentId=1921929&amp;size=MEDIUM&amp;fallback=https%3a%2f%2fwww.bibliotheque.nat.tn%2fui%2fskins%2fBNTCAT%2fportal%2ffront%2fimages%2fGeneral%2fDocType%2fMONO_MEDIUM.png" data-was-processed="true">
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="media-body">
+                        <h3 class="title template-title" title="الأغاني التونسية">الأغاني التونسية</h3>
+<p class="template-info">
+
+   | الرزقي, الصادق‏ (‏1874-1939 م). 070     , 1967</p>
+
+<br><b> <div class="desc-list-title"><ul class="desc-list"><li class="desc-list-item">A-4-11962</li><li class="desc-list-item">A-4-13521</li><li class="desc-list-item">A-4-13522</li><li class="desc-list-item">A-8-6356</li><li class="desc-list-item">A-8-25415-TN</li><li class="desc-list-item">A-KA-3887</li><li class="desc-list-item">A-KA-3888</li><li class="desc-list-item">186رزDE</li><li class="desc-list-item">8059غ4</li><li class="desc-list-item">A-4-7762</li><li class="desc-list-item">A-8-25419</li><li class="desc-list-item">A-8-25418</li><li class="desc-list-item">A-4-12907</li><li class="desc-list-item">A-4-12415</li></ul></div></b>
+                        <div class="twinKeyTypeDoc">
+                          <span class="selected tw-icon-Physical" title="Disponible au format physique"> </span>
+                        </div>
+                      </div>
+                      <div class="actions">
+                        <a href="https://www.bibliotheque.nat.tn/CATG/doc/SYRACUSE/301096/%D8%A7%D9%84%D8%A7%D8%BA%D8%A7%D9%86%D9%8A-%D8%A7%D9%84%D8%AA%D9%88%D9%86%D8%B3%D9%8A%D8%A9">
+                          <button type="button" title="Plus d'infos sur 'الأغاني التونسية'" class="more-info btn btn-sm btn-dark">
+                            <span class="icon-info" aria-hidden="true"> </span>
+                            <span>Plus d'infos</span>
+                          </button>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="notice_metadata col-sm-3 col-md-2 hidden-xs">
+                      <div class="notice-actions">
+                        <ul class="metadata-actions"></ul>
+                      </div>
+                    </div>
+                    <div class="clear"> </div>
+                  </div>
+                  <div class="select hidden-xs">
+                    <label class="ermes-label" for="item-checkbox-2">
+                      <span>Ajoutez 'الأغاني التونسية' à ma sélection courante</span>
+                      <span class="sr-only">(Mise à jour immédiate)</span>
+                    </label>
+                    <input type="checkbox" id="item-checkbox-2" value="" name="" title="Ajoutez 'الأغاني التونسية' à ma sélection courante">
+                  </div>
+                  <div class="statut"><div dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<div class="available indicator">
+  <span class="label-holding">14 exemplaires disponibles</span>
+  <a href="#" class="obtain-document-link btn btn-xs hidden-xs modal-focus">
+    <span class="icon-chevron-right"> </span>
+    <span>Plus d'infos sur la disponibilité</span>
+  </a>
+</div>
+</div></div>
+                  <div class="statut-primaryDoc primary-doc-short-link">
+                    <div class="available indicator">
+                      <span class="label-holding">
+                        <span>Consultable en ligne</span>
+                      </span>
+                      <a target="_blank" class="view-document btn btn-xs hidden-xs pull-right primarydoc" href="\\192.168.3.10\numerisation\khaldounia\khmono\A-8-6356.pdf">
+                        <span class="primarydoc-icon icon-chevron-right" aria-hidden="true"> </span>
+                        <span>Consulter le document</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info:sid/ocoins.info:generator&amp;rft.title=%d8%a7%d9%84%d8%a3%d8%ba%d8%a7%d9%86%d9%8a+%d8%a7%d9%84%d8%aa%d9%88%d9%86%d8%b3%d9%8a%d8%a9&amp;rft.au=الرزقي, الصادق‏&amp;rft.au=التركي, الزبير‏&amp;rft.subject=%d8%a7%d9%84%d8%a3%d8%ba%d8%a7%d9%86%d9%8a+%d8%a7%d9%84%d8%aa%d9%88%d9%86%d8%b3%d9%8a%d8%a9&amp;rft.subject=%d8%a7%d9%84%d8%a3%d8%ba%d8%a7%d9%86%d9%8a+%d8%a7%d9%84%d8%b4%d8%b9%d8%a8%d9%8a%d8%a9%e2%80%8f+--+%e2%80%8f%d8%aa%d9%88%d9%86%d8%b3%e2%80%8f&amp;rft.subject=%d8%aa%d9%88%d9%86%d8%b3%e2%80%8f+--+%e2%80%8f%d8%a7%d9%84%d8%b9%d8%a7%d8%af%d8%a7%d8%aa+%d9%88%d8%a7%d9%84%d8%aa%d9%82%d8%a7%d9%84%d9%8a%d8%af&amp;rft.date=1967&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:dc&amp;rft.type=book&amp;rft.identifier=https://www.bibliotheque.nat.tn/CATG/doc/SYRACUSE/301096/%D8%A7%D9%84%D8%A7%D8%BA%D8%A7%D9%86%D9%8A-%D8%A7%D9%84%D8%AA%D9%88%D9%86%D8%B3%D9%8A%D8%A9&amp;rft.isbn=&amp;rft.issn=&amp;rft.publisher=الدار التونسية للنشر. تونس&amp;rft.description=&amp;rft.tpages=457+%3b+%d9%84%d9%88%d8%ad%d8%a7%d8%aa%d8%8c+%d8%ba%d9%84%d8%a7%d9%81+%d9%85%d8%b5%d9%88%d8%b1+%3b+28+%d8%b3%d9%85&amp;rft.language=.&amp;rft.format=text"></span>
+              </li>
+            </ul>
+          </div>
+          <div class="navigation hidden-xs">
+            <div class="row hidden-xs hidden-sm navigation-page">
+              <div class="pull-left">
+                <p id="description_resultats">
+                  <span>Résultats <span>1</span> - <span>2</span> <span class="additional-infos">/ 2</span></span>
+                </p>
+              </div>
+              <div class="
+            pagination-container col-md-7 ">
+                <ul class="pagination pagination-sm">
+                  <li class="
+                    disabled
+                  ">
+                    <button title="Page précédente, aucune" class="btn-link-like">
+                      <span class="icon-chevron-left" aria-hidden="true"> </span>
+                      <span class="ermes-label">
+                        <span>Page précédente, aucune</span>
+                      </span>
+                    </button>
+                  </li>
+                  <li class="active">
+                    <span>1</span>
+                  </li>
+                  <li class="
+                    disabled
+                  ">
+                    <button title="Page suivante, aucune" class="btn-link-like">
+                      <span class="icon-chevron-right" aria-hidden="true"> </span>
+                      <span class="ermes-label">
+                        <span>Page suivante, aucune</span>
+                      </span>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+              <div class="taille_page">
+                <label class="ermes-label" for="pageSize-C1721357FCC444014B0605553E5D6160">
+                  <span>Nombre de résultats par page</span>
+                  <span class="sr-only">(Mise à jour immédiate)</span>
+                </label>
+                <div class="searchList-btn btn-group pageSize-container">
+                  <button type="button" id="pageSize-C1721357FCC444014B0605553E5D6160" class="btn btn-xs dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Nombre de résultats par page, masqué" data-title-off="Nombre de résultats par page, masqué" data-title-on="Nombre de résultats par page, affiché">10<span class="icon-arrow-bottom" aria-hidden="true"> </span></button>
+                  <ul class="dropdown-menu" aria-labelledby="pageSize-C1721357FCC444014B0605553E5D6160">
+                    <li>
+                      <a href="#" data-original-title="5">5</a>
+                    </li>
+                    <li>
+                      <a href="#" data-original-title="10" class="active">10</a>
+                    </li>
+                    <li>
+                      <a href="#" data-original-title="25">25</a>
+                    </li>
+                    <li>
+                      <a href="#" data-original-title="50">50</a>
+                    </li>
+                  </ul>
+                </div>
+                <span class="additional-infos">par page</span>
+              </div>
+            </div>
+            <div class="criteres_tri">
+              <label class="ermes-label" for="check-all-964D0923CC4D2210446DF019F9609AA1">
+                <span>Ajoutez toutes les notices à la sélection courante</span>
+                <span class="sr-only">(Mise à jour immédiate)</span>
+              </label>
+              <div class="select-all pull-right hidden-xs">
+                <input type="checkbox" id="check-all-964D0923CC4D2210446DF019F9609AA1" class="check_all">
+              </div>
+              <span class="sort-order site-restriction pull-left">
+                <label class="label-tri pull-left" for="663E159648A333FBB22DDEC85FE4E8E9">
+                  <span>Tri :</span>
+                  <span class="sr-only">(Mise à jour immédiate)</span>
+                </label>
+                <div class="searchList-btn btn-group dropdown-direction-switcher">
+                  <button type="button" id="663E159648A333FBB22DDEC85FE4E8E9" class="btn btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Choix du tri, masqué" data-title-off="Choix du tri, masqué" data-title-on="Choix du tri, affiché">
+                    <span class="labelSelect sort">
+                      <span>Pertinence</span>
+                    </span>
+                    <span class="icon-arrow-bottom" aria-hidden="true"> </span>
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="663E159648A333FBB22DDEC85FE4E8E9">
+                    <li>
+                      <a href="#" data-original-title="Pertinence" data-value="" class="active">
+                        <span>Pertinence</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" role="menuitem" tabindex="-1" data-sort="Asc" data-original-title="Titre : A à Z" data-value="Title_sort">
+                        <span>Titre : A à Z</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" role="menuitem" tabindex="-1" data-sort="Desc" data-original-title="Titre : Z à A" data-value="Title_sort">
+                        <span>Titre : Z à A</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" role="menuitem" tabindex="-1" data-sort="Asc" data-original-title="Auteur : A à Z" data-value="Author_sort">
+                        <span>Auteur : A à Z</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" role="menuitem" tabindex="-1" data-sort="Desc" data-original-title="Auteur : Z à A" data-value="Author_sort">
+                        <span>Auteur : Z à A</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" role="menuitem" tabindex="-1" data-sort="Asc" data-original-title="Année de publication : croissant" data-value="YearOfPublication_int_sort">
+                        <span>Année de publication : croissant</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" role="menuitem" tabindex="-1" data-sort="Desc" data-original-title="Année de publication : décroissant" data-value="YearOfPublication_int_sort">
+                        <span>Année de publication : décroissant</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" role="menuitem" tabindex="-1" data-sort="Asc" data-original-title="Popularité : croissant" data-value="Popularity_sort">
+                        <span>Popularité : croissant</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" role="menuitem" tabindex="-1" data-sort="Desc" data-original-title="Popularité : décroissant" data-value="Popularity_sort">
+                        <span>Popularité : décroissant</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" role="menuitem" tabindex="-1" data-sort="" data-original-title="Aléatoire" data-value="%RANDOM%_random_sort">Aléatoire</a>
+                    </li>
+                    <li>
+                      <a href="#" role="menuitem" tabindex="-1" data-sort="Asc" data-original-title="Tri par numéro : croissant" data-value="VolumeNumber_sort">
+                        <span>Tri par numéro : croissant</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" role="menuitem" tabindex="-1" data-sort="Desc" data-original-title="Tri par numéro : décroissant" data-value="VolumeNumber_sort">
+                        <span>Tri par numéro : décroissant</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </span>
+              <div class="hidden-xs hidden-sm"></div>
+            </div>
+          </div>
+          <div class="detail-holdings-class modal fade" id="modal-holdings" aria-hidden="true" role="dialog" aria-labelledby="modal-holdings-label">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" title="Fermer la modale &quot;Se procurer le document&quot;">
+                x
+              </button>
+                  <h2 class="modal-title" id="modal-holdings-label">
+                    <span>Se procurer le document</span>
+                  </h2>
+                </div>
+                <div class="modal-body">
+                  <div class="detail-holdings-class row">
+                    <div id="detail-holdings" class="row">
+                      <div class="alert alert-info">
+                        <span>Vérification des exemplaires disponibles ...</span>
+                      </div>
+                    </div>
+                  </div>
+                  <h3 class="modal-title" id="modal-holdings-label-more">
+                    <span>Autre format</span>
+                  </h3>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">Fermer</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="btn-group btn-group-justified mobile-navigation visible-xs visible-sm">
+          <a href="#" class="btn precedent" title="La ressource Ermes|ResultsPagingPreviousLabel n'est pas définie." disabled="disabled">
+            <span class="icon-chevron-left" aria-hidden="hidden"> </span>
+          </a>
+          <a class="btn filterAside" title="La ressource Ermes|SearchFacetRefineLabel n'est pas définie." href="#aside">
+            <span class="icon-filter" aria-hidden="true"> </span>
+          </a>
+          <a href="#" class="btn suivant" title="La ressource Ermes|ResultsPagingNextLabel n'est pas définie." disabled="disabled">
+            <span class="icon-chevron-right" aria-hidden="true"> </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="aside" class="col-sm-4 col-md-4 col-sm-pull-8 col-md-pull-8">
+    <div id="options_resultat">
+      <div class="global_content">
+        <div class="panel panel-front panel-search-container">
+          <div class="panel-heading">
+            <a href="#resultats_recherche" class="btn btn-sm btn-dark go-top-page pull-right visible-xs" title="Retourner en haut de page">
+              <span class="icon-arrow-up" aria-hidden="true"> </span>
+            </a>
+            <h2 class="">
+              <span>Affinez votre recherche</span>
+            </h2>
+          </div>
+          <div class="panel-body">
+            <div id="facet_container" class="accordion">
+              <div class="panel-group" id="accordion">
+                <a data-toggle="collapse" data-parent="#facet_container" href="#collapse83" title="Type de document, affiché" class="accordion-toggle btn-link-like">
+                  <div class="panel panel-layout">
+                    <div class="panel-heading">
+                      <h3 class="panel-title">Type de document<i class="icon-resize-small pull-right"></i></h3>
+                    </div>
+                  </div>
+                </a>
+                <div id="collapse83" data-id="83" class="panel-collapse collapse facet-collapse in">
+                  <div class="facet-content">
+                    <ul id="83" class="facetList nav nav-pills nav-stacked">
+                      <li class="">
+                        <a href="#" title="Livre">
+                          <strong class="badge badge-inverse pull-right">2</strong>
+                          <span data-ermes-facet-value="Livre">Livre</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="panel-group" id="accordion">
+                <a data-toggle="collapse" data-parent="#facet_container" href="#collapse85" title="Auteur, affiché" class="accordion-toggle btn-link-like">
+                  <div class="panel panel-layout">
+                    <div class="panel-heading">
+                      <h3 class="panel-title">Auteur<i class="icon-resize-small pull-right"></i></h3>
+                    </div>
+                  </div>
+                </a>
+                <div id="collapse85" data-id="85" class="panel-collapse collapse facet-collapse in">
+                  <div class="facet-search-field">
+                    <span class="facet-search-icon"> </span>
+                    <input class="form-control facet-search-term" value="" name="facet-search-term" placeholder="Filtrer" type="text">
+                  </div>
+                  <div class="facet-content">
+                    <ul id="85" class="facetList nav nav-pills nav-stacked">
+                      <li class="">
+                        <a href="#" title="التركي, الزبير‏">
+                          <strong class="badge badge-inverse pull-right">1</strong>
+                          <span data-ermes-facet-value="التركي, الزبير‏">التركي, الزبير‏</span>
+                        </a>
+                      </li>
+                      <li class="">
+                        <a href="#" title="الرزقي, الصادق‏">
+                          <strong class="badge badge-inverse pull-right">1</strong>
+                          <span data-ermes-facet-value="الرزقي, الصادق‏">الرزقي, الصادق‏</span>
+                        </a>
+                      </li>
+                      <li class="">
+                        <a href="#" title="خير الدين, أحمد">
+                          <strong class="badge badge-inverse pull-right">1</strong>
+                          <span data-ermes-facet-value="خير الدين, أحمد">خير الدين, أحمد</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="panel-group" id="accordion">
+                <a data-toggle="collapse" data-parent="#facet_container" href="#collapse89" title="Support, affiché" class="accordion-toggle btn-link-like">
+                  <div class="panel panel-layout">
+                    <div class="panel-heading">
+                      <h3 class="panel-title">Support<i class="icon-resize-small pull-right"></i></h3>
+                    </div>
+                  </div>
+                </a>
+                <div id="collapse89" data-id="89" class="panel-collapse collapse facet-collapse in">
+                  <div class="facet-content">
+                    <ul id="89" class="facetList nav nav-pills nav-stacked">
+                      <li class="">
+                        <input class="facet-multiselect-checkbox" name="facet-multiselect-checkbox" type="checkbox">
+                        <a href="#" title="E_BOOK">
+                          <strong class="badge badge-inverse pull-right">2</strong>
+                          <span data-ermes-facet-value="E_BOOK">E_BOOK</span>
+                        </a>
+                      </li>
+                      <li class="">
+                        <input class="facet-multiselect-checkbox" name="facet-multiselect-checkbox" type="checkbox">
+                        <a href="#" title="Livre">
+                          <strong class="badge badge-inverse pull-right">1</strong>
+                          <span data-ermes-facet-value="Livre">Livre</span>
+                        </a>
+                      </li>
+                      <li class="">
+                        <input class="facet-multiselect-checkbox" name="facet-multiselect-checkbox" type="checkbox">
+                        <a href="#" title="TRT">
+                          <strong class="badge badge-inverse pull-right">1</strong>
+                          <span data-ermes-facet-value="TRT">TRT</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="panel-group" id="accordion">
+                <a data-toggle="collapse" data-parent="#facet_container" href="#collapse91" title="Section, affiché" class="accordion-toggle btn-link-like">
+                  <div class="panel panel-layout">
+                    <div class="panel-heading">
+                      <h3 class="panel-title">Section<i class="icon-resize-small pull-right"></i></h3>
+                    </div>
+                  </div>
+                </a>
+                <div id="collapse91" data-id="91" class="panel-collapse collapse facet-collapse in">
+                  <div class="facet-content">
+                    <ul id="91" class="facetList nav nav-pills nav-stacked">
+                      <li class="">
+                        <a href="#" title="Aucune valeur">
+                          <strong class="badge badge-inverse pull-right">2</strong>
+                          <span data-ermes-facet-value="Aucune valeur">Aucune valeur</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="panel-group" id="accordion">
+                <a data-toggle="collapse" data-parent="#facet_container" href="#collapse93" title="Site, affiché" class="accordion-toggle btn-link-like">
+                  <div class="panel panel-layout">
+                    <div class="panel-heading">
+                      <h3 class="panel-title">Site<i class="icon-resize-small pull-right"></i></h3>
+                    </div>
+                  </div>
+                </a>
+                <div id="collapse93" data-id="93" class="panel-collapse collapse facet-collapse in">
+                  <div class="facet-content">
+                    <ul id="93" class="facetList nav nav-pills nav-stacked">
+                      <li class="">
+                        <a href="#" title="Bibliothèque Nationale de Tunisie">
+                          <strong class="badge badge-inverse pull-right">2</strong>
+                          <span data-ermes-facet-value="Bibliothèque Nationale de Tunisie">Bibliothèque Nationale de Tunisie</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="panel-group" id="accordion">
+                <a data-toggle="collapse" data-parent="#facet_container" href="#collapse96" title="Lieu, affiché" class="accordion-toggle btn-link-like">
+                  <div class="panel panel-layout">
+                    <div class="panel-heading">
+                      <h3 class="panel-title">Lieu<i class="icon-resize-small pull-right"></i></h3>
+                    </div>
+                  </div>
+                </a>
+                <div id="collapse96" data-id="96" class="panel-collapse collapse facet-collapse in">
+                  <div class="facet-content">
+                    <ul id="96" class="facetList nav nav-pills nav-stacked">
+                      <li class="">
+                        <a href="#" title="تونس‏ -- ‏العادات والتقاليد">
+                          <strong class="badge badge-inverse pull-right">1</strong>
+                          <span data-ermes-facet-value="تونس‏ -- ‏العادات والتقاليد">تونس‏ -- ‏العادات والتقاليد</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="panel-group" id="accordion">
+                <a data-toggle="collapse" data-parent="#facet_container" href="#collapse98" title="Sujet, affiché" class="accordion-toggle btn-link-like">
+                  <div class="panel panel-layout">
+                    <div class="panel-heading">
+                      <h3 class="panel-title">Sujet<i class="icon-resize-small pull-right"></i></h3>
+                    </div>
+                  </div>
+                </a>
+                <div id="collapse98" data-id="98" class="panel-collapse collapse facet-collapse in">
+                  <div class="facet-search-field">
+                    <span class="facet-search-icon"> </span>
+                    <input class="form-control facet-search-term" value="" name="facet-search-term" placeholder="Filtrer" type="text">
+                  </div>
+                  <div class="facet-content">
+                    <ul id="98" class="facetList nav nav-pills nav-stacked">
+                      <li class="disabled " id="facet_98">
+                        <input class="facet-multiselect-checkbox" name="facet-multiselect-checkbox" type="checkbox" checked="checked">
+                        <a href="#" title="الأغاني التونسية">
+                          <strong class="badge badge-inverse pull-right">2</strong>
+                          <span data-ermes-facet-value="الأغاني التونسية">الأغاني التونسية</span>
+                        </a>
+                      </li>
+                      <li class="">
+                        <input class="facet-multiselect-checkbox" name="facet-multiselect-checkbox" type="checkbox">
+                        <a href="#" title="أبو بكر, سعيد -- الشعر">
+                          <strong class="badge badge-inverse pull-right">1</strong>
+                          <span data-ermes-facet-value="أبو بكر, سعيد -- الشعر">أبو بكر, سعيد -- الشعر</span>
+                        </a>
+                      </li>
+                      <li class="">
+                        <input class="facet-multiselect-checkbox" name="facet-multiselect-checkbox" type="checkbox">
+                        <a href="#" title="أدب الرحلات">
+                          <strong class="badge badge-inverse pull-right">1</strong>
+                          <span data-ermes-facet-value="أدب الرحلات">أدب الرحلات</span>
+                        </a>
+                      </li>
+                      <li class="">
+                        <input class="facet-multiselect-checkbox" name="facet-multiselect-checkbox" type="checkbox">
+                        <a href="#" title="أعلام -- تونس">
+                          <strong class="badge badge-inverse pull-right">1</strong>
+                          <span data-ermes-facet-value="أعلام -- تونس">أعلام -- تونس</span>
+                        </a>
+                      </li>
+                      <li class="">
+                        <input class="facet-multiselect-checkbox" name="facet-multiselect-checkbox" type="checkbox">
+                        <a href="#" title="ابن سالم, التجاني 1896 م-1973 م">
+                          <strong class="badge badge-inverse pull-right">1</strong>
+                          <span data-ermes-facet-value="ابن سالم, التجاني 1896 م-1973 م">ابن سالم, التجاني 1896 م-1973 م</span>
+                        </a>
+                      </li>
+                      <li class="facet-item-hidden ">
+                        <input class="facet-multiselect-checkbox" name="facet-multiselect-checkbox" type="checkbox">
+                        <a href="#" title="ال أدب العربي -- تونس">
+                          <strong class="badge badge-inverse pull-right">1</strong>
+                          <span data-ermes-facet-value="ال أدب العربي -- تونس">ال أدب العربي -- تونس</span>
+                        </a>
+                      </li>
+                      <li class="facet-item-hidden ">
+                        <input class="facet-multiselect-checkbox" name="facet-multiselect-checkbox" type="checkbox">
+                        <a href="#" title="ال أدب العربي العاطفي">
+                          <strong class="badge badge-inverse pull-right">1</strong>
+                          <span data-ermes-facet-value="ال أدب العربي العاطفي">ال أدب العربي العاطفي</span>
+                        </a>
+                      </li>
+                      <li class="facet-item-hidden ">
+                        <input class="facet-multiselect-checkbox" name="facet-multiselect-checkbox" type="checkbox">
+                        <a href="#" title="ال جنس في الأدب العربي">
+                          <strong class="badge badge-inverse pull-right">1</strong>
+                          <span data-ermes-facet-value="ال جنس في الأدب العربي">ال جنس في الأدب العربي</span>
+                        </a>
+                      </li>
+                      <li class="facet-item-hidden ">
+                        <input class="facet-multiselect-checkbox" name="facet-multiselect-checkbox" type="checkbox">
+                        <a href="#" title="ال زواج -- فقه إسلامي">
+                          <strong class="badge badge-inverse pull-right">1</strong>
+                          <span data-ermes-facet-value="ال زواج -- فقه إسلامي">ال زواج -- فقه إسلامي</span>
+                        </a>
+                      </li>
+                      <li class="facet-item-hidden ">
+                        <input class="facet-multiselect-checkbox" name="facet-multiselect-checkbox" type="checkbox">
+                        <a href="#" title="ال لغة العربية">
+                          <strong class="badge badge-inverse pull-right">1</strong>
+                          <span data-ermes-facet-value="ال لغة العربية">ال لغة العربية</span>
+                        </a>
+                      </li>
+                      <li class="facet-item-hidden ">
+                        <input class="facet-multiselect-checkbox" name="facet-multiselect-checkbox" type="checkbox">
+                        <a href="#" title="الأغاني الشعبية‏ -- ‏تونس‏">
+                          <strong class="badge badge-inverse pull-right">1</strong>
+                          <span data-ermes-facet-value="الأغاني الشعبية‏ -- ‏تونس‏">الأغاني الشعبية‏ -- ‏تونس‏</span>
+                        </a>
+                      </li>
+                      <li class="facet-item-hidden ">
+                        <input class="facet-multiselect-checkbox" name="facet-multiselect-checkbox" type="checkbox">
+                        <a href="#" title="الإسلام‏ -- ‏الأدعية والأوراد">
+                          <strong class="badge badge-inverse pull-right">1</strong>
+                          <span data-ermes-facet-value="الإسلام‏ -- ‏الأدعية والأوراد">الإسلام‏ -- ‏الأدعية والأوراد</span>
+                        </a>
+                      </li>
+                      <li class="facet-item-hidden ">
+                        <input class="facet-multiselect-checkbox" name="facet-multiselect-checkbox" type="checkbox">
+                        <a href="#" title="الجمعيات الثقافية -- تونس">
+                          <strong class="badge badge-inverse pull-right">1</strong>
+                          <span data-ermes-facet-value="الجمعيات الثقافية -- تونس">الجمعيات الثقافية -- تونس</span>
+                        </a>
+                      </li>
+                      <li class="facet-item-hidden ">
+                        <input class="facet-multiselect-checkbox" name="facet-multiselect-checkbox" type="checkbox">
+                        <a href="#" title="الساحلي, حمادي 1928م-2002م">
+                          <strong class="badge badge-inverse pull-right">1</strong>
+                          <span data-ermes-facet-value="الساحلي, حمادي 1928م-2002م">الساحلي, حمادي 1928م-2002م</span>
+                        </a>
+                      </li>
+                      <li class="facet-item-hidden ">
+                        <input class="facet-multiselect-checkbox" name="facet-multiselect-checkbox" type="checkbox">
+                        <a href="#" title="السكك الحديدية -- تونس -- عهد محمد الصادق باشا باي">
+                          <strong class="badge badge-inverse pull-right">1</strong>
+                          <span data-ermes-facet-value="السكك الحديدية -- تونس -- عهد محمد الصادق باشا باي">السكك الحديدية -- تونس -- عهد محمد الصادق باشا باي</span>
+                        </a>
+                      </li>
+                      <li class="facet-item-hidden ">
+                        <input class="facet-multiselect-checkbox" name="facet-multiselect-checkbox" type="checkbox">
+                        <a href="#" title="الشابي, أبو القاسم 1909م-1934">
+                          <strong class="badge badge-inverse pull-right">1</strong>
+                          <span data-ermes-facet-value="الشابي, أبو القاسم 1909م-1934">الشابي, أبو القاسم 1909م-1934</span>
+                        </a>
+                      </li>
+                      <li class="facet-item-hidden ">
+                        <input class="facet-multiselect-checkbox" name="facet-multiselect-checkbox" type="checkbox">
+                        <a href="#" title="الشعر العربي -- تاريخ ونقد -- تونس">
+                          <strong class="badge badge-inverse pull-right">1</strong>
+                          <span data-ermes-facet-value="الشعر العربي -- تاريخ ونقد -- تونس">الشعر العربي -- تاريخ ونقد -- تونس</span>
+                        </a>
+                      </li>
+                      <li class="facet-item-hidden ">
+                        <input class="facet-multiselect-checkbox" name="facet-multiselect-checkbox" type="checkbox">
+                        <a href="#" title="الشعراء التونسيون -- تراجم‏">
+                          <strong class="badge badge-inverse pull-right">1</strong>
+                          <span data-ermes-facet-value="الشعراء التونسيون -- تراجم‏">الشعراء التونسيون -- تراجم‏</span>
+                        </a>
+                      </li>
+                      <li class="facet-item-hidden ">
+                        <input class="facet-multiselect-checkbox" name="facet-multiselect-checkbox" type="checkbox">
+                        <a href="#" title="العلاج الطبيعي -- تونس">
+                          <strong class="badge badge-inverse pull-right">1</strong>
+                          <span data-ermes-facet-value="العلاج الطبيعي -- تونس">العلاج الطبيعي -- تونس</span>
+                        </a>
+                      </li>
+                      <li class="facet-item-hidden ">
+                        <input class="facet-multiselect-checkbox" name="facet-multiselect-checkbox" type="checkbox">
+                        <a href="#" title="الفلكلور -- تونس">
+                          <strong class="badge badge-inverse pull-right">1</strong>
+                          <span data-ermes-facet-value="الفلكلور -- تونس">الفلكلور -- تونس</span>
+                        </a>
+                      </li>
+                      <li class="facet-item-hidden ">
+                        <input class="facet-multiselect-checkbox" name="facet-multiselect-checkbox" type="checkbox">
+                        <a href="#" title="اللغة العربية -- العامية -- تونس">
+                          <strong class="badge badge-inverse pull-right">1</strong>
+                          <span data-ermes-facet-value="اللغة العربية -- العامية -- تونس">اللغة العربية -- العامية -- تونس</span>
+                        </a>
+                      </li>
+                      <li class="facet-item-hidden ">
+                        <input class="facet-multiselect-checkbox" name="facet-multiselect-checkbox" type="checkbox">
+                        <a href="#" title="اللغة العربية -- مصطلحات">
+                          <strong class="badge badge-inverse pull-right">1</strong>
+                          <span data-ermes-facet-value="اللغة العربية -- مصطلحات">اللغة العربية -- مصطلحات</span>
+                        </a>
+                      </li>
+                      <li class="facet-item-hidden ">
+                        <input class="facet-multiselect-checkbox" name="facet-multiselect-checkbox" type="checkbox">
+                        <a href="#" title="تونس -- تاريخ">
+                          <strong class="badge badge-inverse pull-right">1</strong>
+                          <span data-ermes-facet-value="تونس -- تاريخ">تونس -- تاريخ</span>
+                        </a>
+                      </li>
+                      <li class="facet-item-hidden ">
+                        <input class="facet-multiselect-checkbox" name="facet-multiselect-checkbox" type="checkbox">
+                        <a href="#" title="جامع الزيتونة (تونس) -- تاريخ‏">
+                          <strong class="badge badge-inverse pull-right">1</strong>
+                          <span data-ermes-facet-value="جامع الزيتونة (تونس) -- تاريخ‏">جامع الزيتونة (تونس) -- تاريخ‏</span>
+                        </a>
+                      </li>
+                      <li class="facet-item-hidden ">
+                        <input class="facet-multiselect-checkbox" name="facet-multiselect-checkbox" type="checkbox">
+                        <a href="#" title="حمامات البخار -- تونس">
+                          <strong class="badge badge-inverse pull-right">1</strong>
+                          <span data-ermes-facet-value="حمامات البخار -- تونس">حمامات البخار -- تونس</span>
+                        </a>
+                      </li>
+                      <li class="facet-item-hidden ">
+                        <input class="facet-multiselect-checkbox" name="facet-multiselect-checkbox" type="checkbox">
+                        <a href="#" title="رجال الدين الإسلامي -- تراجم">
+                          <strong class="badge badge-inverse pull-right">1</strong>
+                          <span data-ermes-facet-value="رجال الدين الإسلامي -- تراجم">رجال الدين الإسلامي -- تراجم</span>
+                        </a>
+                      </li>
+                      <li class="facet-item-hidden ">
+                        <input class="facet-multiselect-checkbox" name="facet-multiselect-checkbox" type="checkbox">
+                        <a href="#" title="مازيغ, الصادق -- مختارات من أدبه وفكره">
+                          <strong class="badge badge-inverse pull-right">1</strong>
+                          <span data-ermes-facet-value="مازيغ, الصادق -- مختارات من أدبه وفكره">مازيغ, الصادق -- مختارات من أدبه وفكره</span>
+                        </a>
+                      </li>
+                    </ul>
+                    <p class="facet-controls">
+                      <button type="button" class="facet-see-more btn-link-like">
+                        <span>Voir plus</span>
+                (22)
+                <span class="icon-plus" aria-hidden="true"> </span></button>
+                      <button type="button" class="facet-see-less btn-link-like">
+                        <span>Voir moins</span>
+                        <i class="icon-minus"></i>
+                      </button>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel-group" id="accordion">
+                <a data-toggle="collapse" data-parent="#facet_container" href="#collapse99" title="Editeur, affiché" class="accordion-toggle btn-link-like">
+                  <div class="panel panel-layout">
+                    <div class="panel-heading">
+                      <h3 class="panel-title">Editeur<i class="icon-resize-small pull-right"></i></h3>
+                    </div>
+                  </div>
+                </a>
+                <div id="collapse99" data-id="99" class="panel-collapse collapse facet-collapse in">
+                  <div class="facet-content">
+                    <ul id="99" class="facetList nav nav-pills nav-stacked">
+                      <li class="">
+                        <a href="#" title="الدار التونسية للنشر">
+                          <strong class="badge badge-inverse pull-right">2</strong>
+                          <span data-ermes-facet-value="الدار التونسية للنشر">الدار التونسية للنشر</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="panel-group" id="accordion">
+                <a data-toggle="collapse" data-parent="#facet_container" href="#collapse100" title="Année de publication, affiché" class="accordion-toggle btn-link-like">
+                  <div class="panel panel-layout">
+                    <div class="panel-heading">
+                      <h3 class="panel-title">Année de publication<i class="icon-resize-small pull-right"></i></h3>
+                    </div>
+                  </div>
+                </a>
+                <div id="collapse100" data-id="100" class="panel-collapse collapse facet-collapse in">
+                  <div class="facet-content">
+                    <ul id="100" class="facetList nav nav-pills nav-stacked">
+                      <li class="">
+                        <a href="#" title="Années 1960">
+                          <strong class="badge badge-inverse pull-right">2</strong>
+                          <span data-ermes-facet-value="0050">Années 1960</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="panel-group" id="accordion">
+                <a data-toggle="collapse" data-parent="#facet_container" href="#collapse101" title="Cotes, affiché" class="accordion-toggle btn-link-like">
+                  <div class="panel panel-layout">
+                    <div class="panel-heading">
+                      <h3 class="panel-title">Cotes<i class="icon-resize-small pull-right"></i></h3>
+                    </div>
+                  </div>
+                </a>
+                <div id="collapse101" data-id="101" class="panel-collapse collapse facet-collapse in">
+                  <div class="facet-content">
+                    <ul id="101" class="facetList nav nav-pills nav-stacked">
+                      <li class="">
+                        <a href="#" title="186رزDE">
+                          <strong class="badge badge-inverse pull-right">1</strong>
+                          <span data-ermes-facet-value="186رزDE">186رزDE</span>
+                        </a>
+                      </li>
+                      <li class="">
+                        <a href="#" title="8059غ4">
+                          <strong class="badge badge-inverse pull-right">1</strong>
+                          <span data-ermes-facet-value="8059غ4">8059غ4</span>
+                        </a>
+                      </li>
+                      <li class="">
+                        <a href="#" title="A-4-11962">
+                          <strong class="badge badge-inverse pull-right">1</strong>
+                          <span data-ermes-facet-value="A-4-11962">A-4-11962</span>
+                        </a>
+                      </li>
+                      <li class="">
+                        <a href="#" title="A-4-12415">
+                          <strong class="badge badge-inverse pull-right">1</strong>
+                          <span data-ermes-facet-value="A-4-12415">A-4-12415</span>
+                        </a>
+                      </li>
+                      <li class="">
+                        <a href="#" title="A-4-12907">
+                          <strong class="badge badge-inverse pull-right">1</strong>
+                          <span data-ermes-facet-value="A-4-12907">A-4-12907</span>
+                        </a>
+                      </li>
+                      <li class="facet-item-hidden ">
+                        <a href="#" title="A-4-13521">
+                          <strong class="badge badge-inverse pull-right">1</strong>
+                          <span data-ermes-facet-value="A-4-13521">A-4-13521</span>
+                        </a>
+                      </li>
+                      <li class="facet-item-hidden ">
+                        <a href="#" title="A-4-13522">
+                          <strong class="badge badge-inverse pull-right">1</strong>
+                          <span data-ermes-facet-value="A-4-13522">A-4-13522</span>
+                        </a>
+                      </li>
+                      <li class="facet-item-hidden ">
+                        <a href="#" title="A-4-7762">
+                          <strong class="badge badge-inverse pull-right">1</strong>
+                          <span data-ermes-facet-value="A-4-7762">A-4-7762</span>
+                        </a>
+                      </li>
+                      <li class="facet-item-hidden ">
+                        <a href="#" title="A-8-153280">
+                          <strong class="badge badge-inverse pull-right">1</strong>
+                          <span data-ermes-facet-value="A-8-153280">A-8-153280</span>
+                        </a>
+                      </li>
+                      <li class="facet-item-hidden ">
+                        <a href="#" title="A-8-230917">
+                          <strong class="badge badge-inverse pull-right">1</strong>
+                          <span data-ermes-facet-value="A-8-230917">A-8-230917</span>
+                        </a>
+                      </li>
+                      <li class="facet-item-hidden ">
+                        <a href="#" title="A-8-25415-TN">
+                          <strong class="badge badge-inverse pull-right">1</strong>
+                          <span data-ermes-facet-value="A-8-25415-TN">A-8-25415-TN</span>
+                        </a>
+                      </li>
+                      <li class="facet-item-hidden ">
+                        <a href="#" title="A-8-25418">
+                          <strong class="badge badge-inverse pull-right">1</strong>
+                          <span data-ermes-facet-value="A-8-25418">A-8-25418</span>
+                        </a>
+                      </li>
+                      <li class="facet-item-hidden ">
+                        <a href="#" title="A-8-25419">
+                          <strong class="badge badge-inverse pull-right">1</strong>
+                          <span data-ermes-facet-value="A-8-25419">A-8-25419</span>
+                        </a>
+                      </li>
+                      <li class="facet-item-hidden ">
+                        <a href="#" title="A-8-30144">
+                          <strong class="badge badge-inverse pull-right">1</strong>
+                          <span data-ermes-facet-value="A-8-30144">A-8-30144</span>
+                        </a>
+                      </li>
+                      <li class="facet-item-hidden ">
+                        <a href="#" title="A-8-62708">
+                          <strong class="badge badge-inverse pull-right">1</strong>
+                          <span data-ermes-facet-value="A-8-62708">A-8-62708</span>
+                        </a>
+                      </li>
+                      <li class="facet-item-hidden ">
+                        <a href="#" title="A-8-62736">
+                          <strong class="badge badge-inverse pull-right">1</strong>
+                          <span data-ermes-facet-value="A-8-62736">A-8-62736</span>
+                        </a>
+                      </li>
+                      <li class="facet-item-hidden ">
+                        <a href="#" title="A-8-62852">
+                          <strong class="badge badge-inverse pull-right">1</strong>
+                          <span data-ermes-facet-value="A-8-62852">A-8-62852</span>
+                        </a>
+                      </li>
+                      <li class="facet-item-hidden ">
+                        <a href="#" title="A-8-6356">
+                          <strong class="badge badge-inverse pull-right">1</strong>
+                          <span data-ermes-facet-value="A-8-6356">A-8-6356</span>
+                        </a>
+                      </li>
+                      <li class="facet-item-hidden ">
+                        <a href="#" title="A-8-93379">
+                          <strong class="badge badge-inverse pull-right">1</strong>
+                          <span data-ermes-facet-value="A-8-93379">A-8-93379</span>
+                        </a>
+                      </li>
+                      <li class="facet-item-hidden ">
+                        <a href="#" title="A-8-97016">
+                          <strong class="badge badge-inverse pull-right">1</strong>
+                          <span data-ermes-facet-value="A-8-97016">A-8-97016</span>
+                        </a>
+                      </li>
+                      <li class="facet-item-hidden ">
+                        <a href="#" title="A-KA-3887">
+                          <strong class="badge badge-inverse pull-right">1</strong>
+                          <span data-ermes-facet-value="A-KA-3887">A-KA-3887</span>
+                        </a>
+                      </li>
+                      <li class="facet-item-hidden ">
+                        <a href="#" title="A-KA-3888">
+                          <strong class="badge badge-inverse pull-right">1</strong>
+                          <span data-ermes-facet-value="A-KA-3888">A-KA-3888</span>
+                        </a>
+                      </li>
+                      <li class="facet-item-hidden ">
+                        <a href="#" title="A-KA-4192">
+                          <strong class="badge badge-inverse pull-right">1</strong>
+                          <span data-ermes-facet-value="A-KA-4192">A-KA-4192</span>
+                        </a>
+                      </li>
+                    </ul>
+                    <p class="facet-controls">
+                      <button type="button" class="facet-see-more btn-link-like">
+                        <span>Voir plus</span>
+                (18)
+                <span class="icon-plus" aria-hidden="true"> </span></button>
+                      <button type="button" class="facet-see-less btn-link-like">
+                        <span>Voir moins</span>
+                        <i class="icon-minus"></i>
+                      </button>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel-group" id="accordion">
+                <a data-toggle="collapse" data-parent="#facet_container" href="#collapse102" title="Selections, affiché" class="accordion-toggle btn-link-like">
+                  <div class="panel panel-layout">
+                    <div class="panel-heading">
+                      <h3 class="panel-title">Selections<i class="icon-resize-small pull-right"></i></h3>
+                    </div>
+                  </div>
+                </a>
+                <div id="collapse102" data-id="102" class="panel-collapse collapse facet-collapse in">
+                  <div class="facet-content">
+                    <ul id="102" class="facetList nav nav-pills nav-stacked">
+                      <li class="">
+                        <a href="#" title="CG-Tunisiana">
+                          <strong class="badge badge-inverse pull-right">2</strong>
+                          <span data-ermes-facet-value="10|_|CG-Tunisiana">CG-Tunisiana</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="panel-group" id="accordion">
+                <a data-toggle="collapse" data-parent="#facet_container" href="#collapse82" title="Suggestions, affiché" class="accordion-toggle btn-link-like">
+                  <div class="panel panel-layout">
+                    <div class="panel-heading">
+                      <h3 class="panel-title">Suggestions<i class="icon-resize-small pull-right"></i></h3>
+                    </div>
+                  </div>
+                </a>
+                <div id="collapse82" data-id="82" class="panel-collapse collapse facet-collapse in">
+                  <div class="facet-content">
+                    <ul id="82" class="facetList facetSuggest">
+                      <li class="">
+                        <a href="#" class="btn btn-action" style="font-size:100%; line-height:100%;" title="تونس‏, suggestion peu populaire">
+                          <span data-ermes-facet-value="تونس‏">تونس‏</span>
+                        </a>
+                      </li>
+                      <li class="">
+                        <a href="#" class="btn btn-action" style="font-size:175%; line-height:175%;" title="الأغاني التونسية, suggestion très populaire">
+                          <span data-ermes-facet-value="الأغاني التونسية">الأغاني التونسية</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="addCommentForm" aria-hidden="true" role="dialog" aria-labelledby="addCommentForm-label">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" title="Fermer la modale Donnez-nous votre avis.">
+            x<span class="sr-only">Fermer la modale Donnez-nous votre avis.</span></button>
+        <h2 class="modal-title" id="addCommentForm-label">Que pensez-vous de cette ressource ? Donnez-nous votre avis</h2>
+      </div>
+      <div class="modal-body">
+        <p class="required-field-indicator">
+          <span>Les champs indiqués par le symbole * sont obligatoires.</span>
+        </p>
+        <form class="form-horizontal" role="form" method="post">
+          <div class="form-group">
+            <label for="addCommentForm-pseudo" class="col-sm-2 col-md-2 col-lg-2 control-label" title="Ce champ est obligatoire">
+              <span>Pseudonyme</span>*
+                </label>
+            <div class="col-sm-10 col-md-10 col-lg-10">
+              <input type="text" class="form-control" id="addCommentForm-pseudo" name="pseudo" value="Utilisateur anonyme">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="addCommentForm-note" class="col-sm-2 col-md-2 col-lg-2 control-label" title="Ce champ est obligatoire">
+              <span>Note</span>*
+              </label>
+            <div class="col-sm-4 col-md-4 col-lg-4">
+              <ul class="accessible-rating-star" id="addCommentForm-note" data-name="note" data-max="5" data-start="1" data-note="-1"></ul>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="addCommentForm-titre" class="col-sm-2 col-md-2 col-lg-2 control-label" title="Ce champ est obligatoire">
+              <span>Titre</span>*
+              </label>
+            <div class="col-sm-10 col-md-10 col-lg-10">
+              <input type="text" class="form-control" id="addCommentForm-titre" name="titre">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="addCommentForm-comment" class="col-sm-2 col-md-2 col-lg-2 control-label" title="Ce champ est obligatoire">
+              <span>Votre avis</span>*
+              </label>
+            <div class="col-sm-10 col-md-10 col-lg-10">
+              <textarea rows="5" class="form-control" id="addCommentForm-comment" name="comment"> </textarea>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default confirm" title="Valider cet avis">Valider</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal" title="Annuler cet avis">Annuler</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="pdf_loading" tabindex="-1" aria-hidden="true" role="dialog" aria-labelledby="pdf_loading-label">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" title="Fermer la modale d'export.">
+            x<span class="sr-only">Fermer la modale d'export.</span></button>
+        <h2 class="modal-title" id="pdf_loading-label">Export en cours</h2>
+      </div>
+      <div class="modal-body">
+        <span>Veuillez patienter...</span>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="edit_comment_form" aria-hidden="true" role="dialog" aria-labelledby="edit_comment_form-label">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" title="Fermer la modale Donnez-nous votre avis.">
+            x<span class="sr-only">Fermer la modale Donnez-nous votre avis.</span></button>
+        <h2 class="modal-title" id="edit_comment_form-label">Modifier votre avis</h2>
+      </div>
+      <div class="modal-body">
+        <p class="required-field-indicator">
+          <span>Les champs indiqués par le symbole * sont obligatoires.</span>
+        </p>
+        <form class="form-horizontal" role="form" method="post">
+          <div class="form-group">
+            <label for="edit_comment_form-note" class="col-sm-2 col-md-2 col-lg-2 control-label" title="Ce champ est obligatoire">
+              <span>Note</span>*
+              </label>
+            <div class="col-sm-4 col-md-4 col-lg-4">
+              <ul class="accessible-rating-star" id="edit_comment_form-note" data-name="note" data-max="5" data-start="1" data-note="-1"></ul>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="edit_comment_form-titre" class="col-sm-2 col-md-2 col-lg-2 control-label" title="Ce champ est obligatoire">
+              <span>Titre</span>*
+              </label>
+            <div class="col-sm-10 col-md-10 col-lg-10">
+              <input type="text" class="form-control" id="edit_comment_form-titre" name="titre">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="edit_comment_form-comment" class="col-sm-2 col-md-2 col-lg-2 control-label" title="Ce champ est obligatoire">
+              <span>Votre avis</span>*
+              </label>
+            <div class="col-sm-10 col-md-10 col-lg-10">
+              <textarea rows="5" class="form-control" id="edit_comment_form-comment" name="comment"> </textarea>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default pull-left comment-delete" title="Retirer cet avis">Retirer mon avis</button>
+        <button type="button" class="btn btn-default confirm" title="Valider cet avis">Valider</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal" title="Annuler cet avis">Annuler</button>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/x-jquery-tmpl" id="tagCloudTmpl">
+    {{if Tags && Tags.d.length > 0}}
+            <h3>
+              <span>
+                Termes souvent associés
+              </span>
+          </h3>
+          <ul class="tag_list">
+            {{each Tags.d}}
+            <li>
+              <a class="group${$value.IdGroup}" style="font-size:${$value.LinkValue}%">${$value.StringValue}</a>
+            </li>
+            {{/each}}
+          </ul>
+        {{/if}}
+  </script>
+<div class="modal fade modal-focus" id="SdiCreatePrivateSearch" tabindex="-1" role="dialog" aria-labelledby="SdiCreatePrivateSearch-label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" title="Fermer la modale suivre cette recherche.">
+            x<span class="sr-only">Fermer la modale suivre cette recherche.</span></button>
+        <h2 class="modal-title" id="SdiCreatePrivateSearch-label">
+          <span>Mémoriser la recherche</span>
+        </h2>
+      </div>
+      <div class="modal-body">
+        <p class="help">
+          <span>La recherche sera conservée dans votre compte et pourra être rejouée à tout moment.</span>
+        </p>
+        <form>
+          <div class="form-group">
+            <label for="name" class="control-label">
+              <span>Nom</span>
+            </label>
+            <input type="text" class="form-control name" id="name" name="name" placeholder="Nom de la recherche">
+          </div>
+          <div class="searchfollow-beforeselect">
+            <label class="control-label">
+              <span>Recherche suivie</span>
+            </label>
+            <div class="checkbox">
+              <input type="checkbox" id="subscribe" class="subscribe" name="subscribe" value="">
+                <label for="subscribe" class="control-label">
+                  <span>Suivre la recherche en recevant les nouveaux résultats par courriel.</span>
+                </label>
+              
+            </div>
+          </div>
+          <select id="frequency" class="form-control frequency" disabled="true">
+            <option value="1">Tous les jours</option>
+            <option value="2">Toutes les semaines</option>
+            <option value="3">Tous les mois</option>
+          </select>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-action confirm">
+          <span>Valider</span>
+        </button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal">
+          <span>Annuler</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+</div></div>
+          <script type="text/javascript" src="/ui/plug-in/portal/front/search-list/search_list.js?v=22.2.8237.0" defer="defer"> </script>
+          <script type="text/javascript">
+            /*<![CDATA[*/
+            
+              
+                master.onDOMContentLoaded(function () {
+                
+            
+      var queryString = ' Selections_exact:"10|_|CG-Tunisiana"';
+      var grid = '';
+      var labelQuery = 'Recherche par rebond';
+      var querySort = '';
+      var querySortOrder = '';
+      var scenario = 'DEFAULT';
+      var detailMode = 'false';
+      var search_context = '4';
+      var memorize = 'false';
+
+      // Tentative de restauration de contexte de recherche
+      ErmesManager.tryRestoreSearchContext();
+
+      if(!queryString) {
+      queryString='*:*';
+      }
+
+      $(document).ready(function() {
+
+      ErmesManager.ScenarioCode = scenario;
+
+      if (queryString != ''  && hasher.getHash() === "") {
+      var $container = $("div.searchContainer");
+      var data = $container.data("form");
+      var searchQuery = { QueryString : queryString, Page : 0, SearchLabel : labelQuery, ScenarioCode : ErmesManager.ScenarioCode, InitialSearch: true, SearchContext:isNaN(search_context)?0:search_context };
+
+      if (querySort != '') {
+        $.extend(true, searchQuery, { SortField : querySort, SortOrder : parseInt(querySortOrder) == 0 ? 0 : 1 }); // sorting DESC
+      }
+      
+      if (grid != '') {
+        $.extend(true, searchQuery, { Grid : grid }); // sorting DESC
+        if (searchQuery.QueryString === '*:*') {
+          delete searchQuery.QueryString;
+        }
+      }
+      
+      if (memorize === 'true') {
+        $.extend(true, searchQuery, { MemorizeGrid: true }); // mémorisation des critères
+      }
+
+      if(detailMode === 'true') {
+        searchQuery.ResultSize = -1;
+        ErmesManager.CurrentSearchType = ErmesManager.SearchType.Detail
+        $.extend(true, data.Query, { query: { Id: 0, Index: 1, NBResults: 1, SearchQuery: searchQuery } });
+        data.doSearch($container);
+      }
+      else {
+        $.extend(true, data.Query, { query: searchQuery });
+        data.doSearch($container);
+      }
+      }
+      });
+    
+              });
+            
+            /*]]>*/</script>
+        </div>
+        </div>
+        <div id="multi_selection_simple" class="hidden-xs"> </div>
+      </main>
+    </div>
+  </div>
+  <footer role="contentinfo" class="hidden-print">
+    <div class="row">
+      <div><div id="footer">
+<div class="haut_btn col-md-4"><a href="#header_banner" title="Remonter en haut de page"> <span>Remonter en haut de page</span> </a></div>
+<div class="infos_hor">
+<div class="container">
+<h2>Accueil et orientation</h2>
+</div>
+<div class="infos_hor_addr container">
+<div class="hor_div">
+<div class="hor_div_sub">
+<h2 class="">Horaires d’ouverture au public</h2>
+<p>Tous les jours sauf dimanche et jours fériés<br>– Salle de lecture et libre accés : <span class="bold">8h30 – 19h45</span><br>– Salle des périodiques : <span class="bold">8h30 – 19h45</span> <br>– Salle des manuscrits : <span class="bold">8h30 – 15h30</span></p>
+</div>
+<div class="addr_div">
+<h2>Adresse</h2>
+<p>Boulevard du 9 Avril 1938 Bab Souika<br>1006 - Tunis</p>
+</div>
+<p></p>
+</div>
+<div class="map_infos">
+<div><img class="loaded lazy" data-was-processed="true" data-src="/ui/skins/BNT/images/bnt_vis.png" src="images/bnt_vis.png"></div>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<div class="col-md-4 col-sm-4 logo_ft"><img class="loaded lazy" data-was-processed="true" data-src="/ui/skins/BNT/images/logo_bnt_wh.svg" src="images/logo_bnt_wh.svg"></div>
+<div class="col-md-4 col-sm-4 social_media">
+<ul>
+<h3>Suivez-nous sur</h3>
+<li class="facebook"><a href="https://www.facebook.com/bib.nat.tn" target="_blank" rel="noopener"><span>facebook</span></a></li>
+<li class="instagram"><a href="https://twitter.com/bibliotheque_de" target="_blank" rel="noopener"><span>instagram</span></a></li>
+<li class="youtube"><a href="https://www.youtube.com/c/Biblioth%C3%A8quenationaledeTunisie" target="_blank" rel="noopener"><span>youtube</span></a></li>
+</ul>
+</div>
+<div class="col-md-4 col-sm-4">
+<p>Notre combat : vous proposer un catalogue titre à titre riche, avec des conditions de prêt adaptées et un environnement de lecture simplifié, prêt à l'emploi.</p>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<div class="col-md-4 col-sm-4"><a href="#" target="blank" title="archimed"><span>© 2021 Bibliothèque nationale de Tunisie. Tous droits réservés.</span></a><br><a href="#" title="BNT">©</a> crédit photo Jelel Bessaâd</div>
+<div class="col-md-8 col-sm-8">
+<ul class="connexe_ft">
+<li><a href="#">Mentions légales</a></li>
+<li>|</li>
+<li><a href="#">Plan du site</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div></div>
+    </div>
+    <div class="product-infos">
+      <span>Propulsé par <a href="http://www.archimed.fr/fr/" target="_blank">Archimed</a> - Gestion documentaire pour les bibliothèques</span>
+    </div>
+  </footer>
+  <div class="modal fade" id="share-frame" role="dialog" aria-hidden="true" aria-labelledby="share-frame-label">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" title="Fermer la modale de partage d'encart.">
+              x<span class="sr-only">Fermer la modale de partage d'encart.</span></button>
+          <h2 class="modal-title" id="share-frame-label">
+            <span>Partage d'encart</span>
+          </h2>
+        </div>
+        <div class="modal-body">
+          <label for="share-frame-textarea" class="ermes-label">
+            <span>Partage d'encart</span>
+          </label>
+          <textarea id="share-frame-textarea" class="form-control"> </textarea>
+          <p>
+            <span>Copiez ce code et collez-le sur votre site pour afficher l'encart</span>
+          </p>
+          <div class="social-network social-frame hidden-xs">
+            <p>
+              <span>Ou vous pouvez la partager sur les réseaux sociaux</span>
+            </p>
+            <ul id="share_social_frame">
+              <li>
+                <a href="#" data-network="twitter" class="pop twitter" title="Partager sur twitter(Nouvelle fenêtre)">
+                  <span class="sr-only">Partager sur twitter(Nouvelle fenêtre)</span>
+                  <span class="icon-twitter"> </span>
+                </a>
+              </li>
+              <li>
+                <a href="#" data-network="facebook" class="pop facebook" title="Partager sur facebook(Nouvelle fenêtre)">
+                  <span class="sr-only">Partager sur facebook(Nouvelle fenêtre)</span>
+                  <span class="icon-facebook"> </span>
+                </a>
+              </li>
+              <li>
+                <a href="#" data-network="tumblr" class="pop tumblr" title="Partager sur tumblr(Nouvelle fenêtre)">
+                  <span class="sr-only">Partager sur tumblr(Nouvelle fenêtre)</span>
+                  <span class="icon-tumblr"> </span>
+                </a>
+              </li>
+              <li>
+                <a href="#" data-network="pinterest" class="pop pinterest" title="Partager sur pinterest(Nouvelle fenêtre)">
+                  <span class="sr-only">Partager sur pinterest(Nouvelle fenêtre)</span>
+                  <span class="icon-pinterest"> </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="confirm_dialog_selection" class="modal fade" aria-hidden="true" role="dialog" aria-labelledby="confirm_dialog_selection-label">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" title="Fermer la modale de sélection.">
+              x
+              <span class="sr-only">Fermer la modale de sélection.</span></button>
+          <h2 class="modal-title" id="confirm_dialog_selection-label">Confirmez votre action</h2>
+        </div>
+        <div class="modal-body">
+          <p>
+            <span>Êtes-vous sûr de vouloir supprimer tous les documents de la sélection courante ?</span>
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default confirm" id="selection_modal_confirm" title="Confirmer la suppression de tous les documents de la sélection courante">Valider</button>
+          <button type="button" class="btn btn-primary" data-dismiss="modal" title="Annuler la suppression de tous les documents de la sélection courante">Annuler</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="holding_reservation_dialog" class="modal fade" aria-hidden="true" role="dialog" aria-labelledby="holding_reservation_dialog-label">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" title="Fermer la modale de réservation">
+              x
+              <span class="sr-only">Fermer la modale de réservation</span></button>
+          <h2 class="modal-title" id="holding_reservation_dialog-label">Choisissez la bibliothèque</h2>
+        </div>
+        <div class="modal-body">
+          <p>
+            <span>Vous souhaitez réserver un exemplaire.</span>
+          </p>
+          <div class="form-horizontal">
+            <div class="form-group">
+              <div class="col-sm-4 col-md-4 col-lg-4">
+                <label for="holding-reservation-dialog-library" class="control-label">
+                  <span>Choisissez la bibliothèque :</span>
+                </label>
+              </div>
+              <div class="col-sm-8 col-md-8 col-lg-8">
+                <select class="form-control form-front-select" id="holding-reservation-dialog-library" required="required" aria-required="true" aria-describedby="holding-reservation-dialog-library-desc">
+                  <option label="none"> </option> </select>
+              </div>
+              <span id="holding-reservation-dialog-library-desc" class="help-block hidden" aria-hidden="true">
+                <span>Ce champ est obligatoire</span>
+              </span>
+            </div>
+            <div class="form-group">
+              <label for="holding-reservation-dialog-textnote" class="col-sm-4 col-md-4 col-lg-4 control-label">
+                <span>Saisissez ici votre note de réservation optionnelle</span>
+              </label>
+              <div class="col-sm-8 col-md-8 col-lg-8">
+                <textarea aria-required="true" id="holding-reservation-dialog-textnote" class="bootbox-input bootbox-input-textarea form-control" placeholder="Saisissez ici votre note de réservation optionnelle"></textarea>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default confirm" id="holding-reservation-dialog-confirm" title="Réserver l'exemplaire">Réserver</button>
+          <button type="button" class="btn btn-primary" data-dismiss="modal" title="Fermer la modale de réservation">Annuler</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="subscribe_event_dialog" aria-hidden="true" role="dialog" aria-labelledby="subscribe_event_dialog-label">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" title="Fermer la modale d'inscription à un événement.">
+              x<span class="sr-only">Fermer la modale d'inscription à un événement.</span></button>
+          <h2 class="modal-title" id="subscribe_event_dialog-label">S'inscrire à un événement</h2>
+        </div>
+        <div class="modal-body">
+          <form class="form-horizontal">
+            <input type="hidden" name="IdFile" id="event-dialog-queue-id" value="">
+            <input type="hidden" name="IdInscription" id="event-dialog-subscription-id" value="0">
+            <div class="form-group">
+              <label class="col-lg-3 control-label event-dialog-event-name">Evénement</label>
+              <div class="col-lg-9">
+                <p class="form-control-static" id="event-dialog-event-name"> </p>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-lg-3 control-label event-dialog-event-plage">Date</label>
+              <div class="col-lg-9">
+                <p class="form-control-static" id="event-dialog-event-plage"> </p>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-lg-3 control-label" for="event-dialog-user-mail">Courriel</label>
+              <div class="col-lg-9">
+                <input class="form-control" type="email" name="UserMail" id="event-dialog-user-mail" value="">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-lg-3 control-label" for="event-dialog-user-phone">Téléphone</label>
+              <div class="col-lg-9">
+                <input class="form-control" type="tel" maxlength="64" name="UserPhone" id="event-dialog-user-phone" value="">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-lg-3 control-label event-dialog-size-left">Places restantes</label>
+              <div class="col-lg-9">
+                <p class="form-control-static" id="event-dialog-queue-size"> </p>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-lg-3 control-label" for="event-dialog-size-select">Nombre de places</label>
+              <div class="col-lg-9">
+                <input class="form-control" type="number" min="1" value="1" step="1" name="NbPlaces" id="event-dialog-size-select">
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default confirm" id="subscribe_event_dialog_confirm">Confirmer l'inscription</button>
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Annuler</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="dialog-confirm-unsubscribe" aria-hidden="true" role="dialog" aria-labelledby="dialog-confirm-unsubscribe-label">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" title="Fermer la modale d'annulation inscription.">
+              x<span class="sr-only">Fermer la modale d'annulation inscription.</span></button>
+          <h2 class="modal-title" id="dialog-confirm-unsubscribe-label">Annulation de l'inscription</h2>
+        </div>
+        <div class="modal-body">
+          <p class="help">
+            <span>Attention! Souhaitez-vous vraiment annuler votre inscription ?</span>
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary confirm" data-dismiss="modal" title="Valider l'annulation de cette inscription">Confirmer</button>
+          <button type="button" class="btn btn-default" data-dismiss="modal" title="Abandonner l'annulation de cette inscription">Annuler</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="expo_resa" class="modal fade" aria-hidden="true" role="dialog" aria-labelledby="dialog-expo-resa-label">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" title="La ressource Portal|CloseConfirmExpoResaModalTitle n'est pas définie.">
+              x<span class="sr-only">La ressource Portal|CloseConfirmExpoResaModalTitle n'est pas définie.</span></button>
+          <h2 class="modal-title" id="dialog-expo-resa-label">Réservation d'exposition</h2>
+        </div>
+        <div class="modal-body"> </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary confirm expo-valid" title="Réserver">Confirmer</button>
+          <button type="button" class="btn btn-default expo-cancel" data-dismiss="modal">Annuler</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="logon-form-container"> </div>
+  <div id="search-history-container"> </div>
+  <div id="search-capture-container"> </div>
+  <script type="text/javascript">
+              /*<![CDATA[*/
+              
+                
+                  master.onDOMContentLoaded(function () {
+                  
+              
+      
+      ComponentFactory.createInstance('PortalSessionPopups', {el:'#page'}, false);
+      
+    
+                });
+              
+              /*]]>*/</script>
+  <script type="text/javascript">
+              /*<![CDATA[*/
+              
+                
+                  master.onDOMContentLoaded(function () {
+                  
+              
+        $(function() {
+        ComponentFactory.createInstance('CookiesManagement', {
+        el: 'body'
+        }, false);
+        });
+      
+                });
+              
+              /*]]>*/</script>
