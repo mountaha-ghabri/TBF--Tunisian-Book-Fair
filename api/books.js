@@ -1,79 +1,19 @@
-const express = require("express");
-const fs = require("fs");
-const path = require("path");
-const router = express.Router();
+const express = require('express');  
+const router = express.Router();  
 
-// Path to JSON file (relative path)
-const booksFilePath = path.join(__dirname, 'data_sheet', 'books_data.json');
+// Sample route - Get all books  
+router.get('/', (req, res) => {  
+    // Replace with actual book data fetching logic  
+    res.status(200).json([{ title: "Harry Potter and the Chamber of Secrets", author: "JK Rowling" }]);  
+});  
 
-// GET: Fetch all books
-router.get("/", (req, res) => {
-    fs.readFile(booksFilePath, "utf8", (err, data) => {
-        if (err) {
-            console.error("Error reading the books JSON file:", err.message);
-            return res.status(500).json({ error: "Error reading the books JSON file" });
-        }
+// Sample route - Get a specific book by ID  
+router.get('/:id', (req, res) => {  
+    const { id } = req.params;  
+    // Replace with actual logic to get book by ID  
+    res.status(200).json({ id, title: "Harry Potter and the Chamber of Secrets", author: "JK Rowling" });  
+});  
 
-        try {
-            const books = JSON.parse(data);
-            res.status(200).json(books);
-        } catch (parseErr) {
-            console.error("Error parsing the books JSON file:", parseErr.message);
-            res.status(500).json({ error: "Error parsing the books JSON file" });
-        }
-    });
-});
-
-// GET: Search for books by title
-router.get("/search/:title", (req, res) => {
-    const { title } = req.params;
-
-    fs.readFile(booksFilePath, "utf8", (err, data) => {
-        if (err) {
-            console.error("Error reading the books JSON file:", err.message);
-            return res.status(500).json({ error: "Error reading the books JSON file" });
-        }
-
-        try {
-            const books = JSON.parse(data);
-            const foundBooks = books.filter(book => book.Title.toLowerCase().includes(title.toLowerCase()));
-
-            if (foundBooks.length === 0) {
-                return res.status(404).json({ message: `No books found with title: ${title}` });
-            }
-
-            res.status(200).json(foundBooks);
-        } catch (parseErr) {
-            console.error("Error parsing the books JSON file:", parseErr.message);
-            res.status(500).json({ error: "Error parsing the books JSON file" });
-        }
-    });
-});
-
-// GET: Search for books by rating (rating >= desired rating)
-router.get("/search/rating/:rating", (req, res) => {
-    const { rating } = req.params;
-
-    fs.readFile(booksFilePath, "utf8", (err, data) => {
-        if (err) {
-            console.error("Error reading the books JSON file:", err.message);
-            return res.status(500).json({ error: "Error reading the books JSON file" });
-        }
-
-        try {
-            const books = JSON.parse(data);
-            const foundBooks = books.filter(book => book.Rating >= parseInt(rating));
-
-            if (foundBooks.length === 0) {
-                return res.status(404).json({ message: `No books found with rating >= ${rating}` });
-            }
-
-            res.status(200).json(foundBooks);
-        } catch (parseErr) {
-            console.error("Error parsing the books JSON file:", parseErr.message);
-            res.status(500).json({ error: "Error parsing the books JSON file" });
-        }
-    });
-});
+// Add other book-related routes here (e.g., POST, DELETE, etc.)  
 
 module.exports = router;
