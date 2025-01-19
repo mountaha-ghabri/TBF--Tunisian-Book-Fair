@@ -1,0 +1,80 @@
+/* <Formats d'affichage> */
+.syracuse-display-format .display-format-line {
+    display: table;
+}
+
+    .syracuse-display-format .display-format-line .display-format-item-value {
+        display: table-cell;
+        padding-left: 2px;
+    }
+
+        .syracuse-display-format .display-format-line .display-format-item-value:not(.display-format-item-label + .display-format-item-value) {
+            display: table-cell;
+        }
+
+        .syracuse-display-format .display-format-line .display-format-item-value .display-format-item-list {
+            display: block;
+        }
+
+        .syracuse-display-format .display-format-line .display-format-item-value.multivalued .display-format-item-list * {
+            display: block !important;
+        }
+
+.syracuse-display-format .display-format-item-label:not(:empty) {
+    width: 180px;
+    display: block;
+    font-weight: bold;
+    color: #358595;
+}
+
+.syracuse-display-format .display-format-item-label:not(.display-format-item-label-no-value) {
+    display: table-cell;
+}
+
+.syracuse-display-format .display-format-item-label,
+.syracuse-display-format .display-format-inline-separator {
+    vertical-align: top;
+}
+
+.syracuse-display-format .display-format-inline-separator {
+    white-space: pre-wrap;
+}
+
+.syracuse-display-format .format-bold {
+    font-weight: bold;
+}
+
+.syracuse-display-format .format-italic {
+    font-style: italic;
+}
+
+.display-format-preview-separator {
+    margin: 10px 0;
+    border-top: 1px solid #BBB;
+}
+
+
+@media print {
+    .master-modern body .syracuse-display-format {
+        overflow: visible !important;
+    }
+
+    .master-modern body .display-format-line,
+    .master-modern body .display-format-item-label-no-value {
+        padding: 4px 0;
+    }
+
+        .master-modern body .display-format-line *,
+        .master-modern body .display-format-item-label {
+            /*font-size: 20px;
+        line-height: 24px;*/
+        }
+
+            .master-modern body .display-format-item-label.display-format-item-label-no-value,
+            .master-modern body > .display-format-item-label,
+            .master-modern body .display-format-line .display-format-item-label {
+                /*min-width: 280px;*/
+            }
+}
+/* </Formats d'affichage> */
+

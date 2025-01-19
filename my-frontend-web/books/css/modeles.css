@@ -1,0 +1,147 @@
+.bs-example.modele_2 h3 {
+	font-size: 20px;
+	color: #fff;
+	padding: 6px 8px
+}
+.bs-example.modele_2 .btn.btn-default, .bs-example .btn.btn-default {
+	padding: 2px 6px;
+	font-size: 12px
+}
+.bs-example.modele_2 p .btn {
+	text-align: center
+}
+
+.bs-example .frontpage li {
+	width: 50%;
+	color: #fff;
+	font-size: 18px;
+	text-transform: uppercase
+}
+.bs-example .frontpage a {
+	display: block;
+	color: #fff;
+	font-weight: bold
+}
+.bs-example .frontpage .glyphicon {
+	font-size: 3em;
+	color: #fff
+}
+.bs-example .panel.panel-default:nth-child(1) .panel-heading {
+	background: #77023F;
+	color: #fff
+}
+.bs-example .panel.panel-default:nth-child(2) .panel-heading {
+	background: #F37C21;
+	color: #fff
+}
+.bs-example .panel.panel-default:nth-child(3) .panel-heading {
+	background: #A2B72A;
+	color: #fff
+}
+.bs-example .bs-example-tabs .tab-pane {
+	padding: 10px;
+	border: 1px solid #DDDDDD;
+	border-top: none
+}
+.bs-example .bs-example-tabs .tab-pane h3 {
+	margin: 0;
+	padding: 10px 0
+}
+.bs-example .bs-example-tabs .nav-tabs {
+	margin: 0
+}
+.bs-example .bs-example-tabs ul li {
+	list-style: square
+}
+.bs-example .bs-example-tabs ul li ul li {
+	list-style: disc
+}
+.bs-example .the-icons li {
+	width: 33.3333%
+}
+.bs-example .the-icons {
+	padding: 0 0 0 5px
+}
+.bs-example .the-icons li a {
+	background: #EAEAEA;
+	border-radius: 6px;
+	display: block;
+	font-size: 18px;
+	margin: 0 10px 10px 0;
+	padding: 8px;
+}
+.bs-example .the-icons .glyphicon {
+	font-size: 22px
+}
+ @media (max-width: 768px) {
+.bs-example .frontpage li {
+	font-size: 16px;
+}
+.bs-example .frontpage .glyphicon {
+	font-size: 2.3em;
+}
+.bs-example .the-icons li a {
+	font-size: 14px
+}
+.bs-example .the-icons .glyphicon {
+	font-size: 18px
+}
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media (max-width : 480px) {
+.bs-example .the-icons .glyphicon {
+	font-size: 40px;
+}
+.bs-example .the-icons li a {
+	font-size: 12px;
+	margin: 0 6px 6px 0;
+	text-align: center
+}
+.bs-example .the-icons li a .glyphicon-class {
+	display: none
+}
+}
+
+/*
+ * Glyphicons
+ *
+ * Special styles for displaying the icons and their classes in the docs.
+ */
+
+.bs-example .bs-glyphicons {
+  padding-left: 0;
+  padding-bottom: 1px;
+  margin-bottom: 20px;
+  list-style: none;
+  overflow: hidden;
+}
+.bs-example .bs-glyphicons li {
+  float: left;
+  width: 25%;
+  height: 115px;
+  padding: 10px;
+  margin: 0 -1px -1px 0;
+  font-size: 12px;
+  line-height: 1.4;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+.bs-example .bs-glyphicons .glyphicon {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+.bs-example .bs-glyphicons .glyphicon-class {
+  display: block;
+  text-align: center;
+  word-wrap: break-word; /* Help out IE10+ with class names */
+}
+.bs-example .bs-glyphicons li:hover {
+  background-color: rgba(86,61,124,.1);
+}
+
+@media (min-width: 768px) {
+  .bs-example .bs-glyphicons li {
+    width: 12.5%;
+  }
+}

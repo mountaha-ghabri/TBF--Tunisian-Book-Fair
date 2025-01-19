@@ -1,0 +1,325 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+@import url(projet.css);
+
+header {
+    border-top: 0;
+    /*background: #F4D068 url('../images/header_kh.jpg') no-repeat center center;*/
+	background: #fff url('../images/header_kh.jpg') no-repeat center center;
+    
+    background-size: cover;
+}
+
+.portal-random-1 header {
+    background-image: url(../images/header_kh2.jpg);
+}
+
+.portal-random-2 header {
+    background-image: url(../images/header_kh3.jpg);
+}
+
+.portal-random-3 header {
+    background-image: url(../images/header_kh4.jpg);
+}
+
+.navbar-inverse .navbar-brand {
+    padding: 0;
+    background: transparent url(../images/kh_logo.png) no-repeat left center;
+    height: 68px;
+    width: 282px;
+    background-size: 100%;
+	
+    margin: 0 !important;
+    position: absolute;
+    top: -66px;
+    left: 0;
+}
+.dropdown-menu .active>a, .dropdown-menu .active>a:hover, .dropdown-menu>.active>a:focus {
+    background-color: #005061;
+}
+#scenario-selection {
+   
+    color: #005061 !important;
+}
+#globalAdvancedSearchLink {
+    color: #fff;
+    font-size: 12px;
+    background: #005061;
+    padding: 2px 6px;
+    border-radius: 12px;
+}
+#scenario-selection, #submit-search {
+    color: #E4C8A1;
+    background: #005061;
+    border-color: #005061;
+}
+.btn-default {
+    background-color: #005061;
+    border-color: #005061;
+    color: #fff;
+    
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+    background-color: #005061;
+    border-color: #005061;
+    color: #fff;
+}
+#multi_selection_simple .bouton_detail, #multi_selection .bouton_detail {
+    color: #262626;
+}
+
+
+.facet-controls>a, .facet-controls>button {
+    color: #262626;
+    
+    background: #F4D068;
+    
+}
+.search-form .search-form-title {
+    text-transform: none !important;
+    
+}
+.facetList .badge {
+    color: #262626;
+    
+    background: #F4D068;
+	padding: 4px 8px;
+    font-size: 14px;
+}
+.displaymode-icon-container.desktop button, .siteRestriction-icon-container.desktop button, .sort-order button {
+    color: #262626;
+    
+    background: #F4D068;
+}
+ul.metadata-actions>li>button, ul.metadata-actions>li>a, .memoriser>button, .modify-selection {
+    
+    background: #F4D068 !important;
+   
+    color: #262626 !important;
+}
+.displaymode-icon-container.desktop button:hover, .siteRestriction-icon-container.desktop button:hover, .sort-order button:focus, .sort-order button:hover {
+    color: #262626;
+}
+.displaymode-icon-container a.active:hover, .pageSize-container a.active:hover, .siteRestriction-icon-container a.active:hover, .sort-order a.active:hover {
+    color: #262626;
+    
+    background: #F4D068;
+}
+.displaymode-icon-container .active, .siteRestriction-icon-container .active, .pageSize-container .active, .sort-order .active {
+    color: #262626;
+    
+    background: #F4D068;
+}
+.memoriser .dropdown-toggle {
+    border-top: 1px solid #262626;
+    
+}
+ul.metadata-actions .caret {
+    border-top-color: #262626;
+}
+.vignette_document .icon-new {
+    background-color: #F4D068;
+    -moz-box-shadow: -3px -3px 0 #262626;
+    -webkit-box-shadow: -3px -3px 0 #262626;
+    box-shadow: -3px -3px 0 #262626;
+    color: #262626;
+}
+
+#nav_connexe {
+    
+    background: #005061;
+}
+#search-panel {
+    
+    padding: 100px 0;
+    
+}
+#search-panel .panel-body {
+    margin: 0 auto;
+    float: none;
+}
+.panel-front>.x-panel-header span, h2 {
+    color: #005061;
+    
+}
+.link-connexe .btn.btn-default.btn-xs {
+    
+    color: #fff;
+	
+    
+}
+.theme_4 {
+    
+    background: #005061;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
+    background: #005061 !important;
+}
+.render-velocityRenderMode_OWLCAR_ONESLIDE .ct_wol_spec {
+    
+    background: #005061 !important;
+    
+}
+.theme_2 {
+   
+    background: #CCDCDF;
+}
+#langue-btn>a {
+    
+    padding: 4px 2px;
+}
+#langue-btn {
+    bottom: 124px !important;
+    background: #005061;
+    right: 0;
+    
+    left: auto;
+}
+.Agenda_bnt>div {
+  
+    background: #2B7D8E;
+  
+}
+.hor_div_sub p, .addr_div p {
+    
+    color: #005061;
+}
+footer {
+   
+    background: #005061;
+   
+}
+
+.infos_hor_addr .btn-default {
+    background-color: transparent;
+    border-color: #005061;
+    color: #005061;
+    
+}
+.infos_hor_addr .btn-default:hover,
+.infos_hor_addr .btn-default:focus {
+    background-color: #005061;
+   
+}
+.infos_hor {
+    background: #CCDCDF;
+}
+.infos_hor .container>h2:after {
+    
+    border-bottom: 1px solid #005061;
+   
+}
+.theme_1 .panel-heading>h2:after, .theme_1 .panel-heading>h2:before {
+   
+    border-bottom: 1px solid #005061;
+   
+}
+#langue-btn .dropdown-menu {
+    left: auto;
+    right: 0;
+}
+
+@media (min-width: 768px) {
+
+
+.btn-account {
+    
+    background: #E4C8A1;
+       color:#005061 ;
+    
+}
+ .btn-account:hover, .btn-account:focus, .btn-account:active, .btn-account.active, .open .dropdown-toggle.btn-account {
+       
+       background: #E4C8A1;
+       color:#005061 ;
+       
+ }
+ #ermes_main_menu li.LEVEL1 .dropdown-menu {
+        
+        background: #005061;
+        
+    }
+}
+
+@media (max-width: 992px) {
+   
+
+
+.navbar-inverse .navbar-brand {
+    padding: 0;
+    
+   
+    width: 323px;
+   
+    position: relative;
+    top: auto;
+    left: 0;
+    margin: 20px 0 0 0 !important;
+}
+#langue-btn {
+    bottom: 216px !important;
+   
+}
+}
+
+@media (max-width: 767px) {
+
+#search-panel {
+    padding: 16px 0;
+}
+#ermes_main_menu {
+    
+    background: #005061;
+    
+}
+}
+#mobile-actions {
+    background-color: #005061;
+}
+.mobile-navigation, .mobile-navigation>.btn-group, .mobile-navigation .btn {
+    background-color: #005061;
+    
+}
+
+
+.mobile-navigation .btn.precedent, .mobile-navigation .btn.suivant {
+    background-color: #005061;
+}
+
+@media (max-width: 600px) {
+
+.panel-front>.x-panel-header span, h2 {
+    font-size: 34px;
+}
+}
+
+
+
+h3.category_header {
+    background-color: #F4D068;
+    color: #000;
+}
+.detail-holdings-class [class|="detail-holds"] thead th, .detail-subscriptions thead th, .detail-holdings-class [class|="detail-holds"] thead td, .detail-subscriptions thead td {
+    background-color:#F8E3A4;
+    color: #000;
+}
+
+tr.holdings-subscription-sectiont{
+    cursor: pointer;
+    background-color: #F8E3A4!important;
+    color: #000;
+}
+
+
+
+
+h2.category_header {
+    color: #005061;
+}
+.alert-info {
+    border-left: 10px solid #005061 !important;
+}
+
+
+

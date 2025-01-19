@@ -1,0 +1,598 @@
+/**************************************************************/
+
+/**                    BARRE DE TITRE                        **/
+
+/**************************************************************/
+
+#master-toolbar {
+  padding: 3px 0 3px 3px;
+  display: table;
+  border: 0;
+}
+
+#master-toolbar > div {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#master-toolbar .master-title {
+  text-transform: uppercase;
+  color: white;
+  font-size: 17px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+#master-toolbar .master-logo {
+  font-family: glyphicons;
+  font-size: 22px;
+  color: #fff;
+  position: absolute;
+}
+
+#master-toolbar .x-toolbar-separator {
+  margin: 0 5px;
+}
+
+.master-toolbar-separator {
+  width: 1px;
+  border-right: solid 1px #fff;
+  height: 14px;
+  margin: 0 5px;
+}
+
+#master-site-text,
+#master-datetime {
+  color: white;
+  white-space: nowrap;
+  line-height: 24px;
+  padding: 0 8px;
+}
+
+#master-connection-menu .disconnect {
+  background-image: url("images/master/unpluged.png");
+}
+
+.master-resourceeditor-item-checked .x-menu-item-checkbox {
+  background-image: url(../images/default-group-checked.png);
+}
+
+.master-resourceeditor-item-unchecked .x-menu-item-checkbox {
+  background-image: none;
+}
+
+#master-culture-button .x-btn-arrow .x-btn-icon {
+  padding-right: 0;
+}
+
+#master-culture-button .x-btn-arrow::after {
+  display: none;
+}
+
+/**************************************************************/
+
+/**       ONGLETS D'AFFICHAGE DES MODULES DE L'APPLICATION   **/
+
+/**************************************************************/
+
+#master-ribbon > .x-panel-body {
+  border-width: 0 0 1px;
+}
+
+#master-ribbon .x-tab-inner {
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+#master-ribbon .x-tab-bar {
+  border: 0;
+}
+
+#master-ribbon .x-tab-bar-strip {
+  border-left: 0;
+  border-right: 0;
+}
+
+#master-ribbon .x-toolbar .x-btn-inner {
+  -ms-text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+
+.master-search-area .x-form-field,
+.master-search-area .x-boundlist-item {
+  text-transform: uppercase;
+}
+
+#master-ribbon {
+  background-color: #e5e5e5;
+}
+
+#master-ribbon .nav-tabs {
+  padding: 2px 2px 0;
+  margin: 0 0 3px;
+}
+
+.x-chrome #master-ribbon .nav-tabs > li {
+  margin-bottom: -2px;
+}
+
+#master-ribbon .nav-tabs > li > a {
+  color: #333;
+  padding: 6px 12px 4px;
+  margin-right: 3px;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+}
+
+#master-ribbon .nav-tabs > li > a span::before {
+  font-size: 16px;
+}
+
+#master-ribbon .nav-tabs > li > a:hover,
+#master-ribbon .nav-tabs > li > a:focus {
+  border-color: transparent;
+  background-color: transparent;
+}
+
+#master-ribbon .nav-tabs > li.active > a {
+  border-top-color: #a2a2a2;
+  border-left-color: #a2a2a2;
+  border-right-color: #a2a2a2;
+  background-color: #e5e5e5;
+}
+
+#master-ribbon-body {
+  height: 36px;
+  background-color: #e5e5e5;
+  border-bottom: solid 1px #a2a2a2;
+  display: table;
+  width: 100%;
+}
+
+#master-ribbon-body > div {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0 5px;
+  overflow: hidden;
+}
+
+#master-ribbon-search > div {
+  display: table-cell;
+}
+
+#master-ribbon-bookmarks-add-container {
+  width: 50px;
+}
+
+#master-ribbon-bookmarks {
+  width: 100%;
+  height: 35px;
+  overflow-y: auto;
+}
+
+#master-ribbon-bookmarks a {
+  color: #333;
+  text-decoration: none;
+  border: solid 1px transparent;
+  padding: 3px;
+  display: inline-block;
+  white-space: nowrap;
+  max-width: 220px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 4px 0;
+  line-height: 15px;
+}
+
+#master-ribbon-bookmarks a:hover {
+  border-color: #d1d1d1;
+}
+
+#master-ribbon-bookmarks .bookmark-icon {
+  font-size: 16px;
+  color: #565656;
+  vertical-align: bottom;
+}
+
+#master-ribbon-bookmarks .bookmark-text {
+  padding: 0 5px 0 2px;
+}
+
+#master-ribbon-right-ct-inner {
+  display: table;
+  width: 100%;
+}
+
+#master-ribbon-right-ct-inner > div {
+  display: table-cell;
+}
+
+/**************************************************************/
+
+/**                  BARRES D'APPLICATIONS                   **/
+
+/**************************************************************/
+
+#master-appbar {
+  height: 40px;
+  overflow: hidden;
+}
+
+#master-appbar a {
+  font-size: 16px;
+  line-height: 32px;
+  vertical-align: middle;
+  display: inline-block;
+  padding: 4px;
+  color: #444;
+  margin: 0 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#master-appbar a[class*=" glyph-"],
+#master-appbar a[class^="glyph-"] {
+  font-size: 24px;
+  color: #666;
+  padding: 0 4px;
+}
+
+#master-appbar-help {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/**************************************************************/
+
+/**      BARRE D'ETAT (NOTIFICATIONS + INFOS PRODUIT)        **/
+
+/**************************************************************/
+
+#master-notification {
+  padding-left: 30px;
+  background: transparent url("../images/notification.png") no-repeat 5px
+    center;
+}
+
+#master-statusbar {
+  line-height: 20px;
+  color: white;
+  background-color: #686868;
+  text-align: right;
+  padding-right: 5px;
+}
+
+.cf-beta #master-product-infos {
+  color: #bdfff0;
+}
+
+.cf-rc #master-product-infos {
+  color: #ffbb05;
+}
+
+/**************************************************************/
+
+/**               AFFICHAGE DES MENUS DES MODULES            **/
+
+/**************************************************************/
+
+#master-nav .x-grid-cell-inner {
+  padding-top: 7px;
+  padding-bottom: 6px;
+  padding-left: 4px;
+}
+
+#master-nav .x-tree-node-text {
+  font-size: 14px;
+  padding-left: 0;
+}
+
+#master-nav .x-tree-icon {
+  display: none;
+}
+
+#master-nav .x-tree-expander {
+  /*visibility: hidden;*/
+}
+
+#master-nav .nav .x-panel-header {
+  padding: 5px 20px 6px;
+  background: none;
+  border: 0;
+}
+
+#master-nav .nav .x-panel-header-text-container {
+  font-size: 18px;
+  line-height: normal;
+  padding-top: 0;
+}
+
+#master-nav .nav .x-panel-header-text {
+  color: #555;
+  font-family: Segoe UI, helvetica, tahoma, arial, sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+#master-nav .nav .x-panel-header .x-tool-img {
+  background-color: transparent;
+}
+
+#master-nav .x-grid-row .x-tree-elbow-img:first-child,
+#master-nav .x-tree-node-el .x-tree-elbow,
+#master-nav .x-tree-node-el .x-tree-elbow-end {
+  /*display: none;*/
+}
+
+#master-nav-tabs-splitter,
+#master-nav-region-splitter {
+  background: #fff;
+}
+
+#master-nav-tabs .x-tab-bar {
+  padding-right: 0;
+}
+
+#master-nav-tabs .x-tab-bar-strip {
+  background: none;
+  border-right: 0;
+}
+
+.x-css-shadow {
+  -webkit-transition: box-shadow 0.2s ease-in;
+  -moz-transition: box-shadow 0.2s ease-in;
+  -o-transition: box-shadow 0.2s ease-in;
+  transition: box-shadow 0.2s ease-in;
+}
+
+#master-photo-manager-window {
+  -webkit-transition: border-color 0.2s ease-in;
+  -moz-transition: border-color 0.2s ease-in;
+  -o-transition: border-color 0.2s ease-in;
+  transition: border-color 0.2s ease-in;
+}
+
+#master-photo-manager-window-content,
+#master-photo-manager-dropzone {
+  height: 100%;
+  width: 100%;
+  display: table;
+}
+
+#master-photo-manager-dropzone-content {
+  text-align: center;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#master-photo-manager-dropzone-icon {
+  color: #bbb;
+  font-size: 64px;
+  margin-bottom: 10px;
+}
+
+#master-photo-manager-dropzone-text {
+  font-size: 18px;
+  color: #bbb;
+  line-height: 34px;
+  margin-bottom: 10px;
+}
+
+#master-photo-manager-dropzone-text .large {
+  font-size: 24px;
+}
+
+#master-photo-manager-preview {
+  text-align: center;
+}
+
+#master-nav-region-content {
+  height: 100%;
+}
+
+#master-nav {
+  height: 100%;
+}
+
+#master-nav .nav-tabs {
+  height: 37px;
+  padding: 2px 2px 0;
+  margin: 0 0 3px;
+  border-color: #d1d1d1;
+  width: 10000px;
+}
+
+#master-nav .nav-tabs > li > a {
+  padding: 6px 12px 6px;
+  font-size: 14px;
+  line-height: 19px;
+  color: #666;
+}
+
+#master-nav .nav-tabs > li.active > a {
+  background-color: #efefef;
+  border-color: #d1d1d1 #d1d1d1 #efefef;
+}
+
+#master-nav-tabs {
+  height: calc(100% - 40px);
+  overflow-y: auto;
+}
+
+.master-nav-scroll {
+  overflow-y: auto;
+}
+
+.master-nav-tab-glyph {
+  font-size: 17px;
+  display: inline-block;
+  vertical-align: middle;
+  height: 19px;
+  width: 19px;
+}
+
+.master-nav-tab-text {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.master-nav-tree > ul {
+  padding-left: 0;
+}
+
+.master-nav-tree li.collapsed ul {
+  display: none;
+}
+
+.master-nav-tree a {
+  padding-top: 7px;
+  padding-bottom: 6px;
+  padding-left: 4px;
+  display: block;
+  font-size: 14px;
+  color: #333;
+  text-decoration: none;
+  line-height: 15px;
+}
+
+.master-nav-tree .x-primary-background-color a {
+  color: #fff;
+}
+
+.master-nav-tree-elbow {
+  display: inline-block;
+  width: 16px;
+}
+
+.master-nav-tree-icon {
+  display: inline-block;
+  font-size: 11px;
+  line-height: 15px;
+  color: #888;
+  width: 11px;
+  cursor: pointer;
+}
+
+.master-nav-tree-node-text .beta:after,
+.x-menu-item-beta .x-menu-item-text:after {
+  content: "BETA";
+  font-size: 9px;
+  font-weight: bold;
+  color: #999;
+  margin-left: 6px;
+  vertical-align: bottom;
+}
+
+.x-primary-background-color .master-nav-tree-node-text .beta:after {
+  color: #fff;
+}
+
+.master-nav-mode-item-modern .x-btn-inner {
+  font-family: Segoe UI Semibold, Segoe UI, tahoma, helvetica, arial, sans-serif;
+  font-weight: bold;
+}
+
+/**************************************************************/
+
+/**                         VOLET D'AIDE                     **/
+
+/**************************************************************/
+
+#master-helpbar .x-panel-body {
+  background-image: url("../images/help-background.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  padding-bottom: 30px;
+  overflow-x: hidden;
+}
+
+#master-helpbar h3 {
+  color: #bcbcbc;
+  margin: 0 0 30px;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 32px;
+}
+
+#master-helpbar ol,
+#master-helpbar ul {
+  padding: 0;
+  margin: 0;
+}
+
+#master-helpbar li {
+  list-style: inside decimal;
+  color: #777;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0;
+  margin: 0 0 15px;
+}
+
+#master-helpbar p {
+  font-weight: normal;
+  font-size: 16px;
+  display: inline;
+  padding: 0;
+  margin: 0;
+}
+
+#master-layout-ct > div {
+  height: 100%;
+}
+
+/* Chrome 43 input fix */
+
+.x-webkit .x-form-text {
+  display: inherit;
+}
+
+.x-form-display-field-glyph {
+  font-size: 16px;
+  line-height: 28px;
+  margin-right: 5px;
+}
+
+/***********************************/
+/* Gestion du mode print           */
+/***********************************/
+@media print {
+  /* Masquage de l'ensemble des éléments DOM */
+  .master-modern body * {
+    visibility: hidden !important;
+  }
+
+  /* Affichage explicite du contenu principal */
+  .master-modern #master #master-main,
+  .master-modern #master #master-main * {
+    visibility: visible !important;
+  }
+
+  /* Ajustement du contenu principal */
+  .master-modern #master #master-main {
+    position: absolute !important;
+    left: 0 !important;
+    top: 0 !important;
+    bottom: unset !important; /* Cette ligne permet d'imprimer la page entière (pas juste la partie visible dans le navigateur */
+  }
+
+  /* Masquage des sources url des liens hypertextes */
+  .master-modern a[href]:after {
+    display: none !important;
+    visibility: hidden !important;
+  }
+
+  /* Ajustement canvas chartjs */
+  canvas.chartjs-render-monitor {
+    min-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: auto !important;
+    width: auto !important;
+  }
+}

@@ -1,0 +1,3824 @@
+/***************************/
+
+/*      General style      */
+
+/***************************/
+
+@media only screen and (max-width: 450px) {
+  .hiddenOnMobile {
+    display: none;
+  }
+  .icon-resize-full-on-mobile:before {
+    content: "\e82d";
+  }
+}
+
+/* raleway-regular - latin-ext_latin */
+
+@font-face {
+  font-family: "Raleway Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("../fonts/raleway-v18-latin-ext_latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/raleway-v18-latin-ext_latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+html,
+body,
+td,
+pre {
+  font-family: "Segoe UI", Helvetica, tahoma, Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Segoe UI", Helvetica, tahoma, Arial, sans-serif;
+  font-weight: 200;
+  color: #333;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 12px;
+  color: #333;
+}
+
+.mce-content-body {
+  margin: 10px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+iframe {
+  border: 0;
+}
+
+/*table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}*/
+
+th,
+td {
+  padding: 0;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+b,
+strong {
+  font-family: "Segoe UI Semibold", Helvetica, tahoma, Arial, sans-serif;
+  font-weight: bold;
+}
+
+input::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  font-style: italic;
+}
+
+input::-moz-placeholder {
+  /* Firefox 19+ */
+  font-style: italic;
+}
+
+input::-ms-input-placeholder {
+  /* Edge 41+ */
+  font-style: italic;
+}
+
+input:-moz-placeholder {
+  /* Firefox 4-18 */
+  font-style: italic;
+}
+
+input:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  font-style: italic;
+}
+
+input:-ms-input-placeholder {
+  /* Internet Explorer 11 a besoin du flag !important */
+  font-style: italic !important;
+}
+
+input::placeholder {
+  /* De plus en plus compatible */
+  font-style: italic;
+}
+
+/***************************/
+
+/*       Portal            */
+
+/***************************/
+
+/* Default frame */
+
+.frame {
+  margin: 30px;
+}
+
+.frame-title {
+  padding: 20px 0 10px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  color: #333;
+  border-bottom: solid 1px #eaeaea;
+  margin-bottom: 20px;
+}
+
+ul.liste-encart {
+  list-style-type: none;
+}
+
+ul.liste-encart li {
+  color: black;
+  line-height: 22px;
+  background: url("../images/content-li.gif") no-repeat 0 7px;
+  padding-left: 14px;
+}
+
+ul.liste-encart li a:link {
+  text-decoration: none;
+  color: Black;
+}
+
+ul.liste-encart li a:visited {
+  color: Black;
+}
+
+ul.liste-encart li a:active {
+  color: Black;
+}
+
+ul.liste-encart li a:hover {
+  text-decoration: none;
+  color: #94aac3;
+}
+
+ul.liste-encart li .selected {
+  font-family: "Segoe UI Semibold", Helvetica, tahoma, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.headingXL {
+  margin-top: 5px;
+  font-size: 22px;
+  line-height: 76px;
+  font-weight: 400;
+  color: #333;
+  text-indent: 5px;
+}
+
+.frame-diagnostics .headingXL {
+  background-image: url("../images/alerts.png");
+  background-repeat: no-repeat;
+  text-indent: 90px;
+}
+
+.frame-getstarted .getstarted-wrap {
+  overflow: auto;
+}
+
+.frame-getstarted .getstarted-item {
+  width: 150px;
+  height: 150px;
+  padding-top: 100px;
+  float: left;
+  margin: 5px;
+}
+
+.frame-getstarted .getstarted-item-inner {
+  background-color: #333;
+  opacity: 0.6;
+  width: 150px;
+  height: 50px;
+  position: absolute;
+}
+
+.frame-getstarted .getstarted-item-text {
+  display: table;
+  color: #fff;
+  width: 150px;
+  height: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  font-size: 11px;
+  position: absolute;
+  background: none;
+}
+
+.frame-getstarted .getstarted-item-text-child {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.frame-getstarted .getstarted-item-text:hover {
+  background-color: #333;
+  opacity: 0.8;
+}
+
+.frame-getstarted .getstarted-pages {
+  background-image: url("../images/add-page.png");
+  background-repeat: no-repeat;
+}
+
+.frame-getstarted .getstarted-users {
+  background-image: url("../images/add-user.png");
+  background-repeat: no-repeat;
+}
+
+.frame-getstarted .getstarted-sites {
+  background-image: url("../images/add-site.png");
+  background-repeat: no-repeat;
+}
+
+.frame-infos .headingXL {
+  background-image: url("../images/infos.png");
+  background-repeat: no-repeat;
+  text-indent: 90px;
+  margin-bottom: 5px;
+}
+
+.frame-infos .infos-msg {
+  margin: 0;
+  padding: 0;
+}
+
+.frame-infos .infos-context {
+  margin: 15px 5px;
+}
+
+.frame-cmsactivity .headingXL {
+  background-image: url("../images/cmsactivity.png");
+  background-repeat: no-repeat;
+  text-indent: 90px;
+  margin-bottom: 25px;
+}
+
+.frame-cmsactivity #cmsactivity-items {
+  margin: 15px 5px;
+}
+
+.frame-cmsactivity a {
+  text-decoration: none;
+  color: #333;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.frame-cmsactivity a:hover {
+  text-decoration: underline;
+}
+
+#cmsactivity-items
+  .cmsactivity-item-pub-requested.cmsactivity-item-with-results
+  a {
+  color: Red;
+}
+
+/* Simple html frame */
+
+.frame-simplehtml ul li {
+  list-style: disc;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+/* RSS Frame */
+
+.frame-rss-content ul {
+  list-style-type: none;
+}
+
+.frame-rss-content li {
+  background: url("../images/content-li.gif") no-repeat 0 6px;
+  margin-top: 4px;
+  padding-left: 14px;
+}
+
+.frame-rss-content li a:link {
+  color: #000;
+  text-decoration: none;
+}
+
+.frame-rss-content li a:visited {
+  color: #000;
+}
+
+.frame-rss-content li a:active {
+  color: #000;
+}
+
+.frame-rss-content li a:hover {
+  color: #94aac3;
+}
+
+.frame-rss-content table {
+  width: 100%;
+}
+
+.frame-rss-date {
+  width: 120px;
+  text-align: right;
+  color: #666;
+  font-size: 11px;
+}
+
+.frame .sdi-service-subscription p {
+  font-size: 14px;
+}
+
+.frame .sdi-service-subscription .glyphicon {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+  background: none;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.frame .sdi-service-subscription .glyphicon-refresh {
+  font-size: 16px;
+}
+
+.frame .sdi-service-subscription .glyphicon-volume-down {
+  font-size: 22px;
+}
+
+.frame .alert-info.social-network-desactivated {
+  margin-top: 20px;
+}
+
+/* Newsletter frame */
+
+.frame .newsletter-display-wrapper {
+  position: relative;
+}
+
+.frame .newsletter-display-iframe {
+  width: 100%;
+  border: 0;
+}
+
+/* Organigramme */
+.flowchart-tree {
+  align-self: center;
+  position: relative;
+  display: block;
+  width: auto;
+  overflow: auto;
+}
+
+.flowchart-tree ul {
+  /* centrage du chart */
+  margin: 0 auto;
+  display: table;
+  padding: 20px 0;
+  position: relative;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+}
+
+.flowchart-tree li {
+  display: table-cell;
+  vertical-align: top;
+  text-align: center;
+  list-style-type: none;
+  position: relative;
+  padding: 30px 5px 0 5px;
+
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+}
+
+/*We will use ::before and ::after to draw the connectors*/
+.flowchart-tree li::before,
+.flowchart-tree li::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 50%;
+  border-top: 1px solid #ccc;
+  width: 50%;
+  height: 30px;
+}
+.flowchart-tree li::after {
+  right: auto;
+  left: 50%;
+  border-left: 1px solid #ccc;
+}
+
+/*We need to remove left-right connectors from elements without 
+any siblings*/
+.flowchart-tree li:only-child::after,
+.flowchart-tree li:only-child::before {
+  display: none;
+}
+
+/*Remove space from the top of single children*/
+.flowchart-tree li:only-child {
+  padding-top: 0;
+}
+
+/*Remove left connector from first child and 
+right connector from last child*/
+.flowchart-tree li:first-child::before,
+.flowchart-tree li:last-child::after {
+  border: 0 none;
+}
+
+/*Adding back the vertical connector to the last nodes*/
+.flowchart-tree li:last-child::before {
+  border-right: 1px solid #ccc;
+}
+
+/*Time to add downward connectors from parents*/
+.flowchart-tree ul ul::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  border-left: 1px solid #ccc;
+  width: 0;
+  height: 20px;
+}
+
+.flowchart-tree li a {
+  box-shadow: 0 0 3px rgb(0, 0, 0, 0.15);
+  border-top: 4px solid rgb(0, 173, 177);
+  padding: 15px;
+  text-decoration: none;
+  color: #666;
+  font-family: arial, verdana, tahoma;
+  font-size: 11px;
+  display: inline-block;
+
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+}
+
+.flowchart-tree a.flowchart-highlight {
+  background-color: rgb(255 255 0 / 15%);
+}
+/********** User Photo Circle  ****************/
+.user-photo-circle {
+  min-width: 4em !important;
+  width: 4em !important;
+  height: 4em !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+  object-position: center right !important;
+}
+
+/***************************************/
+/* Styles pour les renderer de grilles */
+/***************************************/
+.cf-grid-renderer-center {
+  text-align: center;
+}
+
+.cf-grid-renderer-mail {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url(../images/mail.png) !important;
+  cursor: pointer;
+}
+
+/* Generics buttons */
+
+@font-face {
+  font-family: "glyphicons";
+  src: url("../fonts/glyphicons.woff");
+}
+
+[class^="glyph-"],
+[class*=" glyph-"] {
+  font-family: glyphicons;
+  speak-as: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="glyph-"]:before,
+[class*=" glyph-"]:before {
+  vertical-align: top;
+}
+
+.glyph-add:before {
+  content: "\e600";
+}
+
+.glyph-user-add:before {
+  content: "\e601";
+}
+
+.glyph-check:before {
+  content: "\e602";
+}
+
+.glyph-cross:before {
+  content: "\e603";
+}
+
+.glyph-arrow-down-alt:before {
+  content: "\e604";
+}
+
+.glyph-user:before {
+  content: "\e605";
+}
+
+.glyph-settings-alt:before {
+  content: "\e606";
+}
+
+.glyph-download-alt:before {
+  content: "\e607";
+}
+
+.glyph-delete:before {
+  content: "\e608";
+}
+
+.glyph-exclamation-alt:before {
+  content: "\e609";
+}
+
+.glyph-warning:before {
+  content: "\e60a";
+}
+
+.glyph-lock:before {
+  content: "\e60b";
+}
+
+.glyph-lock-open:before {
+  content: "\e60c";
+}
+
+.glyph-ok:before {
+  content: "\e60d";
+}
+
+.glyph-logoff:before {
+  content: "\e60e";
+}
+
+.glyph-list:before {
+  content: "\e60f";
+}
+
+.glyph-play:before {
+  content: "\e610";
+}
+
+.glyph-pause:before {
+  content: "\e611";
+}
+
+.glyph-stop:before {
+  content: "\e612";
+}
+
+.glyph-eject:before {
+  content: "\e613";
+}
+
+.glyph-restart:before {
+  content: "\e614";
+}
+
+.glyph-save:before {
+  content: "\e615";
+}
+
+.glyph-search:before {
+  content: "\e616";
+}
+
+.glyph-erase:before {
+  content: "\e617";
+}
+
+.glyph-undo:before {
+  content: "\e618";
+}
+
+.glyph-redo:before {
+  content: "\e619";
+}
+
+.glyph-settings:before {
+  content: "\e61a";
+}
+
+.glyph-house:before {
+  content: "\e61b";
+}
+
+.glyph-arrow-up:before {
+  content: "\e61c";
+}
+
+.glyph-arrow-down:before {
+  content: "\e61d";
+}
+
+.glyph-arrow-left:before {
+  content: "\e61e";
+}
+
+.glyph-arrow-right:before {
+  content: "\e61f";
+}
+
+.glyph-arrow-right-alt:before {
+  content: "\e620";
+}
+
+.glyph-arrow-left-alt:before {
+  content: "\e621";
+}
+
+.glyph-arrow-up-alt:before {
+  content: "\e622";
+}
+
+.glyph-plus:before {
+  content: "\e623";
+}
+
+.glyph-minus:before {
+  content: "\e624";
+}
+
+.glyph-upload-alt:before {
+  content: "\e625";
+}
+
+.glyph-long-arrow-down:before {
+  content: "\e626";
+}
+
+.glyph-long-arrow-up:before {
+  content: "\e627";
+}
+
+.glyph-long-arrow-left:before {
+  content: "\e628";
+}
+
+.glyph-long-arrow-right:before {
+  content: "\e629";
+}
+
+.glyph-pen:before {
+  content: "\e62a";
+}
+
+.glyph-mail:before {
+  content: "\e62b";
+}
+
+.glyph-question:before {
+  content: "\e62c";
+}
+
+.glyph-exclamation:before {
+  content: "\e62d";
+}
+
+.glyph-plus-alt:before,
+.glyph-add-alt:before {
+  content: "\e62e";
+}
+
+.glyph-minus-alt:before {
+  content: "\e62f";
+}
+
+.glyph-info:before {
+  content: "\e630";
+}
+
+.glyph-delete-alt:before {
+  content: "\e631";
+}
+
+.glyph-zoom-in:before {
+  content: "\e632";
+}
+
+.glyph-zoom-out:before {
+  content: "\e633";
+}
+
+.glyph-info-alt:before {
+  content: "\e634";
+}
+
+.glyph-question-alt:before {
+  content: "\e635";
+}
+
+.glyph-download:before {
+  content: "\e636";
+}
+
+.glyph-upload:before {
+  content: "\e637";
+}
+
+.glyph-key:before {
+  content: "\e638";
+}
+
+.glyph-phone:before {
+  content: "\e639";
+}
+
+.glyph-star:before {
+  content: "\e63a";
+}
+
+.glyph-copy:before {
+  content: "\e63b";
+}
+
+.glyph-users:before {
+  content: "\e63c";
+}
+
+.glyph-cut:before {
+  content: "\e63d";
+}
+
+.glyph-plus-light:before {
+  content: "\e63e";
+}
+
+.glyph-paste:before {
+  content: "\e63f";
+}
+
+.glyph-minus-light:before {
+  content: "\e640";
+}
+
+.glyph-calendar:before {
+  content: "\e641";
+}
+
+.glyph-alarm:before {
+  content: "\e642";
+}
+
+.glyph-execute:before {
+  content: "\e643";
+}
+
+.glyph-refresh:before {
+  content: "\e644";
+}
+
+.glyph-clock:before {
+  content: "\e645";
+}
+
+.glyph-basket:before {
+  content: "\e646";
+}
+
+.glyph-basket-shared:before {
+  content: "\e647";
+}
+
+.glyph-circle-arrow-down:before {
+  content: "\e648";
+}
+
+.glyph-circle-arrow-up:before {
+  content: "\e649";
+}
+
+.glyph-circle-arrow-left:before {
+  content: "\e64a";
+}
+
+.glyph-circle-arrow-right:before {
+  content: "\e64b";
+}
+
+.glyph-history:before {
+  content: "\e64c";
+}
+
+.glyph-language:before {
+  content: "\e64d";
+}
+
+.glyph-office:before {
+  content: "\e64e";
+}
+
+.glyph-eye-blocked:before {
+  content: "\e64f";
+}
+
+.glyph-eye:before {
+  content: "\e650";
+}
+
+.glyph-logo-syracuse-alt:before {
+  content: "\e651";
+}
+
+.glyph-logo-syracuse:before {
+  content: "\e652";
+}
+
+.glyph-menu:before {
+  content: "\e653";
+}
+
+.glyph-app:before {
+  content: "\e654";
+}
+
+.glyph-bookmark:before {
+  content: "\e655";
+}
+
+.glyph-list-number:before {
+  content: "\e656";
+}
+
+.glyph-list-disc:before {
+  content: "\e657";
+}
+
+.glyph-forward:before {
+  content: "\e658";
+}
+
+.glyph-backward:before {
+  content: "\e659";
+}
+
+.glyph-facets:before {
+  content: "\e65a";
+}
+
+.glyph-sort:before {
+  content: "\e65b";
+}
+
+.glyph-filter:before {
+  content: "\e65c";
+}
+
+.glyph-collapsed:before {
+  content: "\e65d";
+}
+
+.glyph-expanded:before {
+  content: "\e65e";
+}
+
+.glyph-bin:before {
+  content: "\e65f";
+}
+
+.glyph-maximize:before {
+  content: "\e660";
+}
+
+.glyph-minimize:before {
+  content: "\e661";
+}
+
+.glyph-enter-fullscreen:before {
+  content: "\e662";
+}
+
+.glyph-exit-fullscreen:before {
+  content: "\e663";
+}
+
+.glyph-enter:before {
+  content: "\e664";
+}
+
+.glyph-search-new:before {
+  content: "\e665";
+}
+
+.glyph-search-save:before {
+  content: "\e666";
+}
+
+.glyph-list-alt:before {
+  content: "\e66b";
+}
+
+.glyph-grid:before {
+  content: "\e668";
+}
+
+.glyph-layout:before {
+  content: "\e669";
+}
+
+.glyph-exit:before {
+  content: "\e66a";
+}
+
+.glyph-down:before {
+  content: "\e66d";
+}
+
+.glyph-up:before {
+  content: "\e66e";
+}
+
+.glyph-shortcut:before {
+  content: "\e66c";
+}
+
+.glyph-link:before {
+  content: "\e66f";
+}
+
+.glyph-columns:before {
+  content: "\e667";
+}
+
+.glyph-long-arrow-left-alt:before {
+  content: "\e670";
+}
+
+.glyph-long-arrow-right-alt:before {
+  content: "\e671";
+}
+
+.glyph-long-arrow-down-alt:before {
+  content: "\e672";
+}
+
+.glyph-long-arrow-up-alt:before {
+  content: "\e673";
+}
+
+.glyph-folder-open:before {
+  content: "\e674";
+}
+
+.glyph-folder:before {
+  content: "\e675";
+}
+
+.glyph-reset:before {
+  content: "\e676";
+}
+
+.glyph-camera:before {
+  content: "\e677";
+}
+
+.glyph-image:before {
+  content: "\e678";
+}
+
+.glyph-tasks:before {
+  content: "\e679";
+}
+
+.glyph-file-text:before {
+  content: "\e67a";
+}
+
+.glyph-chart:before {
+  content: "\e67b";
+}
+
+.glyph-move:before {
+  content: "\e67c";
+}
+
+.glyph-move-horizontal:before {
+  content: "\e67d";
+}
+
+.glyph-move-vertical:before {
+  content: "\e67e";
+}
+
+.glyph-blocked:before {
+  content: "\e67f";
+}
+
+.glyph-news:before {
+  content: "\e680";
+}
+
+.glyph-table:before {
+  content: "\e681";
+}
+
+.glyph-face-happy:before {
+  content: "\e682";
+}
+
+.glyph-face-smile:before {
+  content: "\e683";
+}
+
+.glyph-face-tongue:before {
+  content: "\e684";
+}
+
+.glyph-face-sad:before {
+  content: "\e685";
+}
+
+.glyph-face-wink:before {
+  content: "\e686";
+}
+
+.glyph-face-grin:before {
+  content: "\e687";
+}
+
+.glyph-face-cool:before {
+  content: "\e688";
+}
+
+.glyph-face-angry:before {
+  content: "\e689";
+}
+
+.glyph-face-evil:before {
+  content: "\e68a";
+}
+
+.glyph-face-shocked:before {
+  content: "\e68b";
+}
+
+.glyph-face-baffled:before {
+  content: "\e68c";
+}
+
+.glyph-face-confused:before {
+  content: "\e68d";
+}
+
+.glyph-face-neutral:before {
+  content: "\e68e";
+}
+
+.glyph-face-hipster:before {
+  content: "\e68f";
+}
+
+.glyph-face-wondering:before {
+  content: "\e690";
+}
+
+.glyph-face-sleepy:before {
+  content: "\e691";
+}
+
+.glyph-face-frustrated:before {
+  content: "\e692";
+}
+
+.glyph-face-crying:before {
+  content: "\e693";
+}
+
+.glyph-paper-plane:before {
+  content: "\e694";
+}
+
+.glyph-write:before {
+  content: "\e695";
+}
+
+.glyph-share:before {
+  content: "\e696";
+}
+
+.glyph-flow-tree:before {
+  content: "\e697";
+}
+
+.glyph-flow-branch:before {
+  content: "\e698";
+}
+
+.glyph-asterisk:before {
+  content: "\e699";
+}
+
+.glyph-asterisk-alt:before {
+  content: "\e69a";
+}
+
+.glyph-compare:before {
+  content: "\e69b";
+}
+
+.glyph-microscope:before {
+  content: "\e69d";
+}
+
+.glyph-open-in-new:before {
+  content: "\e69e";
+}
+
+.glyph-redis:before {
+  content: "\e69f";
+}
+
+.glyph-tree:before {
+  content: "\e6a0";
+}
+
+.glyph-broken-link:before {
+  content: "\e6a1";
+}
+
+.glyph-long-arrow-down-left-alt:before {
+  content: "\e6a2";
+}
+
+.glyph-long-arrow-up-left-alt:before {
+  content: "\e6a3";
+}
+
+.glyph-long-arrow-up-right-alt:before {
+  content: "\e6a4";
+}
+
+.glyph-long-arrow-down-right-alt:before {
+  content: "\e6a5";
+}
+
+.glyph-big-arrow-up-left:before {
+  content: "\e6a6";
+}
+
+.glyph-big-arrow-up:before {
+  content: "\e6a7";
+}
+
+.glyph-big-arrow-up-right:before {
+  content: "\e6a8";
+}
+
+.glyph-big-arrow-right:before {
+  content: "\e6a9";
+}
+
+.glyph-big-arrow-down-right:before {
+  content: "\e6aa";
+}
+
+.glyph-big-arrow-down:before {
+  content: "\e6ab";
+}
+
+.glyph-big-arrow-down-left:before {
+  content: "\e6ac";
+}
+
+.glyph-big-arrow-left:before {
+  content: "\e6ad";
+}
+
+.glyph-queue:before {
+  content: "\e6ae";
+}
+
+.glyph-table-alt:before {
+  content: "\e6af";
+}
+
+.glyph-grid-large:before {
+  content: "\e6b0";
+}
+
+.glyph-grid-small:before {
+  content: "\e6b1";
+}
+
+.glyph-print:before {
+  content: "\e6b2";
+}
+
+.glyph-sort-asc:before {
+  content: "\e6b3";
+}
+
+.glyph-sort-desc:before {
+  content: "\e6b4";
+}
+
+.glyph-orgchart:before {
+  content: "\e6b5";
+}
+
+.glyph-orgchart-alt:before {
+  content: "\e6b6";
+}
+
+.glyph-earth:before {
+  content: "\e6b7";
+}
+
+.glyph-db:before {
+  content: "\e6b8";
+}
+
+.glyph-location:before {
+  content: "\e6b9";
+}
+
+.glyph-power:before {
+  content: "\e6ba";
+}
+
+.glyph-power-off:before {
+  content: "\e6bb";
+}
+
+.glyph-sll:before {
+  content: "\e6bc";
+}
+
+.glyph-pin:before {
+  content: "\e6bd";
+}
+
+.glyph-hdots:before {
+  content: "\e6be";
+}
+
+.glyph-vdots:before {
+  content: "\e6bf";
+}
+
+.glyph-lightbulb:before {
+  content: "\e6c0";
+}
+
+.glyph-sigma:before {
+  content: "\e6c1";
+}
+
+.glyph-superscript:before {
+  content: "\e6c2";
+}
+
+.glyph-merge:before {
+  content: "\e6c3";
+}
+
+.glyph-bood:before {
+  content: "\e6c4";
+}
+
+.glyph-plus-minus:before {
+  content: "\e6c5";
+}
+
+/* Ext2
+.x-btn-text-icon .x-btn-center .x-toolbar-btn-icon-save:before {
+    margin-right: 5px;
+    font-size: 16px;
+}
+.x-btn-text-icon .x-btn-center .x-toolbar-btn-icon-save {
+    padding-left: 3px;
+}*/
+
+/*[class^="icon-"]:before, [class*=" icon-"]:before {
+
+}*/
+
+.x-toolbar-btn-icon-save,
+button.x-toolbar-btn-icon-save,
+.x-grid-action-save {
+  background-image: url("../images/save.png");
+}
+
+.x-toolbar-btn-icon-create,
+button.x-toolbar-btn-icon-create,
+.x-grid-action-create {
+  background-image: url("../images/actionCreate.png");
+}
+
+.x-toolbar-btn-icon-print,
+button.x-toolbar-btn-icon-print,
+.x-grid-action-print {
+  background-image: url("../images/print.png");
+}
+
+.x-toolbar-btn-icon-view,
+button.x-toolbar-btn-icon-view,
+.x-grid-action-view,
+.x-grid-grouping-action-view {
+  background-image: url("../images/actionView.png");
+}
+
+.x-toolbar-btn-icon-preview,
+button.x-toolbar-btn-icon-preview,
+.x-grid-action-preview {
+  background-image: url("../images/preview.png");
+}
+
+.x-toolbar-btn-icon-add,
+button.x-toolbar-btn-icon-add,
+.x-toolbar-btn-icon-add-data,
+button.x-toolbar-btn-icon-add-data,
+.x-grid-action-add,
+.x-grid-action-add-data {
+  background-image: url("../images/actionAdd.png");
+}
+
+.x-toolbar-btn-icon-delete,
+button.x-toolbar-btn-icon-delete,
+.x-toolbar-btn-icon-delete-data,
+button.x-toolbar-btn-icon-delete-data,
+.x-grid-action-delete,
+.x-grid-grouping-action-delete,
+.x-grid-action-delete-data {
+  background-image: url("../images/actionDelete.png");
+}
+
+.x-toolbar-btn-icon-cancel,
+button.x-toolbar-btn-icon-cancel,
+.x-grid-action-cancel {
+  background-image: url("../images/actionCancel.png");
+}
+
+.x-toolbar-btn-icon-import,
+button.x-toolbar-btn-icon-import,
+.x-grid-action-import {
+  background-image: url("../images/import.png");
+}
+
+.x-toolbar-btn-icon-export,
+button.x-toolbar-btn-icon-export,
+.x-grid-action-export {
+  background-image: url("../images/export.png");
+}
+
+.x-toolbar-btn-icon-back,
+button.x-toolbar-btn-icon-back,
+.x-grid-action-back {
+  background-image: url("../images/back.png");
+}
+
+.x-toolbar-btn-icon-search,
+button.x-toolbar-btn-icon-search,
+.x-grid-action-search {
+  background-image: url("../images/search.png");
+}
+
+.x-toolbar-btn-icon-clear,
+button.x-toolbar-btn-icon-clear,
+.x-grid-action-clear {
+  background-image: url("../images/clear.png");
+}
+
+.x-toolbar-btn-icon-edit,
+button.x-toolbar-btn-icon-edit,
+.x-grid-action-edit {
+  background-image: url("../images/actionEdit.png");
+}
+
+.x-toolbar-btn-icon-enable,
+button.x-toolbar-btn-icon-enable,
+.x-grid-action-enable {
+  background-image: url("../images/actionEnable.png");
+}
+
+.x-toolbar-btn-icon-disable,
+button.x-toolbar-btn-icon-disable,
+.x-grid-action-disable {
+  background-image: url("../images/actionDisable.png");
+}
+
+.x-toolbar-btn-icon-duplicate,
+button.x-toolbar-btn-icon-duplicate,
+.x-grid-action-duplicate {
+  background-image: url("../images/actionDuplicate.png");
+}
+
+.x-toolbar-btn-icon-substitute,
+button.x-toolbar-btn-icon-substitute,
+.x-grid-action-substitute {
+  background-image: url("../images/actionSubstitute.png");
+}
+
+.x-toolbar-btn-icon-link,
+button.x-toolbar-btn-icon-link,
+.x-grid-action-link {
+  background-image: url("../images/actionLink.png");
+}
+
+.x-toolbar-btn-icon-prev,
+button.x-toolbar-btn-icon-prev,
+.x-grid-action-prev {
+  background-image: url("../images/page-prev.gif");
+}
+
+.x-toolbar-btn-icon-next,
+button.x-toolbar-btn-icon-next,
+.x-grid-action-next {
+  background-image: url("../images/page-next.gif");
+}
+
+.x-toolbar-btn-icon-help,
+button.x-toolbar-btn-icon-help,
+.x-grid-action-help {
+  background-image: url("../images/help.png");
+}
+
+.x-toolbar-btn-icon-download,
+button.x-toolbar-btn-icon-download,
+.x-grid-action-download {
+  background-image: url("../images/download.png");
+}
+
+.x-toolbar-btn-icon-expand,
+button.x-toolbar-btn-icon-expand,
+.x-grid-action-expand {
+  background-image: url("../images/expand.gif");
+}
+
+.x-toolbar-btn-icon-collapse,
+button.x-toolbar-btn-icon-collapse,
+.x-grid-action-collapse {
+  background-image: url("../images/collapse.gif");
+}
+
+.x-toolbar-btn-icon-zoom,
+button.x-toolbar-btn-icon-zoom,
+.x-grid-action-zoom {
+  background-image: url("../images/actionZoom.png");
+}
+
+.x-toolbar-btn-icon-execute,
+button.x-toolbar-btn-icon-execute,
+.x-grid-action-execute {
+  background-image: url("../images/execute.png");
+}
+
+.x-toolbar-btn-icon-up,
+button.x-toolbar-btn-icon-up,
+.x-grid-action-up {
+  background-image: url("../images/up.png");
+}
+
+.x-toolbar-btn-icon-down,
+button.x-toolbar-btn-icon-down,
+.x-grid-action-down {
+  background-image: url("../images/down.png");
+}
+
+.x-toolbar-btn-icon-new,
+button.x-toolbar-btn-icon-new,
+.x-grid-action-new {
+  background-image: url("../images/actionNewFile.png");
+}
+
+.x-toolbar-btn-icon-open,
+button.x-toolbar-btn-icon-open,
+.x-grid-action-open {
+  background-image: url("../images/actionOpenFile.png");
+}
+
+.x-toolbar-btn-icon-hide,
+button.x-toolbar-btn-icon-hide,
+.x-grid-action-hide {
+  background-image: url("../images/actionHide.png");
+}
+
+.x-toolbar-btn-icon-truncate,
+button.x-toolbar-btn-icon-truncate,
+.x-grid-action-truncate {
+  background-image: url("../images/actionTruncate.png");
+}
+
+.x-toolbar-btn-icon-properties,
+button.x-toolbar-btn-icon-properties,
+.x-grid-action-properties {
+  background-image: url("../images/actionProperties.png");
+}
+
+.x-toolbar-btn-icon-validate,
+button.x-toolbar-btn-icon-validate,
+.x-grid-action-validate {
+  background-image: url("../images/actionEnable.png");
+}
+
+.x-toolbar-btn-icon-history,
+button.x-toolbar-btn-icon-history,
+.x-grid-action-history {
+  background-image: url("../images/actionHistory.png");
+}
+
+.x-toolbar-btn-icon-start,
+button.x-toolbar-btn-icon-start,
+.x-grid-action-start {
+  background-image: url("../images/actionStart.png");
+}
+
+.x-toolbar-btn-icon-restart,
+button.x-toolbar-btn-icon-restart,
+.x-grid-action-restart {
+  background-image: url("../images/actionRestart.png");
+}
+
+.x-toolbar-btn-icon-stop,
+button.x-toolbar-btn-icon-stop,
+.x-grid-action-stop {
+  background-image: url("../images/actionStop.png");
+}
+
+.x-toolbar-btn-icon-pause,
+button.x-toolbar-btn-icon-pause,
+.x-grid-action-pause {
+  background-image: url("../images/actionPause.png");
+}
+
+.x-toolbar-btn-icon-translate,
+button.x-toolbar-btn-icon-translate,
+.x-grid-action-translate {
+  background-image: url("../images/actionTranslate.png");
+}
+
+.x-toolbar-btn-icon-track-changes,
+button.x-toolbar-btn-icon-track-changes,
+.x-grid-action-track-changes {
+  background-image: url("../images/actionTrackChanges.png");
+}
+
+.x-toolbar-btn-icon-manage,
+button.x-toolbar-btn-icon-manage,
+.x-grid-action-manage {
+  background-image: url("../images/actionManage.png");
+}
+
+.x-toolbar-btn-icon-user,
+button.x-toolbar-btn-icon-user,
+.x-grid-action-user {
+  background-image: url("images/directory/user.gif");
+}
+
+.x-toolbar-btn-icon-test,
+button.x-toolbar-btn-icon-test,
+.x-grid-action-test {
+  background-image: url("../images/actionTest.png");
+}
+
+.x-toolbar-btn-icon-test-run,
+button.x-toolbar-btn-icon-test-run,
+.x-grid-action-test-run {
+  background-image: url("../images/actionTestRun.png");
+}
+
+.x-toolbar-btn-icon-send,
+button.x-toolbar-btn-icon-send,
+.x-grid-action-send {
+  background-image: url("../images/actionSend.png");
+}
+
+.x-toolbar-btn-icon-valid,
+button.x-toolbar-btn-icon-valid,
+.x-grid-action-valid {
+  background-image: url("../images/actionValid.png");
+}
+
+.x-toolbar-btn-icon-invalid,
+button.x-toolbar-btn-icon-invalid,
+.x-grid-action-invalid {
+  background-image: url("../images/actionInvalid.png");
+}
+
+.x-toolbar-btn-icon-shortcut,
+button.x-toolbar-btn-icon-shortcut,
+.x-grid-action-shortcut {
+  background-image: url("../images/shortcut.png");
+}
+
+.x-toolbar-btn-icon-unsubstitute,
+button.x-toolbar-btn-icon-unsubstitute,
+.x-grid-action-unsubstitute {
+  background-image: url("../images/unsubstitute.gif");
+}
+
+.x-toolbar-btn-icon-plus,
+button.x-toolbar-btn-icon-plus,
+.x-grid-action-plus {
+  background-image: url("../images/add.png");
+}
+
+.x-toolbar-btn-icon-minus,
+button.x-toolbar-btn-icon-minus,
+.x-grid-action-minus {
+  background-image: url("../images/remove.png");
+}
+
+.x-toolbar-btn-icon-user-check,
+button.x-toolbar-btn-icon-user-check,
+.x-grid-action-user-check {
+  background-image: url("../images/role.png");
+}
+
+.x-toolbar-btn-icon-user-add,
+button.x-toolbar-btn-icon-user-add,
+.x-grid-action-user-add {
+  background-image: url(../images/newuser.png);
+}
+
+.x-toolbar-btn-icon-upload,
+button.x-toolbar-btn-icon-upload,
+.x-grid-action-upload {
+  background-image: url("../images/upload.png");
+}
+
+.x-toolbar-btn-icon-mail,
+button.x-toolbar-btn-icon-mail,
+.x-grid-action-mail {
+  background-image: url("../images/actionMail.png");
+}
+
+.x-toolbar-btn-icon-error,
+button.x-toolbar-btn-icon-error,
+.x-grid-action-error {
+  background-image: url("../images/actionError.png");
+}
+
+.x-toolbar-btn-icon-anomaly,
+button.x-toolbar-btn-icon-anomaly,
+.x-grid-action-anomaly {
+  background-image: url("../images/actionAnomaly.png");
+}
+
+.x-toolbar-btn-icon-information,
+button.x-toolbar-btn-icon-information,
+.x-grid-action-information {
+  background-image: url("../images/actionInformation.png");
+}
+
+.x-toolbar-btn-icon-log,
+button.x-toolbar-btn-icon-log,
+.x-grid-action-log {
+  background-image: url("../images/actionLogs.png");
+}
+
+.x-toolbar-btn-icon-log-warn,
+button.x-toolbar-btn-icon-log-warn,
+.x-grid-action-log-warn {
+  background-image: url("../images/actionLogsWarning.png");
+}
+
+.x-toolbar-btn-icon-log-err,
+button.x-toolbar-btn-icon-log-err,
+.x-grid-action-log-err {
+  background-image: url("../images/actionLogsError.png");
+}
+
+.x-toolbar-btn-icon-credentials,
+button.x-toolbar-btn-icon-credentials,
+.x-grid-action-credentials {
+  background-image: url("../images/actionCredentials.gif");
+}
+
+.x-toolbar-btn-icon-move,
+button.x-toolbar-btn-icon-move,
+.x-grid-action-move {
+  background-image: url("../images/actionMove.png");
+}
+
+.x-toolbar-btn-icon-move-horizontal,
+button.x-toolbar-btn-icon-move-horizontal,
+.x-grid-action-move-horizontal {
+  background-image: url("../images/actionMoveHorizontal.png");
+}
+
+.x-toolbar-btn-icon-move-vertical,
+button.x-toolbar-btn-icon-move-vertical,
+.x-grid-action-move-vertical {
+  background-image: url("../images/actionMoveVertical.png");
+}
+
+/*Countries Flags*/
+
+.x-flag,
+button.x-flag {
+  width: 16px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.x-menu-item .x-flag {
+  height: 16px;
+  opacity: 1;
+}
+
+.x-menu-item-beta .x-menu-item-text:after {
+  content: "BETA";
+  font-size: 9px;
+  font-weight: bold;
+  color: #999;
+  margin-left: 6px;
+  vertical-align: bottom;
+}
+
+.x-boundlist-item .x-flag {
+  margin-right: 6px;
+  margin-left: 0;
+  vertical-align: text-bottom;
+}
+
+/*.x-toolbar .x-flag {
+    padding-left: 20px;   
+    width: auto;
+    background-position: 0 center;
+}*/
+
+.x-flag-ar,
+button.x-flag-ar {
+  background-image: url("../images/sa.png");
+}
+
+.x-flag-bg,
+button.x-flag-bg {
+  background-image: url("../images/bg.png");
+}
+
+.x-flag-ca,
+button.x-flag-ca {
+  background-image: url("../images/es.png");
+}
+
+.x-flag-zh-Hans,
+button.x-flag-zh-Hans {
+  background-image: url("../images/cn.png");
+}
+
+.x-flag-cs,
+button.x-flag-cs {
+  background-image: url("../images/cz.png");
+}
+
+.x-flag-da,
+button.x-flag-da {
+  background-image: url("../images/dk.png");
+}
+
+.x-flag-de,
+button.x-flag-de {
+  background-image: url("../images/de.png");
+}
+
+.x-flag-el,
+button.x-flag-el {
+  background-image: url("../images/gr.png");
+}
+
+.x-flag-en,
+button.x-flag-en {
+  background-image: url("../images/us.png");
+}
+
+.x-flag-es,
+button.x-flag-es {
+  background-image: url("../images/es.png");
+}
+
+.x-flag-fi,
+button.x-flag-fi {
+  background-image: url("../images/fi.png");
+}
+
+.x-flag-fr,
+button.x-flag-fr {
+  background-image: url("../images/fr.png");
+}
+
+.x-flag-he,
+button.x-flag-he {
+  background-image: url("../images/il.png");
+}
+
+.x-flag-hu,
+button.x-flag-hu {
+  background-image: url("../images/hu.png");
+}
+
+.x-flag-is,
+button.x-flag-is {
+  background-image: url("../images/is.png");
+}
+
+.x-flag-it,
+button.x-flag-it {
+  background-image: url("../images/it.png");
+}
+
+.x-flag-ja,
+button.x-flag-ja {
+  background-image: url("../images/jp.png");
+}
+
+.x-flag-ko,
+button.x-flag-ko {
+  background-image: url("../images/kr.png");
+}
+
+.x-flag-nl,
+button.x-flag-nl {
+  background-image: url("../images/nl.png");
+}
+
+.x-flag-no,
+button.x-flag-no {
+  background-image: url("../images/no.png");
+}
+
+.x-flag-pl,
+button.x-flag-pl {
+  background-image: url("../images/pl.png");
+}
+
+.x-flag-pt,
+button.x-flag-pt {
+  background-image: url("../images/br.png");
+}
+
+.x-flag-rm,
+button.x-flag-rm {
+  background-image: url("../images/ch.png");
+}
+
+.x-flag-ro,
+button.x-flag-ro {
+  background-image: url("../images/ro.png");
+}
+
+.x-flag-ru,
+button.x-flag-ru {
+  background-image: url("../images/ru.png");
+}
+
+.x-flag-hr,
+button.x-flag-hr {
+  background-image: url("../images/hr.png");
+}
+
+.x-flag-sk,
+button.x-flag-sk {
+  background-image: url("../images/sk.png");
+}
+
+.x-flag-sq,
+button.x-flag-sq {
+  background-image: url("../images/al.png");
+}
+
+.x-flag-sv,
+button.x-flag-sv {
+  background-image: url("../images/se.png");
+}
+
+.x-flag-th,
+button.x-flag-th {
+  background-image: url("../images/th.png");
+}
+
+.x-flag-tr,
+button.x-flag-tr {
+  background-image: url("../images/tr.png");
+}
+
+.x-flag-ur,
+button.x-flag-ur {
+  background-image: url("../images/pk.png");
+}
+
+.x-flag-id,
+button.x-flag-id {
+  background-image: url("../images/id.png");
+}
+
+.x-flag-uk,
+button.x-flag-uk {
+  background-image: url("../images/ua.png");
+}
+
+.x-flag-be,
+button.x-flag-be {
+  background-image: url("../images/by.png");
+}
+
+.x-flag-sl,
+button.x-flag-sl {
+  background-image: url("../images/si.png");
+}
+
+.x-flag-et,
+button.x-flag-et {
+  background-image: url("../images/ee.png");
+}
+
+.x-flag-lv,
+button.x-flag-lv {
+  background-image: url("../images/lv.png");
+}
+
+.x-flag-lt,
+button.x-flag-lt {
+  background-image: url("../images/lt.png");
+}
+
+.x-flag-tg,
+button.x-flag-tg {
+  background-image: url("../images/tj.png");
+}
+
+.x-flag-fa,
+button.x-flag-fa {
+  background-image: url("../images/ir.png");
+}
+
+.x-flag-vi,
+button.x-flag-vi {
+  background-image: url("../images/vn.png");
+}
+
+.x-flag-hy,
+button.x-flag-hy {
+  background-image: url("../images/am.png");
+}
+
+.x-flag-az,
+button.x-flag-az {
+  background-image: url("../images/az.png");
+}
+
+.x-flag-eu,
+button.x-flag-eu {
+  background-image: url("../images/es.png");
+}
+
+.x-flag-hsb,
+button.x-flag-hsb {
+  background-image: url("../images/de.png");
+}
+
+.x-flag-mk,
+button.x-flag-mk {
+  background-image: url("../images/mk.png");
+}
+
+.x-flag-tn,
+button.x-flag-tn {
+  background-image: url("../images/za.png");
+}
+
+.x-flag-xh,
+button.x-flag-xh {
+  background-image: url("../images/za.png");
+}
+
+.x-flag-zu,
+button.x-flag-zu {
+  background-image: url("../images/za.png");
+}
+
+.x-flag-af,
+button.x-flag-af {
+  background-image: url("../images/za.png");
+}
+
+.x-flag-ka,
+button.x-flag-ka {
+  background-image: url("../images/ge.png");
+}
+
+.x-flag-fo,
+button.x-flag-fo {
+  background-image: url("../images/fo.png");
+}
+
+.x-flag-hi,
+button.x-flag-hi {
+  background-image: url("../images/in.png");
+}
+
+.x-flag-mt,
+button.x-flag-mt {
+  background-image: url("../images/mt.png");
+}
+
+.x-flag-se,
+button.x-flag-se {
+  background-image: url("../images/no.png");
+}
+
+.x-flag-ga,
+button.x-flag-ga {
+  background-image: url("../images/ie.png");
+}
+
+.x-flag-ms,
+button.x-flag-ms {
+  background-image: url("../images/my.png");
+}
+
+.x-flag-kk,
+button.x-flag-kk {
+  background-image: url("../images/kz.png");
+}
+
+.x-flag-ky,
+button.x-flag-ky {
+  background-image: url("../images/kg.png");
+}
+
+.x-flag-sw,
+button.x-flag-sw {
+  background-image: url("../images/ke.png");
+}
+
+.x-flag-tk,
+button.x-flag-tk {
+  background-image: url("../images/tm.png");
+}
+
+.x-flag-uz,
+button.x-flag-uz {
+  background-image: url("../images/uz.png");
+}
+
+.x-flag-tt,
+button.x-flag-tt {
+  background-image: url("../images/ru.png");
+}
+
+.x-flag-bn,
+button.x-flag-bn {
+  background-image: url("../images/in.png");
+}
+
+.x-flag-pa,
+button.x-flag-pa {
+  background-image: url("../images/in.png");
+}
+
+.x-flag-gu,
+button.x-flag-gu {
+  background-image: url("../images/in.png");
+}
+
+.x-flag-or,
+button.x-flag-or {
+  background-image: url("../images/in.png");
+}
+
+.x-flag-ta,
+button.x-flag-ta {
+  background-image: url("../images/in.png");
+}
+
+.x-flag-te,
+button.x-flag-te {
+  background-image: url("../images/in.png");
+}
+
+.x-flag-kn,
+button.x-flag-kn {
+  background-image: url("../images/in.png");
+}
+
+.x-flag-ml,
+button.x-flag-ml {
+  background-image: url("../images/in.png");
+}
+
+.x-flag-as,
+button.x-flag-as {
+  background-image: url("../images/in.png");
+}
+
+.x-flag-mr,
+button.x-flag-mr {
+  background-image: url("../images/in.png");
+}
+
+.x-flag-sa,
+button.x-flag-sa {
+  background-image: url("../images/in.png");
+}
+
+.x-flag-mn,
+button.x-flag-mn {
+  background-image: url("../images/mn.png");
+}
+
+.x-flag-bo,
+button.x-flag-bo {
+  background-image: url("../images/cn.png");
+}
+
+.x-flag-cy,
+button.x-flag-cy {
+  background-image: url("../images/gb.png");
+}
+
+.x-flag-km,
+button.x-flag-km {
+  background-image: url("../images/kh.png");
+}
+
+.x-flag-lo,
+button.x-flag-lo {
+  background-image: url("../images/la.png");
+}
+
+.x-flag-gl,
+button.x-flag-gl {
+  background-image: url("../images/es.png");
+}
+
+.x-flag-kok,
+button.x-flag-kok {
+  background-image: url("../images/in.png");
+}
+
+.x-flag-syr,
+button.x-flag-syr {
+  background-image: url("../images/sy.png");
+}
+
+.x-flag-si,
+button.x-flag-si {
+  background-image: url("../images/lk.png");
+}
+
+.x-flag-iu,
+button.x-flag-iu {
+  background-image: url("../images/ca.png");
+}
+
+.x-flag-am,
+button.x-flag-am {
+  background-image: url("../images/et.png");
+}
+
+.x-flag-tzm,
+button.x-flag-tzm {
+  background-image: url("../images/dz.png");
+}
+
+.x-flag-ne,
+button.x-flag-ne {
+  background-image: url("../images/np.png");
+}
+
+.x-flag-fy,
+button.x-flag-fy {
+  background-image: url("../images/nl.png");
+}
+
+.x-flag-ps,
+button.x-flag-ps {
+  background-image: url("../images/af.png");
+}
+
+.x-flag-fil,
+button.x-flag-fil {
+  background-image: url("../images/ph.png");
+}
+
+.x-flag-dv,
+button.x-flag-dv {
+  background-image: url("../images/mv.png");
+}
+
+.x-flag-ha,
+button.x-flag-ha {
+  background-image: url("../images/ng.png");
+}
+
+.x-flag-yo,
+button.x-flag-yo {
+  background-image: url("../images/ng.png");
+}
+
+.x-flag-quz,
+button.x-flag-quz {
+  background-image: url("../images/bo.png");
+}
+
+.x-flag-nso,
+button.x-flag-nso {
+  background-image: url("../images/za.png");
+}
+
+.x-flag-ba,
+button.x-flag-ba {
+  background-image: url("../images/ru.png");
+}
+
+.x-flag-lb,
+button.x-flag-lb {
+  background-image: url("../images/lu.png");
+}
+
+.x-flag-kl,
+button.x-flag-kl {
+  background-image: url("../images/gl.png");
+}
+
+.x-flag-ig,
+button.x-flag-ig {
+  background-image: url("../images/ng.png");
+}
+
+.x-flag-ii,
+button.x-flag-ii {
+  background-image: url("../images/cn.png");
+}
+
+.x-flag-arn,
+button.x-flag-arn {
+  background-image: url("../images/cl.png");
+}
+
+.x-flag-moh,
+button.x-flag-moh {
+  background-image: url("../images/ca.png");
+}
+
+.x-flag-br,
+button.x-flag-br {
+  background-image: url("../images/fr.png");
+}
+
+.x-flag-ug,
+button.x-flag-ug {
+  background-image: url("../images/cn.png");
+}
+
+.x-flag-mi,
+button.x-flag-mi {
+  background-image: url("../images/nz.png");
+}
+
+.x-flag-oc,
+button.x-flag-oc {
+  background-image: url("../images/fr.png");
+}
+
+.x-flag-co,
+button.x-flag-co {
+  background-image: url("../images/fr.png");
+}
+
+.x-flag-gsw,
+button.x-flag-gsw {
+  background-image: url("../images/fr.png");
+}
+
+.x-flag-sah,
+button.x-flag-sah {
+  background-image: url("../images/ru.png");
+}
+
+.x-flag-qut,
+button.x-flag-qut {
+  background-image: url("../images/gt.png");
+}
+
+.x-flag-rw,
+button.x-flag-rw {
+  background-image: url("../images/rw.png");
+}
+
+.x-flag-wo,
+button.x-flag-wo {
+  background-image: url("../images/sn.png");
+}
+
+.x-flag-prs,
+button.x-flag-prs {
+  background-image: url("../images/af.png");
+}
+
+.x-flag-gd,
+button.x-flag-gd {
+  background-image: url("../images/gb.png");
+}
+
+.x-flag-ar-SA,
+button.x-flag-ar-SA {
+  background-image: url("../images/sa.png");
+}
+
+.x-flag-bg-BG,
+button.x-flag-bg-BG {
+  background-image: url("../images/bg.png");
+}
+
+.x-flag-ca-ES,
+button.x-flag-ca-ES {
+  background-image: url("../images/es.png");
+}
+
+.x-flag-zh-TW,
+button.x-flag-zh-TW {
+  background-image: url("../images/tw.png");
+}
+
+.x-flag-cs-CZ,
+button.x-flag-cs-CZ {
+  background-image: url("../images/cz.png");
+}
+
+.x-flag-da-DK,
+button.x-flag-da-DK {
+  background-image: url("../images/dk.png");
+}
+
+.x-flag-de-DE,
+button.x-flag-de-DE {
+  background-image: url("../images/de.png");
+}
+
+.x-flag-el-GR,
+button.x-flag-el-GR {
+  background-image: url("../images/gr.png");
+}
+
+.x-flag-en-US,
+button.x-flag-en-US {
+  background-image: url("../images/us.png");
+}
+
+.x-flag-fi-FI,
+button.x-flag-fi-FI {
+  background-image: url("../images/fi.png");
+}
+
+.x-flag-fr-FR,
+button.x-flag-fr-FR {
+  background-image: url("../images/fr.png");
+}
+
+.x-flag-he-IL,
+button.x-flag-he-IL {
+  background-image: url("../images/il.png");
+}
+
+.x-flag-hu-HU,
+button.x-flag-hu-HU {
+  background-image: url("../images/hu.png");
+}
+
+.x-flag-is-IS,
+button.x-flag-is-IS {
+  background-image: url("../images/is.png");
+}
+
+.x-flag-it-IT,
+button.x-flag-it-IT {
+  background-image: url("../images/it.png");
+}
+
+.x-flag-ja-JP,
+button.x-flag-ja-JP {
+  background-image: url("../images/jp.png");
+}
+
+.x-flag-ko-KR,
+button.x-flag-ko-KR {
+  background-image: url("../images/kr.png");
+}
+
+.x-flag-nl-NL,
+button.x-flag-nl-NL {
+  background-image: url("../images/nl.png");
+}
+
+.x-flag-nb-NO,
+button.x-flag-nb-NO {
+  background-image: url("../images/no.png");
+}
+
+.x-flag-pl-PL,
+button.x-flag-pl-PL {
+  background-image: url("../images/pl.png");
+}
+
+.x-flag-pt-BR,
+button.x-flag-pt-BR {
+  background-image: url("../images/br.png");
+}
+
+.x-flag-rm-CH,
+button.x-flag-rm-CH {
+  background-image: url("../images/ch.png");
+}
+
+.x-flag-ro-RO,
+button.x-flag-ro-RO {
+  background-image: url("../images/ro.png");
+}
+
+.x-flag-ru-RU,
+button.x-flag-ru-RU {
+  background-image: url("../images/ru.png");
+}
+
+.x-flag-hr-HR,
+button.x-flag-hr-HR {
+  background-image: url("../images/hr.png");
+}
+
+.x-flag-sk-SK,
+button.x-flag-sk-SK {
+  background-image: url("../images/sk.png");
+}
+
+.x-flag-sq-AL,
+button.x-flag-sq-AL {
+  background-image: url("../images/al.png");
+}
+
+.x-flag-sv-SE,
+button.x-flag-sv-SE {
+  background-image: url("../images/se.png");
+}
+
+.x-flag-th-TH,
+button.x-flag-th-TH {
+  background-image: url("../images/th.png");
+}
+
+.x-flag-tr-TR,
+button.x-flag-tr-TR {
+  background-image: url("../images/tr.png");
+}
+
+.x-flag-ur-PK,
+button.x-flag-ur-PK {
+  background-image: url("../images/pk.png");
+}
+
+.x-flag-id-ID,
+button.x-flag-id-ID {
+  background-image: url("../images/id.png");
+}
+
+.x-flag-uk-UA,
+button.x-flag-uk-UA {
+  background-image: url("../images/ua.png");
+}
+
+.x-flag-be-BY,
+button.x-flag-be-BY {
+  background-image: url("../images/by.png");
+}
+
+.x-flag-sl-SI,
+button.x-flag-sl-SI {
+  background-image: url("../images/si.png");
+}
+
+.x-flag-et-EE,
+button.x-flag-et-EE {
+  background-image: url("../images/ee.png");
+}
+
+.x-flag-lv-LV,
+button.x-flag-lv-LV {
+  background-image: url("../images/lv.png");
+}
+
+.x-flag-lt-LT,
+button.x-flag-lt-LT {
+  background-image: url("../images/lt.png");
+}
+
+.x-flag-tg-Cyrl-TJ,
+button.x-flag-tg-Cyrl-TJ {
+  background-image: url("../images/tj.png");
+}
+
+.x-flag-fa-IR,
+button.x-flag-fa-IR {
+  background-image: url("../images/ir.png");
+}
+
+.x-flag-vi-VN,
+button.x-flag-vi-VN {
+  background-image: url("../images/vn.png");
+}
+
+.x-flag-hy-AM,
+button.x-flag-hy-AM {
+  background-image: url("../images/am.png");
+}
+
+.x-flag-az-Latn-AZ,
+button.x-flag-az-Latn-AZ {
+  background-image: url("../images/az.png");
+}
+
+.x-flag-eu-ES,
+button.x-flag-eu-ES {
+  background-image: url("../images/euskara.png");
+}
+
+.x-flag-hsb-DE,
+button.x-flag-hsb-DE {
+  background-image: url("../images/de.png");
+}
+
+.x-flag-mk-MK,
+button.x-flag-mk-MK {
+  background-image: url("../images/mk.png");
+}
+
+.x-flag-tn-ZA,
+button.x-flag-tn-ZA {
+  background-image: url("../images/za.png");
+}
+
+.x-flag-xh-ZA,
+button.x-flag-xh-ZA {
+  background-image: url("../images/za.png");
+}
+
+.x-flag-zu-ZA,
+button.x-flag-zu-ZA {
+  background-image: url("../images/za.png");
+}
+
+.x-flag-af-ZA,
+button.x-flag-af-ZA {
+  background-image: url("../images/za.png");
+}
+
+.x-flag-ka-GE,
+button.x-flag-ka-GE {
+  background-image: url("../images/ge.png");
+}
+
+.x-flag-fo-FO,
+button.x-flag-fo-FO {
+  background-image: url("../images/fo.png");
+}
+
+.x-flag-hi-IN,
+button.x-flag-hi-IN {
+  background-image: url("../images/in.png");
+}
+
+.x-flag-mt-MT,
+button.x-flag-mt-MT {
+  background-image: url("../images/mt.png");
+}
+
+.x-flag-se-NO,
+button.x-flag-se-NO {
+  background-image: url("../images/no.png");
+}
+
+.x-flag-ms-MY,
+button.x-flag-ms-MY {
+  background-image: url("../images/my.png");
+}
+
+.x-flag-kk-KZ,
+button.x-flag-kk-KZ {
+  background-image: url("../images/kz.png");
+}
+
+.x-flag-ky-KG,
+button.x-flag-ky-KG {
+  background-image: url("../images/kg.png");
+}
+
+.x-flag-sw-KE,
+button.x-flag-sw-KE {
+  background-image: url("../images/ke.png");
+}
+
+.x-flag-tk-TM,
+button.x-flag-tk-TM {
+  background-image: url("../images/tm.png");
+}
+
+.x-flag-uz-Latn-UZ,
+button.x-flag-uz-Latn-UZ {
+  background-image: url("../images/uz.png");
+}
+
+.x-flag-tt-RU,
+button.x-flag-tt-RU {
+  background-image: url("../images/ru.png");
+}
+
+.x-flag-bn-IN,
+button.x-flag-bn-IN {
+  background-image: url("../images/in.png");
+}
+
+.x-flag-pa-IN,
+button.x-flag-pa-IN {
+  background-image: url("../images/in.png");
+}
+
+.x-flag-gu-IN,
+button.x-flag-gu-IN {
+  background-image: url("../images/in.png");
+}
+
+.x-flag-or-IN,
+button.x-flag-or-IN {
+  background-image: url("../images/in.png");
+}
+
+.x-flag-ta-IN,
+button.x-flag-ta-IN {
+  background-image: url("../images/in.png");
+}
+
+.x-flag-te-IN,
+button.x-flag-te-IN {
+  background-image: url("../images/in.png");
+}
+
+.x-flag-kn-IN,
+button.x-flag-kn-IN {
+  background-image: url("../images/in.png");
+}
+
+.x-flag-ml-IN,
+button.x-flag-ml-IN {
+  background-image: url("../images/in.png");
+}
+
+.x-flag-as-IN,
+button.x-flag-as-IN {
+  background-image: url("../images/in.png");
+}
+
+.x-flag-mr-IN,
+button.x-flag-mr-IN {
+  background-image: url("../images/in.png");
+}
+
+.x-flag-sa-IN,
+button.x-flag-sa-IN {
+  background-image: url("../images/in.png");
+}
+
+.x-flag-mn-MN,
+button.x-flag-mn-MN {
+  background-image: url("../images/mn.png");
+}
+
+.x-flag-bo-CN,
+button.x-flag-bo-CN {
+  background-image: url("../images/cn.png");
+}
+
+.x-flag-cy-GB,
+button.x-flag-cy-GB {
+  background-image: url("../images/gb.png");
+}
+
+.x-flag-km-KH,
+button.x-flag-km-KH {
+  background-image: url("../images/kh.png");
+}
+
+.x-flag-lo-LA,
+button.x-flag-lo-LA {
+  background-image: url("../images/la.png");
+}
+
+.x-flag-gl-ES,
+button.x-flag-gl-ES {
+  background-image: url("../images/es.png");
+}
+
+.x-flag-kok-IN,
+button.x-flag-kok-IN {
+  background-image: url("../images/in.png");
+}
+
+.x-flag-syr-SY,
+button.x-flag-syr-SY {
+  background-image: url("../images/sy.png");
+}
+
+.x-flag-si-LK,
+button.x-flag-si-LK {
+  background-image: url("../images/lk.png");
+}
+
+.x-flag-iu-Cans-CA,
+button.x-flag-iu-Cans-CA {
+  background-image: url("../images/ca.png");
+}
+
+.x-flag-am-ET,
+button.x-flag-am-ET {
+  background-image: url("../images/et.png");
+}
+
+.x-flag-ne-NP,
+button.x-flag-ne-NP {
+  background-image: url("../images/np.png");
+}
+
+.x-flag-fy-NL,
+button.x-flag-fy-NL {
+  background-image: url("../images/nl.png");
+}
+
+.x-flag-ps-AF,
+button.x-flag-ps-AF {
+  background-image: url("../images/af.png");
+}
+
+.x-flag-fil-PH,
+button.x-flag-fil-PH {
+  background-image: url("../images/ph.png");
+}
+
+.x-flag-dv-MV,
+button.x-flag-dv-MV {
+  background-image: url("../images/mv.png");
+}
+
+.x-flag-ha-Latn-NG,
+button.x-flag-ha-Latn-NG {
+  background-image: url("../images/ng.png");
+}
+
+.x-flag-yo-NG,
+button.x-flag-yo-NG {
+  background-image: url("../images/ng.png");
+}
+
+.x-flag-quz-BO,
+button.x-flag-quz-BO {
+  background-image: url("../images/bo.png");
+}
+
+.x-flag-nso-ZA,
+button.x-flag-nso-ZA {
+  background-image: url("../images/za.png");
+}
+
+.x-flag-ba-RU,
+button.x-flag-ba-RU {
+  background-image: url("../images/ru.png");
+}
+
+.x-flag-lb-LU,
+button.x-flag-lb-LU {
+  background-image: url("../images/lu.png");
+}
+
+.x-flag-kl-GL,
+button.x-flag-kl-GL {
+  background-image: url("../images/gl.png");
+}
+
+.x-flag-ig-NG,
+button.x-flag-ig-NG {
+  background-image: url("../images/ng.png");
+}
+
+.x-flag-ii-CN,
+button.x-flag-ii-CN {
+  background-image: url("../images/cn.png");
+}
+
+.x-flag-arn-CL,
+button.x-flag-arn-CL {
+  background-image: url("../images/cl.png");
+}
+
+.x-flag-moh-CA,
+button.x-flag-moh-CA {
+  background-image: url("../images/ca.png");
+}
+
+.x-flag-br-FR,
+button.x-flag-br-FR {
+  background-image: url("../images/bzh.png");
+}
+
+.x-flag-ug-CN,
+button.x-flag-ug-CN {
+  background-image: url("../images/cn.png");
+}
+
+.x-flag-mi-NZ,
+button.x-flag-mi-NZ {
+  background-image: url("../images/nz.png");
+}
+
+.x-flag-oc-FR,
+button.x-flag-oc-FR {
+  background-image: url("../images/fr.png");
+}
+
+.x-flag-co-FR,
+button.x-flag-co-FR {
+  background-image: url("../images/corsican.png");
+}
+
+.x-flag-gsw-FR,
+button.x-flag-gsw-FR {
+  background-image: url("../images/fr.png");
+}
+
+.x-flag-sah-RU,
+button.x-flag-sah-RU {
+  background-image: url("../images/ru.png");
+}
+
+.x-flag-qut-GT,
+button.x-flag-qut-GT {
+  background-image: url("../images/gt.png");
+}
+
+.x-flag-rw-RW,
+button.x-flag-rw-RW {
+  background-image: url("../images/rw.png");
+}
+
+.x-flag-wo-SN,
+button.x-flag-wo-SN {
+  background-image: url("../images/sn.png");
+}
+
+.x-flag-prs-AF,
+button.x-flag-prs-AF {
+  background-image: url("../images/af.png");
+}
+
+.x-flag-gd-GB,
+button.x-flag-gd-GB {
+  background-image: url("../images/gb.png");
+}
+
+.x-flag-ar-IQ,
+button.x-flag-ar-IQ {
+  background-image: url("../images/iq.png");
+}
+
+.x-flag-zh-CN,
+button.x-flag-zh-CN {
+  background-image: url("../images/cn.png");
+}
+
+.x-flag-de-CH,
+button.x-flag-de-CH {
+  background-image: url("../images/ch.png");
+}
+
+.x-flag-en-GB,
+button.x-flag-en-GB {
+  background-image: url("../images/gb.png");
+}
+
+.x-flag-es-MX,
+button.x-flag-es-MX {
+  background-image: url("../images/mx.png");
+}
+
+.x-flag-fr-BE,
+button.x-flag-fr-BE {
+  background-image: url("../images/be.png");
+}
+
+.x-flag-it-CH,
+button.x-flag-it-CH {
+  background-image: url("../images/ch.png");
+}
+
+.x-flag-nl-BE,
+button.x-flag-nl-BE {
+  background-image: url("../images/be.png");
+}
+
+.x-flag-nn-NO,
+button.x-flag-nn-NO {
+  background-image: url("../images/no.png");
+}
+
+.x-flag-pt-PT,
+button.x-flag-pt-PT {
+  background-image: url("../images/pt.png");
+}
+
+.x-flag-sr-Latn-CS,
+button.x-flag-sr-Latn-CS {
+  background-image: url("../images/cs.png");
+}
+
+.x-flag-sv-FI,
+button.x-flag-sv-FI {
+  background-image: url("../images/fi.png");
+}
+
+.x-flag-az-Cyrl-AZ,
+button.x-flag-az-Cyrl-AZ {
+  background-image: url("../images/az.png");
+}
+
+.x-flag-dsb-DE,
+button.x-flag-dsb-DE {
+  background-image: url("../images/de.png");
+}
+
+.x-flag-se-SE,
+button.x-flag-se-SE {
+  background-image: url("../images/se.png");
+}
+
+.x-flag-ga-IE,
+button.x-flag-ga-IE {
+  background-image: url("../images/ie.png");
+}
+
+.x-flag-ms-BN,
+button.x-flag-ms-BN {
+  background-image: url("../images/bn.png");
+}
+
+.x-flag-uz-Cyrl-UZ,
+button.x-flag-uz-Cyrl-UZ {
+  background-image: url("../images/uz.png");
+}
+
+.x-flag-bn-BD,
+button.x-flag-bn-BD {
+  background-image: url("../images/bd.png");
+}
+
+.x-flag-mn-Mong-CN,
+button.x-flag-mn-Mong-CN {
+  background-image: url("../images/cn.png");
+}
+
+.x-flag-iu-Latn-CA,
+button.x-flag-iu-Latn-CA {
+  background-image: url("../images/ca.png");
+}
+
+.x-flag-tzm-Latn-DZ,
+button.x-flag-tzm-Latn-DZ {
+  background-image: url("../images/dz.png");
+}
+
+.x-flag-quz-EC,
+button.x-flag-quz-EC {
+  background-image: url("../images/ec.png");
+}
+
+.x-flag-ar-EG,
+button.x-flag-ar-EG {
+  background-image: url("../images/eg.png");
+}
+
+.x-flag-zh-HK,
+button.x-flag-zh-HK {
+  background-image: url("../images/hk.png");
+}
+
+.x-flag-de-AT,
+button.x-flag-de-AT {
+  background-image: url("../images/at.png");
+}
+
+.x-flag-en-AU,
+button.x-flag-en-AU {
+  background-image: url("../images/au.png");
+}
+
+.x-flag-es-ES,
+button.x-flag-es-ES {
+  background-image: url("../images/es.png");
+}
+
+.x-flag-fr-CA,
+button.x-flag-fr-CA {
+  background-image: url("../images/ca.png");
+}
+
+.x-flag-sr-Cyrl-CS,
+button.x-flag-sr-Cyrl-CS {
+  background-image: url("../images/cs.png");
+}
+
+.x-flag-se-FI,
+button.x-flag-se-FI {
+  background-image: url("../images/fi.png");
+}
+
+.x-flag-quz-PE,
+button.x-flag-quz-PE {
+  background-image: url("../images/pe.png");
+}
+
+.x-flag-ar-LY,
+button.x-flag-ar-LY {
+  background-image: url("../images/ly.png");
+}
+
+.x-flag-zh-SG,
+button.x-flag-zh-SG {
+  background-image: url("../images/sg.png");
+}
+
+.x-flag-de-LU,
+button.x-flag-de-LU {
+  background-image: url("../images/lu.png");
+}
+
+.x-flag-en-CA,
+button.x-flag-en-CA {
+  background-image: url("../images/ca.png");
+}
+
+.x-flag-es-GT,
+button.x-flag-es-GT {
+  background-image: url("../images/gt.png");
+}
+
+.x-flag-fr-CH,
+button.x-flag-fr-CH {
+  background-image: url("../images/ch.png");
+}
+
+.x-flag-hr-BA,
+button.x-flag-hr-BA {
+  background-image: url("../images/ba.png");
+}
+
+.x-flag-smj-NO,
+button.x-flag-smj-NO {
+  background-image: url("../images/no.png");
+}
+
+.x-flag-ar-DZ,
+button.x-flag-ar-DZ {
+  background-image: url("../images/dz.png");
+}
+
+.x-flag-zh-MO,
+button.x-flag-zh-MO {
+  background-image: url("../images/mo.png");
+}
+
+.x-flag-de-LI,
+button.x-flag-de-LI {
+  background-image: url("../images/li.png");
+}
+
+.x-flag-en-NZ,
+button.x-flag-en-NZ {
+  background-image: url("../images/nz.png");
+}
+
+.x-flag-es-CR,
+button.x-flag-es-CR {
+  background-image: url("../images/cr.png");
+}
+
+.x-flag-fr-LU,
+button.x-flag-fr-LU {
+  background-image: url("../images/lu.png");
+}
+
+.x-flag-bs-Latn-BA,
+button.x-flag-bs-Latn-BA {
+  background-image: url("../images/ba.png");
+}
+
+.x-flag-smj-SE,
+button.x-flag-smj-SE {
+  background-image: url("../images/se.png");
+}
+
+.x-flag-ar-MA,
+button.x-flag-ar-MA {
+  background-image: url("../images/ma.png");
+}
+
+.x-flag-en-IE,
+button.x-flag-en-IE {
+  background-image: url("../images/ie.png");
+}
+
+.x-flag-es-PA,
+button.x-flag-es-PA {
+  background-image: url("../images/pa.png");
+}
+
+.x-flag-fr-MC,
+button.x-flag-fr-MC {
+  background-image: url("../images/mc.png");
+}
+
+.x-flag-sr-Latn-BA,
+button.x-flag-sr-Latn-BA {
+  background-image: url("../images/ba.png");
+}
+
+.x-flag-sma-NO,
+button.x-flag-sma-NO {
+  background-image: url("../images/no.png");
+}
+
+.x-flag-ar-TN,
+button.x-flag-ar-TN {
+  background-image: url("../images/tn.png");
+}
+
+.x-flag-en-ZA,
+button.x-flag-en-ZA {
+  background-image: url("../images/za.png");
+}
+
+.x-flag-es-DO,
+button.x-flag-es-DO {
+  background-image: url("../images/do.png");
+}
+
+.x-flag-sr-Cyrl-BA,
+button.x-flag-sr-Cyrl-BA {
+  background-image: url("../images/ba.png");
+}
+
+.x-flag-sma-SE,
+button.x-flag-sma-SE {
+  background-image: url("../images/se.png");
+}
+
+.x-flag-ar-OM,
+button.x-flag-ar-OM {
+  background-image: url("../images/om.png");
+}
+
+.x-flag-en-JM,
+button.x-flag-en-JM {
+  background-image: url("../images/jm.png");
+}
+
+.x-flag-es-VE,
+button.x-flag-es-VE {
+  background-image: url("../images/ve.png");
+}
+
+.x-flag-bs-Cyrl-BA,
+button.x-flag-bs-Cyrl-BA {
+  background-image: url("../images/ba.png");
+}
+
+.x-flag-sms-FI,
+button.x-flag-sms-FI {
+  background-image: url("../images/fi.png");
+}
+
+.x-flag-ar-YE,
+button.x-flag-ar-YE {
+  background-image: url("../images/ye.png");
+}
+
+.x-flag-es-CO,
+button.x-flag-es-CO {
+  background-image: url("../images/co.png");
+}
+
+.x-flag-sr-Latn-RS,
+button.x-flag-sr-Latn-RS {
+  background-image: url("../images/rs.png");
+}
+
+.x-flag-smn-FI,
+button.x-flag-smn-FI {
+  background-image: url("../images/fi.png");
+}
+
+.x-flag-ar-SY,
+button.x-flag-ar-SY {
+  background-image: url("../images/sy.png");
+}
+
+.x-flag-en-BZ,
+button.x-flag-en-BZ {
+  background-image: url("../images/bz.png");
+}
+
+.x-flag-es-PE,
+button.x-flag-es-PE {
+  background-image: url("../images/pe.png");
+}
+
+.x-flag-sr-Cyrl-RS,
+button.x-flag-sr-Cyrl-RS {
+  background-image: url("../images/rs.png");
+}
+
+.x-flag-ar-JO,
+button.x-flag-ar-JO {
+  background-image: url("../images/jo.png");
+}
+
+.x-flag-en-TT,
+button.x-flag-en-TT {
+  background-image: url("../images/tt.png");
+}
+
+.x-flag-es-AR,
+button.x-flag-es-AR {
+  background-image: url("../images/ar.png");
+}
+
+.x-flag-sr-Latn-ME,
+button.x-flag-sr-Latn-ME {
+  background-image: url("../images/me.png");
+}
+
+.x-flag-ar-LB,
+button.x-flag-ar-LB {
+  background-image: url("../images/lb.png");
+}
+
+.x-flag-en-ZW,
+button.x-flag-en-ZW {
+  background-image: url("../images/zw.png");
+}
+
+.x-flag-es-EC,
+button.x-flag-es-EC {
+  background-image: url("../images/ec.png");
+}
+
+.x-flag-sr-Cyrl-ME,
+button.x-flag-sr-Cyrl-ME {
+  background-image: url("../images/me.png");
+}
+
+.x-flag-ar-KW,
+button.x-flag-ar-KW {
+  background-image: url("../images/kw.png");
+}
+
+.x-flag-en-PH,
+button.x-flag-en-PH {
+  background-image: url("../images/ph.png");
+}
+
+.x-flag-es-CL,
+button.x-flag-es-CL {
+  background-image: url("../images/cl.png");
+}
+
+.x-flag-ar-AE,
+button.x-flag-ar-AE {
+  background-image: url("../images/ae.png");
+}
+
+.x-flag-es-UY,
+button.x-flag-es-UY {
+  background-image: url("../images/uy.png");
+}
+
+.x-flag-ar-BH,
+button.x-flag-ar-BH {
+  background-image: url("../images/bh.png");
+}
+
+.x-flag-es-PY,
+button.x-flag-es-PY {
+  background-image: url("../images/py.png");
+}
+
+.x-flag-ar-QA,
+button.x-flag-ar-QA {
+  background-image: url("../images/qa.png");
+}
+
+.x-flag-en-IN,
+button.x-flag-en-IN {
+  background-image: url("../images/in.png");
+}
+
+.x-flag-es-BO,
+button.x-flag-es-BO {
+  background-image: url("../images/bo.png");
+}
+
+.x-flag-en-MY,
+button.x-flag-en-MY {
+  background-image: url("../images/my.png");
+}
+
+.x-flag-es-SV,
+button.x-flag-es-SV {
+  background-image: url("../images/sv.png");
+}
+
+.x-flag-en-SG,
+button.x-flag-en-SG {
+  background-image: url("../images/sg.png");
+}
+
+.x-flag-es-HN,
+button.x-flag-es-HN {
+  background-image: url("../images/hn.png");
+}
+
+.x-flag-es-NI,
+button.x-flag-es-NI {
+  background-image: url("../images/ni.png");
+}
+
+.x-flag-es-PR,
+button.x-flag-es-PR {
+  background-image: url("../images/pr.png");
+}
+
+.x-flag-es-US,
+button.x-flag-es-US {
+  background-image: url("../images/us.png");
+}
+
+.x-flag-bs-Cyrl,
+button.x-flag-bs-Cyrl {
+  background-image: url("../images/ba.png");
+}
+
+.x-flag-bs-Latn,
+button.x-flag-bs-Latn {
+  background-image: url("../images/ba.png");
+}
+
+.x-flag-sr-Cyrl,
+button.x-flag-sr-Cyrl {
+  background-image: url("../images/rs.png");
+}
+
+.x-flag-sr-Latn,
+button.x-flag-sr-Latn {
+  background-image: url("../images/rs.png");
+}
+
+.x-flag-smn,
+button.x-flag-smn {
+  background-image: url("../images/fi.png");
+}
+
+.x-flag-az-Cyrl,
+button.x-flag-az-Cyrl {
+  background-image: url("../images/az.png");
+}
+
+.x-flag-sms,
+button.x-flag-sms {
+  background-image: url("../images/fi.png");
+}
+
+.x-flag-zh,
+button.x-flag-zh {
+  background-image: url("../images/cn.png");
+}
+
+.x-flag-nn,
+button.x-flag-nn {
+  background-image: url("../images/no.png");
+}
+
+.x-flag-bs,
+button.x-flag-bs {
+  background-image: url("../images/ba.png");
+}
+
+.x-flag-az-Latn,
+button.x-flag-az-Latn {
+  background-image: url("../images/az.png");
+}
+
+.x-flag-sma,
+button.x-flag-sma {
+  background-image: url("../images/se.png");
+}
+
+.x-flag-uz-Cyrl,
+button.x-flag-uz-Cyrl {
+  background-image: url("../images/uz.png");
+}
+
+.x-flag-mn-Cyrl,
+button.x-flag-mn-Cyrl {
+  background-image: url("../images/mn.png");
+}
+
+.x-flag-iu-Cans,
+button.x-flag-iu-Cans {
+  background-image: url("../images/ca.png");
+}
+
+.x-flag-zh-Hant,
+button.x-flag-zh-Hant {
+  background-image: url("../images/cn.png");
+}
+
+.x-flag-nb,
+button.x-flag-nb {
+  background-image: url("../images/no.png");
+}
+
+.x-flag-sr,
+button.x-flag-sr {
+  background-image: url("../images/rs.png");
+}
+
+.x-flag-tg-Cyrl,
+button.x-flag-tg-Cyrl {
+  background-image: url("../images/tj.png");
+}
+
+.x-flag-dsb,
+button.x-flag-dsb {
+  background-image: url("../images/de.png");
+}
+
+.x-flag-smj,
+button.x-flag-smj {
+  background-image: url("../images/se.png");
+}
+
+.x-flag-uz-Latn,
+button.x-flag-uz-Latn {
+  background-image: url("../images/uz.png");
+}
+
+.x-flag-mn-Mong,
+button.x-flag-mn-Mong {
+  background-image: url("../images/mn.png");
+}
+
+.x-flag-iu-Latn,
+button.x-flag-iu-Latn {
+  background-image: url("../images/ca.png");
+}
+
+.x-flag-tzm-Latn,
+button.x-flag-tzm-Latn {
+  background-image: url("../images/dz.png");
+}
+
+.x-flag-ha-Latn,
+button.x-flag-ha-Latn {
+  background-image: url("../images/ng.png");
+}
+
+.x-flag-zh-CHS,
+button.x-flag-zh-CHS {
+  background-image: url("../images/cn.png");
+}
+
+.x-flag-zh-CHT,
+button.x-flag-zh-CHT {
+  background-image: url("../images/cn.png");
+}
+
+/***********************************/
+
+/*         Error pages             */
+
+/***********************************/
+
+.cf-error {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+}
+
+.cf-error-msg h3 {
+  font-family: "Segoe UI Semibold", helvetica, tahoma, arial, sans-serif;
+  font-size: 19px;
+  margin-bottom: 2px;
+  margin-top: 0;
+}
+
+.cf-error-msg {
+  font-size: 14px;
+  padding: 5px 10px 3px 40px;
+  white-space: normal;
+  color: #555;
+  min-height: 32px;
+  background: transparent
+    url(../images/icon-error.png)
+    no-repeat;
+}
+
+/***********************************/
+
+/*         Error windows           */
+
+/***********************************/
+
+.cf-error-window .x-fieldset {
+  margin-bottom: 0;
+  margin-top: 10px;
+  max-height: 100px;
+  overflow: auto;
+}
+
+.cf-error-window .x-fieldset legend {
+  color: #555555;
+}
+
+.cf-error-window .x-window-body {
+  border: 0;
+  background: #e5e5e5;
+}
+
+.cf-error-window .x-window-mc {
+  border: 0;
+}
+
+.cf-error-window .x-panel-body {
+  background: none;
+}
+
+.cf-error-window .cf-error-window-msg {
+  font-size: 12px;
+  padding: 5px 10px 5px 57px;
+  background: transparent
+    url(../images/icon-error.png)
+    10px 0 no-repeat;
+}
+
+.cf-error-window .cf-error-window-msg-text {
+  min-height: 32px;
+}
+
+/*************************************/
+
+/*        Go to admin jobs           */
+
+/*************************************/
+
+.cf-go-to-admin-jobs-window .x-fieldset {
+  margin-bottom: 0;
+  margin-top: 10px;
+  max-height: 100px;
+  overflow: auto;
+}
+
+.cf-go-to-admin-jobs-window .x-fieldset legend {
+  color: #555555;
+}
+
+.cf-go-to-admin-jobs-window .x-window-header-text {
+  font-size: 12px;
+}
+
+.cf-go-to-admin-jobs-window .x-window-body {
+  border: 0;
+  background: #e5e5e5;
+}
+
+.cf-go-to-admin-jobs-window .x-window-mc {
+  border: 0;
+}
+
+.cf-go-to-admin-jobs-window .x-panel-body {
+  background: none;
+}
+
+.cf-go-to-admin-jobs-window-icon {
+  font-size: 12px;
+  padding: 5px 10px 5px 57px;
+  background: transparent
+    url(../images/icon-info.png)
+    16px 5px no-repeat;
+  float: left;
+  height: 40px;
+}
+
+.cf-go-to-admin-jobs-window .cf-go-to-admin-jobs-window-msg-text {
+  min-height: 32px;
+}
+
+/***********************************/
+
+/*       Icon for ui:message       */
+
+/***********************************/
+
+.cf-message-icon {
+  background-repeat: no-repeat;
+  cursor: default;
+  float: left;
+  height: 16px;
+  margin: 0 5px 0 0;
+  min-width: 16px;
+  overflow: hidden;
+}
+
+.cf-message-icon span {
+  padding-left: 19px;
+}
+
+.panel-front > .x-panel-header {
+  padding: 15px;
+  background: none;
+}
+
+.panel-front > .x-panel-header .x-panel-header-text {
+  color: #cacaca;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: normal;
+  font-family: "Segoe UI";
+}
+
+.panel-front .x-panel-body {
+  background: none;
+}
+
+/***********************************/
+
+/*       DropZone error message    */
+
+/***********************************/
+
+/*ne pas masquer le bouton supprimer */
+
+.dropzone .dz-preview .dz-error-message {
+  top: 160px;
+}
+
+/***********************************/
+
+/*       TextArea avec trigger     */
+
+/***********************************/
+
+.x-form-textarea-trigger .x-form-trigger-default-small {
+  background-position: 0 top;
+}
+
+.x-form-textarea-trigger .x-form-trigger-default-small.x-form-trigger-over {
+  background-position: -22px top;
+}
+
+.x-form-textarea-trigger
+  .x-form-trigger-default-small.x-form-trigger-over.x-form-trigger-focus {
+  background-position: -88px top;
+}
+
+.x-form-textarea-trigger .x-form-trigger-default-small.x-form-trigger-focus {
+  background-position: -66px top;
+}
+
+.x-form-textarea-trigger
+  .x-form-trigger.x-form-trigger-default-small.x-form-trigger-click {
+  background-position: -44px top;
+}
+
+/***********************************/
+
+/*        DisplayFiled Message     */
+
+/***********************************/
+
+.x-displayfield-msginfo {
+  color: #3a87ad;
+  background-color: #d9edf7;
+  border: solid 1px #bce8f1;
+  border-left-width: 5px;
+  padding: 3px;
+}
+
+.x-displayfield-msgalert {
+  border: solid 1px #faebcc;
+  background-color: #fcf8e3;
+  border-left-width: 5px;
+  color: #8a6d3b;
+  padding: 3px;
+}
+
+.x-displayfield-msgdanger {
+  color: #a94442;
+  background-color: #f2dede;
+  border: solid 1px #ebccd1;
+  border-left-width: 5px;
+  padding: 3px;
+}
+
+/***********************************/
+
+/*            Separator            */
+
+/***********************************/
+
+.x-separator {
+  position: relative;
+  margin: 40px auto;
+  width: 88%;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+
+/*********************************/
+
+/*         Text-Security        */
+
+/********************************/
+
+@font-face {
+  font-family: "text-security-disc";
+  src: url("../fonts/text-security-disc.woff");
+}
+
+input.x-textfield-text-security {
+  font-family: text-security-disc;
+  /* Use -webkit-text-security if the browser supports it */
+  -webkit-text-security: disc;
+}
+
+/***********************/
+
+/*         Misc        */
+
+/***********************/
+
+body.x-white-background,
+div.x-white-background {
+  background-color: #fff;
+}

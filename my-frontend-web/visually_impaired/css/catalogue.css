@@ -1,0 +1,312 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+@import url(projet.css);
+
+#search-panel .panel-body {
+    margin: 0 auto;
+    float: none;
+}
+
+header {
+    border-top: 0;
+    background: #fff url('../images/header.jpg') no-repeat center center;
+    margin: 0;
+    background-size: cover;
+}
+
+
+
+
+
+.navbar-inverse .navbar-brand {
+    padding: 0;
+    background: transparent url(../images/cat_logo.png) no-repeat left center;
+    height: 68px;
+    width: 282px;
+    background-size: 100%;
+	
+    margin: 0 !important;
+    position: absolute;
+    top: -66px;
+    left: 0;
+}
+.search-form .search-form-title {
+    text-transform: none !important;
+    
+}
+#globalAdvancedSearchLink {
+    color: #fff;
+    font-size: 12px;
+    background: #353C84;
+    padding: 2px 6px;
+    border-radius: 12px;
+}
+#scenario-selection, #submit-search {
+    color: #E4C8A1;
+    background: #353C84;
+    border-color: #353C84;
+}
+.btn-default {
+    background-color: #353C84;
+    border-color: #353C84;
+    color: #fff;
+    
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+    background-color: #353C84;
+    border-color: #353C84;
+    color: #fff;
+}
+#multi_selection_simple .bouton_detail, #multi_selection .bouton_detail {
+    color: #353C84;
+}
+
+
+.facet-controls>a, .facet-controls>button {
+    color: #353C84;
+    
+    background: #E4C8A1;
+    
+}
+.facetList .badge {
+    color: #353C84;
+    
+    background: #E4C8A1;
+	padding: 4px 8px;
+    font-size: 14px;
+}
+.displaymode-icon-container.desktop button, .siteRestriction-icon-container.desktop button, .sort-order button {
+    color: #353C84;
+    
+    background: #E4C8A1;
+}
+ul.metadata-actions>li>button, ul.metadata-actions>li>a, .memoriser>button, .modify-selection {
+    
+    background: #E4C8A1 !important;
+   
+    color: #353C84 !important;
+}
+.displaymode-icon-container.desktop button:hover, .siteRestriction-icon-container.desktop button:hover, .sort-order button:focus, .sort-order button:hover {
+    color: #353C84;
+}
+.displaymode-icon-container a.active:hover, .pageSize-container a.active:hover, .siteRestriction-icon-container a.active:hover, .sort-order a.active:hover {
+    color: #353C84;
+    
+    background: #E4C8A1;
+}
+.memoriser .dropdown-toggle {
+    border-top: 1px solid #353C84;
+    
+}
+ul.metadata-actions .caret {
+    border-top-color: #353C84;
+}
+.vignette_document .icon-new {
+    background-color: #E4C8A1;
+    -moz-box-shadow: -3px -3px 0 #353C84;
+    -webkit-box-shadow: -3px -3px 0 #353C84;
+    box-shadow: -3px -3px 0 #353C84;
+    color: #353C84;
+}
+
+#nav_connexe {
+    
+    background: #353C84;
+}
+#search-panel {
+    
+    padding: 100px 0;
+    
+}
+#search-panel .panel-body {
+    margin: 0 auto;
+    float: none;
+}
+.panel-front>.x-panel-header span, h2 {
+    color: #3A418D;
+    
+}
+.link-connexe .btn.btn-default.btn-xs {
+    
+    color: #fff;
+	
+    
+}
+.theme_4 {
+    
+    background: #3A418D;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
+    background: #3A418D !important;
+}
+.render-velocityRenderMode_OWLCAR_ONESLIDE .ct_wol_spec {
+    
+    background: #3A418D !important;
+    
+}
+.theme_2 {
+   
+    background: #E7E8F1;
+}
+#langue-btn>a {
+    
+    padding: 4px 2px;
+}
+#langue-btn {
+    bottom: 124px !important;
+    background: #3A418D;
+    right: 0;
+    
+    left: auto;
+}
+.Agenda_bnt>div {
+  
+    background: #3A418D;
+  
+}
+.hor_div_sub p, .addr_div p {
+    
+    color: #3A418D;
+}
+footer {
+   
+    background: #3A418D;
+   
+}
+
+.infos_hor_addr .btn-default {
+    background-color: transparent;
+    border-color: #3A418D;
+    color: #3A418D;
+    
+}
+.infos_hor_addr .btn-default:hover,
+.infos_hor_addr .btn-default:focus {
+    background-color: #3A418D;
+   
+}
+.infos_hor {
+    background: #E7E8F1;
+}
+.infos_hor .container>h2:after {
+    
+    border-bottom: 1px solid #3A418D;
+   
+}
+.theme_1 .panel-heading>h2:after, .theme_1 .panel-heading>h2:before {
+   
+    border-bottom: 1px solid #3A418D;
+   
+}
+#langue-btn .dropdown-menu {
+    left: auto;
+    right: 0;
+}
+.dropdown-menu .active>a, .dropdown-menu .active>a:hover, .dropdown-menu>.active>a:focus {
+    background-color: #3A418D;
+}
+#scenario-selection {
+    
+    color: #353C84 !important;
+}
+
+
+#mobile-actions {
+    background-color: #353C84;
+}
+
+.mobile-navigation, .mobile-navigation>.btn-group, .mobile-navigation .btn {
+    background-color: #353C84;
+    
+}
+.mobile-navigation .btn.precedent, .mobile-navigation .btn.suivant {
+    background-color: #353C84;
+}
+/* Responsive */
+@media (min-width: 768px) {
+
+
+.btn-account {
+    
+    background: #E4C8A1;
+       color:#3A418D ;
+    
+}
+ .btn-account:hover, .btn-account:focus, .btn-account:active, .btn-account.active, .open .dropdown-toggle.btn-account {
+       
+       background: #E4C8A1;
+       color:#3A418D ;
+       
+ }
+ #ermes_main_menu li.LEVEL1 .dropdown-menu {
+        
+        background: #353C84;
+        
+    }
+}
+
+@media (max-width: 992px) {
+   
+
+
+.navbar-inverse .navbar-brand {
+    padding: 0;
+    
+   
+    width: 323px;
+   
+    position: relative;
+    top: auto;
+    left: 0;
+    margin: 20px 0 0 0 !important;
+}
+#langue-btn {
+    bottom: 216px !important;
+   
+}
+}
+
+@media (max-width: 767px) {
+
+#search-panel {
+    padding: 16px 0;
+}
+#ermes_main_menu {
+    
+    background: #353C84;
+    
+}
+#globalAdvancedSearchLink {
+    
+    position: relative;
+    top: auto;
+}
+.navbar-inverse .navbar-brand {
+   
+    width: 380px;
+    
+}
+}
+
+@media (max-width: 600px) {
+
+.panel-front>.x-panel-header span, h2 {
+    font-size: 34px;
+}
+}
+
+h3.category_header {
+    background-color: #E4C8A1;
+    color: #000;
+}
+.detail-holdings-class [class|="detail-holds"] thead th, .detail-subscriptions thead th, .detail-holdings-class [class|="detail-holds"] thead td, .detail-subscriptions thead td {
+    background-color: #EFDEC6;
+    color: #000;
+}
+
+tr.holdings-subscription-sectiont{
+    cursor: pointer;
+    background-color: #F6ECDF!important;
+    color: #000;
+}
