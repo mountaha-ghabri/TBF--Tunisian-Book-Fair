@@ -1,9 +1,9 @@
 const express = require("express");  
 const fs = require("fs").promises; // Using promises for cleaner async/await syntax  
-const path = require("path"); // Import path module  
+const path = require("path"); // Import the path module  
 const router = express.Router();  
 
-// Paths to JSON files (use relative paths)  
+// Paths to JSON files (using relative paths)  
 const booksFilePath = path.join(__dirname, "..", "data_sheet", "books_data.json");  
 const ordersFilePath = path.join(__dirname, "..", "data_sheet", "orders.json");  
 
@@ -92,4 +92,116 @@ router.delete("/:title/:readerName", async (req, res) => {
     const { title, readerName } = req.params;  
 
     try {  
-        // Step 1: Read the orders data
+        // Step 1: Read the orders data  
+        const ordersData = await fs.readFile(ordersFilePath, "utf8");  
+        let orders = [];  
+        try {  
+            orders = JSON.parse(ordersData);  
+        } catch (parseOrdersErr) {  
+            console.warn("Orders file was empty or invalid, unable to delete.");  
+            return res.status(404).json({ message: "No orders found." });  
+        }  
+
+        // Step 2: Find the order to delete  
+        const orderIndex = orders.findIndex(order => order.title.toLowerCase() === title.toLowerCase() && order.readerName.toLowerCase() === readerName.toLowerCase());  
+
+        if (orderIndex === -1) {  
+            return res.status(404).json({ message: "The order does not exist." });  
+        }  
+
+        // Step 3: Remove the order from the array  
+        const deletedOrder = orders.splice(orderIndex, 1);  
+
+        // Step 4: Write the updated orders back to the file  
+        await fs.writeFile(ordersFilePath, JSON.stringify(orders, null, 2));  
+
+        console.log("Order deleted successfully:", deletedOrder);  
+        return res.status(200).json({  
+            message: "The order has been successfully deleted.",  
+            deletedOrder  
+        });  
+    } catch (err) {  
+        console.error("Error:", err.message);  
+        return res.status(500).json({ error: "Error reading the orders JSON file" });  
+    }  
+});  
+
+// GET: Get all orders (New endpoint)  
+router.get("/", async (req, res) => {  
+    try {  
+        const ordersData = await fs.readFile(ordersFilePath, "utf8");  
+        let orders = [];  
+        try {  
+            orders = JSON.parse(ordersData);  
+        } catch (parseErr) {  
+            console.warn("Orders file was empty or invalid.");  
+        }  
+
+        res.status(200).json(orders);  
+    } catch (err) {  
+        console.error("Error reading orders JSON file:", err.message);  
+        return res.status(500).json({ error: "Error reading the orders JSON file" });  
+    }  
+});  
+
+// GET: Get a specific order by title and reader's name  
+router.get("/:title/:readerName", async (req, res) => {  
+    const { title, readerName } = req.params;  
+
+    try {  
+        const ordersData = await fs.readFile(ordersFilePath, "utf8");  
+        let orders = [];  
+        try {  
+            orders = JSON.parse(ordersData);  
+        } catch (parseErr) {  
+            console.warn("Orders file was empty or invalid.");  
+        }  
+
+        const order = orders.find(o => o.title.toLowerCase() === title.toLowerCase() && o.readerName.toLowerCase() === readerName.toLowerCase());  
+
+        if (order) {  
+            res.status(200).json(order);  
+        } else {  
+            res.status(404).json({ message: "Order not found" });  
+        }  
+    } catch (err) {  
+        console.error("Error reading orders JSON file:", err.message);  
+        return res.status(500).json({ error: "Error reading the orders JSON file" });  
+    }  
+});  
+
+// PUT: Update a specific order  
+router.put("/:title/:readerName", async (req, res) => {  
+    const { title, readerName } = req.params;  
+    const { readerContact, availabilityStatus } = req.body;  
+
+    try {  
+        const ordersData = await fs.readFile(ordersFilePath, "utf8");  
+        let orders = [];  
+        try {  
+            orders = JSON.parse(ordersData);  
+        } catch (parseErr) {  
+            console.warn("Orders file was empty or invalid.");  
+        }  
+
+        const orderIndex = orders.findIndex(o => o.title.toLowerCase() === title.toLowerCase() && o.readerName.toLowerCase() === readerName.toLowerCase());  
+
+        if (orderIndex === -1) {  
+            return res.status(404).json({ message: "Order not found" });  
+        }  
+
+        // Update the order details  
+        if (readerContact) orders[orderIndex].readerContact = readerContact;  
+        if (availabilityStatus) orders[orderIndex].availabilityStatus = availabilityStatus;  
+
+        // Write the updated orders back to the file  
+        await fs.writeFile(ordersFilePath, JSON.stringify(orders, null, 2));  
+
+        res.status(200).json({ message: "Order updated successfully", order: orders[orderIndex] });  
+    } catch (err) {  
+        console.error("Error updating order:", err.message);  
+        return res.status(500).json({ error: "Error saving the updated order" });  
+    }  
+});  
+
+module.exports = router;
