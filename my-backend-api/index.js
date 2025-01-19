@@ -19,6 +19,6 @@ app.get("/", (req, res) => {
 });
 
 // Start the server
-app.listen(port, () => {
-    console.log(`Server is alive and running! on http://localhost:${port}`);
+app.listen(8080, '0.0.0.0', () => {
+    console.log('Server is running on port 8080');
 });
