@@ -1,0 +1,285 @@
+﻿@charset "utf-8";
+/* CSS Document */
+@import url(modeles.css);
+@import url(style.css);
+
+/*********#E6727B======>#00adb1***********/
+header {
+background-color: #00adb1;
+}
+#search-panel { background: #00adb1 }
+
+.panel-front > .x-panel-header span, h2   { color: #00adb1}
+
+/*********#ad565e======>#00726f***********/
+
+.connectBox  { background: #00726f ;}
+
+/*** Surcharge JGrowl afin de ne plus couper
+     les mots dans la fenêtre de notification ***/
+.jGrowl-notification {
+    word-break: keep-all !important; /* Anciennement word-break. Invalide depuis CSS 3.0*/ 
+}
+
+/*********Default***********/
+.btn-default {
+	background-color: #00726f ;
+	border-color: #00726f ;
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+	background-color: #00726f;
+	border-color: #00726f;
+}
+
+h1 {
+	color:#F2F0F1;
+}
+
+#logon-form h1 {
+	color:#333;
+}
+
+#textfield, .clean-text-field {
+    color: #00726f;
+}
+
+.tt-suggestion.tt-cursor {
+  background-color: #00726f;
+}
+
+#globalScenarioMobile{
+	background-color:#268987;	
+}
+
+#globalScenarioMobile .active, #globalScenarioMobile .active:hover, #globalScenarioMobile .active:focus {
+    background-color: #3FABAE;
+}
+
+#globalScenarioMobile > li > a:hover, #globalScenarioMobile > li > a:focus {
+	background-color: #60C3C3;
+    color: #ffffff;
+}
+
+/******************Responsive devices*******************/
+
+/* iPad portrait  width: 768px */
+@media (min-width: 768px) {
+    header {
+        border-top: 10px solid #00726f;
+    }
+    header.header-compact {
+        border-top: none;
+    }
+    .header-compact .top_bar {
+        background: #00726F;
+    }
+    #ermes_main_menu li.LEVEL1 {background-color: #76c7d1;
+    border-top: 7px solid #abdadf;  }
+    #ermes_main_menu li.LEVEL1 > a {}
+    .nav .open > a, .nav .open > a:hover, .nav .open > a:focus, #ermes_main_menu li.LEVEL1 a:hover {
+            background-color: #abdadf;
+        }
+
+    .btn-account {
+    background-color: #00726f;
+
+    }
+}
+
+/******************Sticky Search*******************/
+
+.sticky-search {
+    width: 80px;
+    position: relative;
+    float: left;
+    height: 80px;
+    line-height: 80px;
+    padding: 0 0 0 20px;
+}
+
+a.rheader-button.rheader-button-search.active {
+    background: #005653;
+    border-left: 1px solid #005653;
+    border-right: 1px solid #005653;
+    display: inline-block;
+    font-size: 2.6rem;
+    height: 80px;
+    line-height: 80px;
+    position: relative;
+    transition: background-color 0.3s ease, -webkit-transform 0.4s ease, border 0.4s ease 0.2s;
+    transition: background-color 0.3s ease, transform 0.4s ease, border 0.4s ease 0.2s;
+    width: 61px;
+    text-align: center;
+    top: 0;
+    color: #fff;
+}
+
+.navbar-compact .site-btn {
+    position: relative;
+    bottom: auto;
+    right: auto;
+    background: #00ADB1;
+    width: 100%;
+    float: left;
+}
+
+    .navbar-compact .site-btn ul {
+        float: right;
+        padding: 6px 15px 6px 10px;
+    }
+/************/
+.header-compact .navbar-brand {
+    line-height: 80px;
+    height: 80px;
+}
+
+    .header-compact .navbar-brand h1 {
+        line-height: 80px;
+    }
+
+@media (min-width: 768px) {
+    #ermes_main_menu li.LEVEL1 {
+        background-color: #00BFB9;
+        border-top: 0;
+    }
+
+        .nav .open > a, .nav .open > a:hover, .nav .open > a:focus, #ermes_main_menu li.LEVEL1 a:hover {
+            background-color: #33CCC7;
+        }
+
+    #search-panel .panel-body {
+        float: none;
+    }
+}
+
+#mobile-actions #dropSite {
+    color: #333333;
+}
+
+.change-site-mobile .caret {
+    border-top-color: #333333;
+}
+
+@media (max-width: 767px) {
+    .change-site-mobile.mode-compact {
+        position: relative;
+        top: auto;
+        margin-bottom: auto;
+        width: 100%;
+        background: transparent;
+        left: auto;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .sitebtn-group {
+        margin: 0 auto;
+        width: auto;
+        display: inline-block;
+        background: transparent;
+        position: relative;
+        padding: 0;
+    }
+
+    a.rheader-button.rheader-button-search.active {
+        background: transparent;
+        border-left: none;
+        border-right: none;
+        height: 30px;
+        line-height: 30px;
+        position: relative;
+        width: 34px;
+        color: #333333;
+    }
+
+    .sticky-search {
+        float: left;
+        position: relative;
+        padding: 3px 0;
+        width: 0px;
+    }
+
+    .navbar-compact .compact-account {
+        display: block;
+    }
+
+    .button-my-account.btn-group {
+    }
+
+    .compact-account button.btn-account {
+        display: none;
+    }
+
+    .dropdown-scopes-mobile {
+    }
+
+    #mobile-actions.mobile-actions-compact .navbar-header {
+        float: none;
+        margin: 0 auto;
+        width: 69%;
+        text-align: center;
+        background: transparent;
+        padding-top: 7px;
+    }
+
+    .header-compact .navbar-brand {
+        margin: 0 auto;
+        display: inline-block;
+        float: none;
+        height: 50px;        
+    }
+        .header-compact .navbar-brand h1 {
+            line-height: initial;
+        }
+
+    .sticky-search.hidden-sm.hidden-md.hidden-lg {
+        float: none;
+        position: relative;
+        padding: 3px 0;
+        display: inline-block !important;
+        background: transparent;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        vertical-align: super;
+    }
+    .sticky-search.hidden-sm.hidden-md.hidden-lg.hidden {
+        position:fixed;
+    }
+
+        .navbar-compact #menu-panel {
+            top: 0;
+        }
+    .header-compact .portal-main-menu {
+        top: 0 !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1366px) {
+    .header-compact .portal-main-menu {
+        width: 100%;
+        background: #00BFB9;
+    }
+
+    .navbar-compact #menu-panel .navbar-collapse {
+        float: left;
+        clear: both;
+        width: 100%;
+    }
+
+    .sticky-search {
+        float: right;
+    }
+}
+
+@media (max-width: 480px) {
+    #mobile-actions.mobile-actions-compact .navbar-header {
+        width: 96%;
+        display:inline-table;
+        padding:0;
+    }
+}
+
+@media (max-width: 414px) {
+}
+/******************End Sticky Search*******************/
