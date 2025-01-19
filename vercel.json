@@ -2,12 +2,14 @@
   "version": 2,  
   "routes": [  
     {  
-      "src": "/books/(.*)",  
-      "dest": "/api/books.js"  
-    },  
-    {  
-      "src": "/orders/(.*)",  
-      "dest": "/api/orders.js"  
+      "src": "/api/(.*)",  
+      "dest": "/api/$1"  
     }  
-  ]  
+  ],  
+  "functions": {  
+    "api/**/*.js": {  
+      "memory": 1024,  
+      "maxDuration": 10  
+    }  
+  }  
 }
