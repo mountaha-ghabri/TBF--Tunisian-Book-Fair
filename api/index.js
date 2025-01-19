@@ -8,8 +8,8 @@ const booksRoutes = require('./books');
 const ordersRoutes = require('./orders');  
 
 // Use Routes  
-app.use('/books', booksRoutes);  // Route for fetching books data  
-app.use('/orders', ordersRoutes); // Route for posting orders  
+app.use('/api/books', booksRoutes);  // Route for fetching books data  
+app.use('/api/orders', ordersRoutes); // Route for posting orders  
 
 // Default route  
 app.get('/', (req, res) => {  
