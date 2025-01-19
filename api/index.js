@@ -6,8 +6,8 @@ const port = 8080;
 app.use(express.json());
 
 // Import Routes
-const booksRoutes = require("./routes/books");
-const ordersRoutes = require("./routes/orders");
+const booksRoutes = require("/api/books");
+const ordersRoutes = require("/api/orders");
 
 // Routes
 app.use("/books", booksRoutes);  // Route for fetching books data
